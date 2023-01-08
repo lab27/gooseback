@@ -1,0 +1,62 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: "static/img"
+public_folder: "/img"
+local_backend: true
+# site_url: http://localhost:3000
+# display_url: https://gff.f
+
+collections:
+  - name: films
+    label: Films
+    label_singular: Film
+    folder: 'content/films'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Type', name: 'type', widget: 'select', options: ['Documentary', 'Fiction'] }
+      - { label: 'Duration in Minutes', name: 'durationInMinutes', widget: 'string' }
+      - label: "Featured Image"
+        name: "thumbnail"
+        widget: "image"
+        media_folder: /static/img/film-stills
+      - label: 'Additional Still'
+        name: 'stills'
+        widget: 'list'
+        allow_add: true
+        label_singular: Additional Still
+        summary: '{{fields.still}}'
+        fields: 
+          - {label: Still, name: still, widget: image, media_folder: "/static/img/film-stills" }
+      - { label: 'Synopsis', name: 'body', widget: 'markdown' }
+      - { label: 'Director', name: 'director', widget: 'string' }
+      - { label: 'Producer', name: 'producer', widget: 'string' }
+      - { label: 'Executive Producer', name: 'execProducer', widget: 'string' }
+      - label: 'Cast'
+        name: 'cast'
+        widget: 'list'
+        allow_add: true
+        label_singular: Cast Member
+        summary: '{{fields.actor}}'
+        fields: 
+          - {label: Actor, name: actor, widget: string }
+      - { label: 'Music', name: 'music', widget: 'string' }
+      - { label: 'Cinematography', name: 'cinematography', widget: 'string' }
+      - { label: 'Editor', name: 'editor', widget: 'string' }
+      - { label: 'Contact', name: 'contact', widget: 'string', hint: Must be in valid email address format, pattern: ['\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b', 'Full email address format']}
+      - { label: 'Film Website', name: 'filmWebsite', widget: 'string', hint: Must be the full URL to the site ("http://mysite.com"), pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', 'Must be a full URL'] }
+      - { label: 'Film Trailer', name: 'filmTrailer', widget: 'string', hint: Must be the full URL to the site ("http://youtu.be/12345"), pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', 'Must be a full URL'] }
+      - label: Screenings
+        name: screenings 
+        label_singular: screening 
+        allow_add: true
+        widget: list 
+        summary: "{{dateTime | date('dddd, MMMM DD HH:mm')}}"
+        fields: 
+          - {label: Date/Time, name: dateTime, widget: datetime,  date_format: "dddd, MMMM DD", time_format: "HH:mm", format: "dddd, MMMM DD HH:mm"}
+          - {label: Venue, name: venue, widget: select, options: [venue1, venue2, venue3]}
