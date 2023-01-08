@@ -4,8 +4,8 @@
     p.film-header-meta dir. {{ film.director }} / {{ film.type }} / {{ film.durationInMinutes }} min
     .film-content
       .film-stills-slider
-        transition(name="fade" mode="out-in")
-          FilmStill(:filmStill="$staticRemover(still)" :filmTitle="film.title" v-for="still, index in stills" :key="index" v-if="index == currentImageIndex")
+        //- transition-group(name="fade" mode="out-in")
+        FilmStill(:filmStill="$staticRemover(still)" :filmTitle="film.title" v-for="still, index in stills" :key="index" :class="{ 'active': index === currentImageIndex }")
         button(v-if="!isFirstImage" @click="previousImage").slider_arrow.slider_arrow--left
           img(src="/img/arrowhead.svg").arrow_flop
         button(v-if="!isLastImage" @click="nextImage").slider_arrow.slider_arrow--right
