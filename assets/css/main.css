@@ -10,6 +10,7 @@
   --c-brown: #4F3A2E;
   --c-beige: #FEEFD2;
   --c-black: #140C08;
+  --easing-curve1: cubic-bezier(0, .67, .52, 1);
 }
 
 html {
@@ -194,7 +195,7 @@ main.film-detail .film-credits-line.no-underline {
 }
 
 .film-thumbnail-wrapper img.thumbnail-image {
-  transition: transform .3s cubic-bezier(0, .67, .52, 1);
+  transition: transform .3s var(--easing-curve1);
   will-change: transform;
 }
 
@@ -214,7 +215,7 @@ main.film-detail .film-credits-line.no-underline {
 
 .thumbnail-arrow-wrapper img {
   transform: translateX(-100%);
-  transition: transform .3s cubic-bezier(0, .67, .52, 1);
+  transition: transform .3s var(--easing-curve1);
 }
 
 .film-grid li a:hover .thumbnail-arrow-wrapper img {
@@ -260,6 +261,9 @@ main.film-detail .film-credits-line.no-underline {
 
 .film-stills-slider {
   position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
 }
 
 .slider_arrow {
@@ -315,4 +319,18 @@ main.film-detail .film-credits-line.no-underline {
 
 .film-screenings-list .film-screening .film-screening-tickets {
   justify-self: end;
+}
+
+.film-stills-slider .film-slide {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity .3s, transform .5s var(--easing-curve1);
+  transform: scale(1.05);
+}
+
+.film-stills-slider .film-slide.active {
+  opacity: 1;
+  transform: none;
 }
