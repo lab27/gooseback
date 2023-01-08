@@ -4,7 +4,7 @@ type: Fiction
 durationInMinutes: "89"
 thumbnail: /static/img/film-stills/mesh-gradient.png
 stills:
-  - still: /static/img/film-stills/wfm-locations.png
+  - still: /static/img/film-stills/wfm-locations.jpg
   - still: /static/img/film-stills/coyote-leaping.jpeg
 director: wefwef
 producer: ahdgh
