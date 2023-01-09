@@ -11,6 +11,7 @@
             nuxt-img(:src="$staticRemover(film.thumbnail)" :alt="film.title" :placeholder="[160, 90, 10]" format="webp" fit="cover" width="1600" height="900" sizes="sm:100vw md:50vw lg:400px xl:800px" preload).thumbnail-image
             //- nuxt-img(:src="film.filmStills" :alt="film.title" :placeholder="[160,90, 10]" format="webp" fit="cover" width="800" height="450").thumbnail-image
           p.film-title {{ film.title }}
+    ButtonBlock(:buttons="['about', 'talks', 'venues', 'schedule', 'sponsors']" :ticketLink="`https://www.eventbrite.com/e/2021-berlinale-tickets-136000000143`")
 </template>
 
 <script>

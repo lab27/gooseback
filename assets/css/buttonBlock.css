@@ -1,0 +1,41 @@
+.button-section {
+  padding-top: 6rem;
+}
+.button-block {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-4;
+}
+
+.button-block__button {
+  border: 6px solid var(--c-black);
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 0.06em;
+  padding: 1.5rem;
+  transition: background .2s, color .2s;
+  display: grid;
+  place-content: end;
+  color: var(--c-black);
+}
+
+.button-block__button svg {
+  stroke: currentColor;
+}
+
+.button-content {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.button-text {
+  background-color: yellow;
+  margin-left: auto;
+}
+
+.button-arrow-wrapper {
+}
+
+.button-block__button:hover {
+  background-color: var(--c-black);
+  color: var(--c-gold);
+}
