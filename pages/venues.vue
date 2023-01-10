@@ -2,4 +2,5 @@
   main
     h1 Venues
     p This is the venues page
+    ButtonBlock
 </template>

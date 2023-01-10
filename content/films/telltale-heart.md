@@ -1,8 +1,8 @@
 ---
-title: The Death of King Arthur
+title: The Telltale Heart
 type: Fiction
 durationInMinutes: "234"
-thumbnail: /img/film-stills/Tumbler.jpeg
+thumbnail: /img/film-stills/coyote-leaping.jpeg
 stills:
   - still: /img/film-stills/dude.jpeg
   - still: /img/film-stills/camille.png

@@ -1,8 +1,8 @@
 ---
-title: The Death of King Arthur
+title: Where's the Beef?
 type: Fiction
-durationInMinutes: "234"
-thumbnail: /img/film-stills/Tumbler.jpeg
+durationInMinutes: "91"
+thumbnail: /img/film-stills/beef.png
 stills:
   - still: /img/film-stills/dude.jpeg
   - still: /img/film-stills/camille.png

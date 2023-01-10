@@ -20,10 +20,10 @@ html {
 }
 
 body {
-  /* background: linear-gradient(var(--c-gold), var(--c-gold), white, white); */
-  /* background-size: 400% 400%; */
-  /* background-position: 0% 100%; */
-  /* transition: background 1s; */
+  background: linear-gradient(var(--c-gold), var(--c-gold), var(--c-beige), var(--c-beige));
+  background-size: 400% 400%;
+  background-position: 0% 100%;
+  transition: background 1s;
   background-color: var(--c-gold);
   min-height: 100vh;
   height: 100%;
@@ -105,7 +105,7 @@ header nav {
 }
 
 header nav li a {
-  background: linear-gradient(to right, var(--c-gold), var(--c-gold) 33%, var(--c-red) 66%, var(--c-red) 100%);
+  background: linear-gradient(to right, var(--c-beige), var(--c-beige) 33%, var(--c-black) 66%, var(--c-black) 100%);
   background-size:400% 2px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -174,7 +174,7 @@ main.film-detail .film-credits-line.no-underline {
 .film-credits-label {
   justify-self: start;
   /* color: var(--c-red); */
-  background-color: var(--c-gold);
+  background-color: var(--c-beige);
   position: relative;
   top: 0.375em;
   padding-right: 0.375em;
@@ -183,7 +183,7 @@ main.film-detail .film-credits-line.no-underline {
 
 .film-credits-value {
   justify-self: end;
-  background-color: var(--c-gold);
+  background-color: var(--c-beige);
   padding-left: 0.375em;
   position: relative;
   top: 0.375em;
@@ -213,12 +213,14 @@ main.film-detail .film-credits-line.no-underline {
   overflow: hidden;
 }
 
-.thumbnail-arrow-wrapper img {
+.thumbnail-arrow-wrapper svg {
   transform: translateX(-100%);
-  transition: transform .3s var(--easing-curve1);
+  transition: transform .5s var(--easing-curve1);
+  stroke: var(--c-beige);
+  /* filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .4)); */
 }
 
-.film-grid li a:hover .thumbnail-arrow-wrapper img {
+.film-grid li a:hover .thumbnail-arrow-wrapper svg {
   transform: none;
 }
 
@@ -228,14 +230,14 @@ main.film-detail .film-credits-line.no-underline {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: var(--c-gold);
+  background-color: var(--c-beige);
   z-index: 15;
   opacity: 0;
   transition: opacity .2s;
 }
 
 .film-grid li a:hover .thumbnail-gauze {
-  opacity: .3;
+  opacity: .1;
 }
 
 .film-thumbnail-wrapper {
@@ -244,7 +246,7 @@ main.film-detail .film-credits-line.no-underline {
 
 .film-grid .film-title {
   display: inline;
-  background: linear-gradient(to right, var(--c-gold), var(--c-gold) 33%, var(--c-black) 66%, var(--c-black) 100%);
+  background: linear-gradient(to right, var(--c-beige), var(--c-beige) 33%, var(--c-black) 66%, var(--c-black) 100%);
   background-size: 400% 2px;
   background-repeat: no-repeat;
   background-position: left bottom;

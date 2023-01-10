@@ -2,4 +2,5 @@
   main
     h1 Talks
     p This is the talks
+    ButtonBlock
 </template>

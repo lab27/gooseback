@@ -1,24 +1,51 @@
 .button-section {
   padding-top: 6rem;
+  --transitionLength: .35s;
+    text-transform: uppercase;
+      font-size: 2rem;
+      letter-spacing: 0.06em;
 }
 .button-block {
   @apply grid grid-cols-1 lg:grid-cols-2 gap-4;
 }
 
 .button-block__button {
+  --offsetAmount: -100px;
   border: 6px solid var(--c-black);
-  text-transform: uppercase;
-  font-size: 2rem;
-  letter-spacing: 0.06em;
+
   padding: 1.5rem;
-  transition: background .2s, color .2s;
+  transition: background var(--transitionLength), color var(--transitionLength);
   display: grid;
   place-content: end;
   color: var(--c-black);
+  overflow: hidden;
 }
+
+.button-block__button:nth-child(2),
+.button-block__button:first-child {
+  height: 16rem;
+}
+
+.button-block__button:nth-child(3),
+.button-block__button:nth-child(4) {
+  height: 11rem;
+}
+
+.button-block__button:last-child,
+.button-block__button:nth-child(5)
+ {
+  height: 8rem;
+}
+
 
 .button-block__button svg {
   stroke: currentColor;
+}
+
+.button-block__button svg line {
+  transform-origin: 100% 0;
+  transform: scaleX(.1) translateX(-20px);
+  transition: transform var(--transitionLength) ease;
 }
 
 .button-content {
@@ -28,8 +55,13 @@
 }
 
 .button-text {
-  background-color: yellow;
-  margin-left: auto;
+  padding-left: 12rem;
+  padding-right: 1rem;
+  position: absolute;
+  right: 3rem;
+  z-index: 2;
+  transition: color var(--transitionLength), background var(--transitionLength), transform var(--transitionLength) var(--easing-curve1);
+  transform: none;
 }
 
 .button-arrow-wrapper {
@@ -37,5 +69,64 @@
 
 .button-block__button:hover {
   background-color: var(--c-black);
+  color: var(--c-beige);
+}
+
+.button-block__button:hover svg line {
+  transform: scaleX(.4) translateX(-8px);
+}
+
+
+.button-block__button:hover .button-text {
+  color: var(--c-beige);
+  transform: translateX(var(--offsetAmount));
+  transform: translateX(-100px);
+}
+
+/* Tickets */
+.tickets-button-wrapper {
+  padding-top: 4.1875rem;
+  overflow: hidden;
+  margin-bottom: 12rem;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.tickets-button-wrapper .triangles {
+  height: 67px;
+  width: 400%;
+  background-image: url(/img/triangle.svg);
+}
+
+.tickets-button-wrapper:hover .triangles {
+  animation: slideOver 10s linear infinite alternate both;
+}
+
+@keyframes slideOver {
+  0% {
+    transform: 0;
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.tickets-button-wrapper .tickets-button {
+  display: grid;
+  place-content: center start;
+  background-color: var(--c-red);
+  color: var(--c-beige);
+  height: 22rem;
+  padding: 1.5rem;
+}
+
+.button-block__button.nuxt-link-active {
   color: var(--c-gold);
+  pointer-events: none;
+  border-color: var(--c-gold);
+}
+.button-block__button.nuxt-link-active .button-arrow-wrapper{
+  display: none;
+}
+.button-block__button.nuxt-link-active .button-text{
+  position: relative;
 }
