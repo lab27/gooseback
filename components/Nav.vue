@@ -1,7 +1,7 @@
 <template lang="pug">
   nav
     ul
-      li.mb-12
+      li.logo-wrapper
         nuxt-link(to="/")
           img(src="/img/gff-logo.svg", alt="GFF Logo")
       li

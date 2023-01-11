@@ -52,8 +52,6 @@ body {
   transform-origin: top right;
 }
 
-
-
 .moving-title .g {
   position: relative;
 } 
@@ -62,10 +60,20 @@ body {
   transform-origin: 100% 100%;
 } 
 
+.logo-wrapper {
+  height: 7rem;
+  width: 5rem;
+}
+
+.page-home .logo-wrapper a{
+  display: none;
+}
+
 .page-home {
   /* background-color: var(--c-gold); */
   background-position: 0% 0%;
 }
+
 
 
 

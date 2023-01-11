@@ -60,3 +60,23 @@ collections:
         fields: 
           - {label: Date/Time, name: dateTime, widget: datetime,  date_format: "dddd, MMMM DD", time_format: "HH:mm", format: "dddd, MMMM DD HH:mm"}
           - {label: Venue, name: venue, widget: select, options: [venue1, venue2, venue3]}
+  - name: talks
+    label: Talks
+    label_singular: Talk
+    folder: 'content/talks'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - label: "Featured Image"
+        name: "thumbnail"
+        widget: "image"
+        media_folder: /static/img/talk-stills
+      - { label: 'Synopsis', name: 'body', widget: 'markdown' }
+      # - { label: 'Location', name: 'location', widget: 'string' }
+      - { label: Date/Time, name: dateTime, widget: datetime,  date_format: "dddd, MMMM DD", time_format: "HH:mm", format: "dddd, MMMM DD HH:mm"}
+      - { label: Venue, name: venue, widget: select, options: [venue1, venue2, venue3]}
+      - { label: Ticket Page, name: 'ticketsLink', widget: 'string' }
