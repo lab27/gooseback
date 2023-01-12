@@ -143,9 +143,15 @@ h1 {
   @apply col-span-3;
 }
 
-main.film-detail h1 {
+main.film-detail h1
+{
   margin-bottom: .5rem;
   text-transform: none;
+}
+
+main.talk-detail h1 {
+  text-transform: none;
+  margin-bottom: 3rem;
 }
 
 main.film-detail .film-header-meta {
@@ -160,15 +166,21 @@ main.film-detail .film-synopsis {
   @apply col-span-1 lg:col-span-3;
 }
 
-main.film-detail .film-synopsis p {
+main.film-detail .film-synopsis p,
+main.talk-detail .talk-synopsis p
+ {
   margin-bottom: 1rem;
 }
 
-main.film-detail .film-credits {
+main.film-detail .film-credits,
+main.talk-detail .film-credits
+ {
   @apply col-span-1 lg:col-span-3;
 }
 
-main.film-detail .film-credits-line {
+main.film-detail .film-credits-line,
+main.talk-detail .film-credits-line
+ {
   @apply col-span-1 lg:col-span-3 grid grid-cols-2;
   box-shadow: inset 0 -1px red;
   position: relative;
@@ -307,7 +319,9 @@ main.film-detail .film-credits-line.no-underline {
   @apply mb-12;
 }
 
-.film-screenings h2 {
+.film-screenings h2,
+.talk-info h2
+ {
   text-transform: uppercase;
   letter-spacing: .1rem;
   margin-bottom: .5rem;
@@ -343,4 +357,81 @@ main.film-detail .film-credits-line.no-underline {
 .film-stills-slider .film-slide.active {
   opacity: 1;
   transform: none;
+}
+
+/* Tickets grid */
+.tickets-grid, .about-grid {
+  @apply grid grid-cols-1 lg:grid-cols-2 mb-12;
+}
+
+.tickets-grid .tickets-button {
+  justify-self: end;
+  color: var(--c-red));
+  background-color: transparent;
+  border: 6px solid var(--c-red);
+  display: grid;
+  place-content: center;
+  padding: 2rem;
+  aspect-ratio: 16/9;
+  transition: transform .2s ease, background .2s;
+  transform: none;
+  position: absolute;
+  transform: translate(0, 0);
+}
+
+.tickets-grid .tickets-button {
+  /* transform: translate3d(var(--x, 0px), var(--y, 0px), 0); */
+
+}
+
+.tickets-grid .tickets-button span {
+  color: var(--c-red);
+}
+
+.tickets-grid .tickets-button:hover {
+  background-color: var(--c-red);
+}
+
+.tickets-grid .tickets-button:hover span {
+  color: white;
+}
+
+
+.staff-grid {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-4;
+}
+
+.staff-grid img {
+  margin-bottom: .5rem;
+}
+
+.staff-member {
+  @apply mb-4;
+}
+
+.staff-member__name span.name {
+  font-weight: 700;
+}
+
+.staff-member__contact {
+  justify-self: stretch;
+  width: 100%;
+}
+.staff-member__contact a {
+  display: block;
+}
+
+.staff-member__contact a:hover span.email {
+  text-decoration: underline;
+}
+.staff-member__contact a span.external {
+  opacity: 0;
+  transition: opacity .2s;
+}
+.staff-member__contact a:hover span.external {
+  opacity: 1;
+}
+
+main .talk-info {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-8 pt-12;
 }

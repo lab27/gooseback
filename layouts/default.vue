@@ -4,6 +4,8 @@
     Nav
   MovingTitle
   nuxt
+  ButtonBlock
+  Footer
 </template>
 
 <script>

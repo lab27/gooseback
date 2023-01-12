@@ -2,5 +2,4 @@
   main
     h1 Sponsors
     p This is the sponsors page
-    ButtonBlock
 </template>

@@ -17,7 +17,7 @@
       li
         nuxt-link(to="/about") About
       li
-        a(href="https://ticketmaster.com" target="_blank").external_link Tickets
+        nuxt-link(to="/tickets") Tickets
 
 </template>
 

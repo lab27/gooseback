@@ -8,15 +8,21 @@
       .talk-info.mb-12
         .talk-synopsis
           nuxt-content(:document="talk")
-    .film-screenings
-      h2 Schedule
-      .film-screenings-list
-        .film-screening
-          .film-screening-date {{ formattedDate(talk.dateTime)}}
-          .film-screening-venue {{ talk.venue }}
-          .film-screening-tickets
-            span &#8599; 
-            a(:href="talk.ticketsLink" target="_blank") Buy Tickets
+        .talk-schedule
+          h2 Schedule
+          .film-credits
+            .film-credits-line
+              span.film-credits-label Date & Time
+              span.film-credits-value {{ formattedDate(talk.dateTime) }}
+            .film-credits-line
+              span.film-credits-label Venue
+              span.film-credits-value {{ talk.venue }}
+            .film-credits-line
+              span.film-credits-label Tickets
+              span.film-credits-value
+                a(:href="talk.ticketsLink" target="_blank") Buy Now&nbsp;&#8599; 
+
+
 </template>
 
 <script>

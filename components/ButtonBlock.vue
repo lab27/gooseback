@@ -1,13 +1,13 @@
 <template lang="pug">
 .button-section
   .button-block
-    nuxt-link(:to="button" v-for="button, index in buttons" :key="button").button-block__button
+    nuxt-link(:to="`/${button}`" v-for="button, index in buttons" :key="button").button-block__button
       .button-content 
         span.button-text {{ button }} 
         span.button-arrow-wrapper
           Arrow
-  .tickets-button-wrapper(ref="ticketsButtonWrapper")
-    a(:href="ticketLink" target="_blank").tickets-button
+  .tickets-button-wrapper(ref="ticketsButtonWrapper" v-if="$route.path !== '/tickets'")
+    nuxt-link(to="/tickets").tickets-button
       span.tickets-button__text Buy Tickets&nbsp;&#8599;
     .triangles
 

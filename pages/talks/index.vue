@@ -10,8 +10,7 @@
               Arrow
             .thumbnail-gauze
             nuxt-img(:src="$staticRemover(talk.thumbnail)" :alt="talk.title" :placeholder="[160, 90, 10]" format="webp" fit="cover" width="1600" height="900" sizes="sm:100vw md:50vw lg:400px xl:800px" preload).thumbnail-image
-          p.film-title {{ talk.title }}
-    ButtonBlock
+          p.film-title {{ talk.title }} / {{ talk.dateTime }}
 </template>
 
 <script>
