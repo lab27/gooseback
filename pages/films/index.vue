@@ -11,7 +11,6 @@
             .thumbnail-gauze
             nuxt-img(:src="$staticRemover(film.thumbnail)" :alt="film.title" :placeholder="[160, 90, 10]" format="webp" fit="cover" width="1600" height="900" sizes="sm:100vw md:50vw lg:400px xl:800px" preload).thumbnail-image
           p.film-title {{ film.title }}
-    ButtonBlock
 </template>
 
 <script>

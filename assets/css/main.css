@@ -366,35 +366,30 @@ main.film-detail .film-credits-line.no-underline {
 
 .tickets-grid .tickets-button {
   justify-self: end;
-  color: var(--c-red));
-  background-color: transparent;
-  border: 6px solid var(--c-red);
+  color: var(--c-black);
+  background: linear-gradient(transparent, transparent 50%, var(--c-gold) 50%, var(--c-gold));
+  background-size: 100% 200%;
+  border: 6px solid var(--c-black);
   display: grid;
-  place-content: center;
-  padding: 2rem;
+  /* place-content: center; */
+  padding: 3rem;
   aspect-ratio: 16/9;
   transition: transform .2s ease, background .2s;
   transform: none;
   position: absolute;
   transform: translate(0, 0);
-}
-
-.tickets-grid .tickets-button {
-  /* transform: translate3d(var(--x, 0px), var(--y, 0px), 0); */
 
 }
 
 .tickets-grid .tickets-button span {
-  color: var(--c-red);
+  color: var(--c-black);
 }
 
 .tickets-grid .tickets-button:hover {
-  background-color: var(--c-red);
+  background-position: -200% 100%;
 }
 
-.tickets-grid .tickets-button:hover span {
-  color: white;
-}
+
 
 
 .staff-grid {
