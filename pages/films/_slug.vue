@@ -1,5 +1,6 @@
 <template lang="pug">
   main.film-detail
+    nuxt-link(to="/films").back-button &#8592; All Films
     h1 {{ film.title }}
     p.film-header-meta dir. {{ film.director }} / {{ film.type }} / {{ film.durationInMinutes }} min
     .film-content

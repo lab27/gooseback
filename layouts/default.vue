@@ -4,8 +4,12 @@
     Nav
   MovingTitle
   nuxt
+  MetaBlock
   ButtonBlock
   Footer
+  Ruler
+  transition(name="fade")
+    MobileNav(v-if="isMobile")
 </template>
 
 <script>
@@ -13,6 +17,8 @@ export default {
   data() {
     return {
       isIndexPage: false,
+      isMobile: false,
+      showMobileNav: true
     }
   },
 
@@ -50,6 +56,11 @@ export default {
           this.onContentPageLoaded()
         })
       }
+    }),
+    // add mobile check
+    this.isMobile = window.innerWidth < 1000
+    window.addEventListener('resize', () => {
+      this.isMobile = window.innerWidth < 1000
     })
   },
   watch: {
