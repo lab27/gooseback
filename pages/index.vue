@@ -29,6 +29,7 @@ export default {
   overflow: hidden;
   display: grid;
   place-content: center;
+  pointer-events: none;
 }
 
 .tower-wrapper img {
