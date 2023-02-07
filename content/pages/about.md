@@ -2,20 +2,11 @@
 heading: About the Festival
 staff:
   - name: Hussain Currimbhoy
-    role: Director
+    role: Festival Director
     email: hussain@mastermechanicfilms.com
-    thumbnail: /static/img/staff-portraits/hussain_currimbhoy.jpeg
-  - name: Hussain Currimbhoy
-    role: Director
-    email: hussain@mastermechanicfilms.com
-    thumbnail: /static/img/staff-portraits/hussain_currimbhoy.jpeg
-  - name: Hussain Currimbhoy
-    role: Director
-    email: hussain@mastermechanicfilms.com
-    thumbnail: /static/img/staff-portraits/hussain_currimbhoy.jpeg
-  - name: Hussain Currimbhoy
-    role: Director
-    email: hussain@mastermechanicfilms.com
-    thumbnail: /static/img/staff-portraits/hussain_currimbhoy.jpeg
+    thumbnail: /static/img/staff-portraits/hussain_currimbhoy_bw.jpeg
 ---
-The Gåsebäck Film Festival is a small, but highly respected festival that takes place in the small former industrial town of Gåsebäck, Sweden. The festival was founded in 2022 by a group of local film enthusiasts who were passionate about showcasing the best in independent and international cinema. Since its inception, the Gåsebäck Film Festival has grown in size and reputation, attracting film lovers from all over Sweden and beyond.
+Gåsebäck Film Festival is a new independent film event in Helsingborg, Sweden. The programming is dedicated to bringing a collection of some of the best international cinema to the city, celebrating emerging creators and vibrant storytelling for the city’s diverse audiences. We will hold masterclasses and talks with creators to share skills, build  the filmmaking community in Helsingborg and keep the spirit of independent filmmaking alive. This is our inaugural year. Come celebrate.
+
+The festival was founded and run by producer and director [Hussain Currimbhoy](https://hussain.studio/) executive director of 
+[Master Mechanic Films](https://mastermechanicfilms.com/).

@@ -5,7 +5,7 @@
   MovingTitle
   nuxt
   MetaBlock
-  ButtonBlock
+  //- ButtonBlock
   Footer
   Ruler
   transition(name="fade")
@@ -29,7 +29,7 @@ export default {
       this.$gsap.to('.moving-title .g', {rotation: 0, x:0,  y: 0, ease: 'Power2.easeInOut'}, '-=1')
     },
     onContentPageLoaded() {
-      this.$gsap.to('.moving-title', {x: window.innerWidth/2 - 32, xPercent: -50, y: 44, ease: 'Power2.easeInOut'})
+      this.$gsap.to('.moving-title', {x: window.innerWidth/2 - 32, xPercent: -50, y: 76, ease: 'Power2.easeInOut'})
       this.$gsap.to('.moving-title .ff', {rotation: -90, y: "-30%", ease: 'Power2.easeInOut'}, '-=1')
       this.$gsap.to('.moving-title .g', {rotation: 0, x: "105%", ease: 'Power2.easeInOut'}, '-=1')
     }

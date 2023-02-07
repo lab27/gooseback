@@ -1,7 +1,8 @@
 <template lang="pug">
   main
-    h1 Talks
-    ul.film-grid
+    h1 {{ discussionsPage.heading }}
+    nuxt-content.lead-text(:document="discussionsPage")
+    ul.film-grid(v-if="talks.isAnnounced")
       li(v-for="talk in talks")
         nuxt-link(:to="`/talks/${talk.slug}`")
           .film-thumbnail-wrapper
@@ -17,7 +18,8 @@
 export default {
   async asyncData({ $content }) {
     const talks = await $content('talks').fetch()
-    return { talks }
+    const discussionsPage = await $content('pages/discussions').fetch()
+    return { talks, discussionsPage }
   }
 }
 </script>

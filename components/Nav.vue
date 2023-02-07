@@ -5,19 +5,19 @@
         nuxt-link(to="/")
           img(src="/img/gff-logo.svg", alt="GFF Logo")
       li
-        nuxt-link(to="/films") Films
+        nuxt-link(to="/movies") The Movies
       li
-        nuxt-link(to="/talks") Talks
+        nuxt-link(to="/discussions") Discussions
       li
-        nuxt-link(to="/schedule") Schedule
+        nuxt-link(to="/when") When
       li
-        nuxt-link(to="/venues") Venues
+        nuxt-link(to="/where") Where
       li
         nuxt-link(to="/sponsors") Sponsors
       li
-        nuxt-link(to="/about") About
+        nuxt-link(to="/about") A Bit About
       li
-        nuxt-link(to="/tickets") Tickets
+        nuxt-link(to="/tickets") Get Tix
 
 </template>
 

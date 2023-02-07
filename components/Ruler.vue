@@ -113,6 +113,7 @@ export default {
   left: 4.25rem;
   color: var(--c-brown);
   font-size: 0.8125rem;
+  transition: background 1s;
 }
 </style>
 

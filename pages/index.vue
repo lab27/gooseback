@@ -16,7 +16,7 @@ export default {
     }
   }, 
   mounted() {
-    console.log('index page mounted');
+    // console.log('index page mounted');
     this.$emit('indexPageLoaded')
   }
 }

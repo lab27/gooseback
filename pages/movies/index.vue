@@ -1,7 +1,8 @@
 <template lang="pug">
   main
-    h1 Films
-    ul.film-grid
+    h1 The Movies
+    nuxt-content.lead(:document="filmPage")
+    ul.film-grid(v-if="films.isAnnounced")
       li(v-for="film in films")
         nuxt-link(:to="`/films/${film.slug}`")
           .film-thumbnail-wrapper
@@ -17,7 +18,8 @@
 export default {
   async asyncData({ $content }) {
     const films = await $content('films').fetch()
-    return { films }
+    const filmPage = await $content('pages/movies').fetch()
+    return { films, filmPage }
   }
 }
 </script>
