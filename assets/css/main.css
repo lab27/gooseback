@@ -71,9 +71,9 @@ body {
   left: 18px;
 }
 
-.page-home .logo-wrapper a{
+/* .page-home .logo-wrapper a{
   display: none;
-}
+} */
 
 .page-home {
   --background-color: var(--c-gold);
@@ -427,22 +427,24 @@ main.film-detail .back-button {
 
 /* Tickets grid */
 .tickets-grid, .about-grid {
-  @apply grid grid-cols-1 lg:grid-cols-2 mb-12;
+  /* @apply grid grid-cols-1 lg:grid-cols-2 mb-12; */
 }
 
 .tickets-grid .tickets-button {
-  justify-self: end;
+  /* justify-self: end; */
   color: var(--c-black);
   background: linear-gradient(transparent, transparent 50%, var(--c-gold) 50%, var(--c-gold));
   background-size: 100% 200%;
   border: 6px solid var(--c-black);
   display: grid;
-  /* place-content: center; */
+  place-content: center;
   padding: 3rem;
   aspect-ratio: 16/9;
+  width: 16rem;
+  height: 9rem;
   transition: transform .2s ease, background .2s;
   transform: none;
-  position: relative;
+  /* position: relative; */
   transform: translate(0, 0);
 }
 
@@ -454,8 +456,15 @@ main.film-detail .back-button {
   background-position: -200% 100%;
 }
 
+/* Sponsors */
+.sponsors-grid {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-4;
+}
 
-
+.sponsors-grid li {
+  display: grid;
+  place-content: center;
+}
 
 .staff-grid {
   @apply grid grid-cols-1 lg:grid-cols-2 gap-4;
@@ -500,8 +509,8 @@ main .talk-info {
 .meta-block {
   text-transform: uppercase;
   position: fixed;
-  right: 9rem;
-  top: 6.5rem;
+  right: 6.7rem;
+  top: 9.5rem;
   display: none;
 }
 
@@ -509,6 +518,19 @@ main .talk-info {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 100;
   font-size: 2rem;
+}
+
+.meta-block .submit-link .email {
+  box-shadow:inset 0 -2px var(--c-red);
+}
+
+.meta-block .submit-link .external {
+  opacity: 0;
+  transition: opacity .2s;
+}
+
+.meta-block .submit-link:hover .external {
+  opacity: 1;
 }
 
 @media screen and (min-width: 1000px) {
@@ -523,4 +545,10 @@ main .talk-info {
   .film-detail h1 {
     padding-right: 0;
   }
+}
+
+.socials-grid {
+  @apply grid grid-cols-4 gap-4;
+  width: fit-content;
+  justify-self: center;
 }

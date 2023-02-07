@@ -91,6 +91,22 @@ collections:
           - {label: Heading, name: heading, widget: string}
           - {label: Body, name: body, widget: markdown}
           - {label: Tickets Link, name: link, widget: string, hint: Must be the full URL to the site ("http://mysite.com"), pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', 'Must be a full URL']}
+      - label: "Sponsors"
+        name: "sponsors"
+        file: "/content/pages/sponsors.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - label: Sponsors
+            label_singular: Sponsor
+            name: logos
+            widget: list
+            fields: 
+              - { label: Name, name: name, widget: string}
+              - label: Logo
+                name: logo
+                widget: "image"
+                media_folder: /static/img/sponsor-logos
       - label: "About"
         name: "about"
         file: "/content/pages/about.md"

@@ -1,7 +1,10 @@
 <template lang="pug">
   main
-    h1 Sponsors
-    p This is the sponsors page
+    h1 {{ page.heading }}
+    nuxt-content(:document="page").lead-text
+    ul.sponsors-grid
+      li(:key="sponsor.name" v-for="sponsor in page.logos")
+        img(:src="$staticRemover(sponsor.logo)" :alt="sponsor.name")
 </template>
 
 <script>
@@ -14,5 +17,9 @@ export default {
       }
     }
   },
+  async asyncData({ $content }) {
+    const page = await $content('pages/sponsors').fetch()
+    return { page }
+  }
 }
 </script>

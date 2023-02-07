@@ -2,7 +2,7 @@
   main
     h1 {{ page.heading }}
     .tickets-grid
-      nuxt-content(:document="page")
+      nuxt-content(:document="page").mb-12
       a(:href="page.link" target="_blank" ref="button").tickets-button
         span.tickets-button__text Buy Tickets&nbsp;&#8599;
 </template>
