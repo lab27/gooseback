@@ -84,6 +84,20 @@ collections:
     name: pages
     create: false
     files:
+      - label: "Movies Page"
+        name: "movies"
+        file: "/content/pages/movies.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Announced, name: isAnnounced, widget: boolean }
+      - label: "Discussions Page"
+        name: "discussions"
+        file: "/content/pages/discussions.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Announced, name: isAnnounced, widget: boolean }
       - label: "Tickets"
         name: "tickets"
         file: "/content/pages/tickets.md"
