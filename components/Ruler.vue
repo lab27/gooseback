@@ -21,8 +21,8 @@ export default {
       const markerHeight = 8;
       const markerSpacing = 5;
 
-      // const markerCount = Math.floor(topRulerContainer.clientWidth / markerSpacing);
-      const markerCount = 100;
+      const markerCount = Math.floor(topRulerContainer.clientWidth / markerSpacing) - 2;
+      // const markerCount = 100;
 
       let markerCounter = 0;
 
@@ -32,7 +32,7 @@ export default {
         topMarker.style.width = `${markerWidth}px`;
         topMarker.style.position = "absolute";
         topMarker.style.top = `-${(markerHeight / 2) - 24}px`;
-        topMarker.style.left = `${i * markerSpacing}px`;
+        topMarker.style.left = `${i * markerSpacing + 6}px`;
 
         // Create bottom marker
         const bottomMarker = document.createElement("div");
@@ -75,7 +75,7 @@ export default {
 
 <style>
 .rulers {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -94,14 +94,16 @@ export default {
 
 .ruler-container.ruler-container-top {
     position: absolute;
-    background: url(/img/sprocket-brown.svg);
+    background: url(/img/sprocket-brown.svg) var(--background-color);
     background-repeat: repeat-x;
-    background-position: -9px 9px;
+    background-position: -3px 9px;
       top: 0;
       padding-top: 1.5rem;
-      left: 1rem;
+      left: 0;
       right: 0;
-      height: 30px;
+      height: 40px;
+      padding-left: 0.5rem;
+      transition: background 1s;
 }
 
 .top-credit {
@@ -110,7 +112,7 @@ export default {
   position: absolute;
   z-index: 10;
   margin-top: 4px;
-  left: 4.25rem;
+  left: 3.5rem;
   color: var(--c-brown);
   font-size: 0.8125rem;
   transition: background 1s;

@@ -49,9 +49,10 @@ export default {
 }
 
 .mobile-nav-wrapper .nav-toggle {
-  position: absolute;
+  position: fixed;
   top: 3rem;
   right: 2rem;
+  cursor: pointer;
 }
 
 
@@ -62,7 +63,7 @@ export default {
   width: 100%;
   height: 100%;
   background-color: #fff;
-  z-index: 100;
+  z-index: 9999;
   padding: 2rem;
   display: grid;
   place-content: center;
@@ -73,9 +74,9 @@ export default {
 }
 
 .mobile-nav .close-button {
-  position: absolute;
+  position: fixed;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  top: 2rem;
+  top: 0;
   right: 2rem;
   font-size: 4rem;
   font-weight: 200;

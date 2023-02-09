@@ -1,7 +1,7 @@
 <template lang="pug">
-  footer.site-footer.mb-12.grid.grid-cols-3
-    p © 2023 Gåsebäck Film Festival
-    Socials
-    p.justify-self-end Site made with love by 
-      a(href="https://nickniles.com" target="_blank") Nick Niles
+  footer.site-footer
+    Socials.mb-4
+    p.copyright-info © 2023 Gåsebäck Film Festival
+    p Website made with love by 
+      a(href="https://nickniles.com" target="_blank").underlined-link Nick Niles
 </template>
