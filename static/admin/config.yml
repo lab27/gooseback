@@ -8,6 +8,12 @@ local_backend: true
 # display_url: https://gff.f
 
 collections:
+  - name: settings
+    label: Site Settings
+    folder: content
+    file: 'content/settings.yml'
+    fields: 
+      - { label: Accepting Submissions, name: acceptingSubmissions, widget: boolean, required: true}
   - name: films
     label: Films
     label_singular: Film
