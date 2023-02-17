@@ -8,12 +8,66 @@ local_backend: true
 # display_url: https://gff.f
 
 collections:
-  - name: settings
-    label: Site Settings
-    folder: content
-    file: 'content/settings.yml'
-    fields: 
-      - { label: Accepting Submissions, name: acceptingSubmissions, widget: boolean, required: true}
+  - label: Pages
+    name: pages
+    create: false
+    files:
+      - label: "Movies Page"
+        name: "movies"
+        file: "/content/pages/movies.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Announced, name: isAnnounced, widget: boolean }
+      - label: "Discussions Page"
+        name: "discussions"
+        file: "/content/pages/discussions.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Announced, name: isAnnounced, widget: boolean }
+      - label: "Tickets"
+        name: "tickets"
+        file: "/content/pages/tickets.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Tickets Link, name: link, widget: string, hint: Must be the full URL to the site ("http://mysite.com"), pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', 'Must be a full URL']}
+      - label: "Sponsors"
+        name: "sponsors"
+        file: "/content/pages/sponsors.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - label: Sponsors
+            label_singular: Sponsor
+            name: logos
+            widget: list
+            fields: 
+              - { label: Name, name: name, widget: string}
+              - label: Logo
+                name: logo
+                widget: "image"
+                media_folder: /static/img/sponsor-logos
+      - label: "About"
+        name: "about"
+        file: "/content/pages/about.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: About, name: body, widget: markdown}
+          - label: Staff
+            name: staff 
+            label_singular: Person
+            create: true
+            widget: list
+            fields: 
+              - { label: Name, name: name, widget: string}
+              - { label: Role, name: role, widget: string}
+              - { label: 'Email', name: 'email', widget: 'string', hint: Must be in valid email address format, pattern: ['\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b', 'Full email address format']}
+              - label: "Featured Image"
+                name: "thumbnail"
+                widget: "image"
+                media_folder: /static/img/staff-portraits
   - name: films
     label: Films
     label_singular: Film
@@ -86,63 +140,11 @@ collections:
       - { label: Date/Time, name: dateTime, widget: datetime,  date_format: "dddd, MMMM DD", time_format: "HH:mm", format: "dddd, MMMM DD HH:mm"}
       - { label: Venue, name: venue, widget: select, options: [venue1, venue2, venue3]}
       - { label: Ticket Page, name: 'ticketsLink', widget: 'string' }
-  - label: Pages
-    name: pages
-    create: false
+  - label: "Site Settings"
+    name: "settings"
     files:
-      - label: "Movies Page"
-        name: "movies"
-        file: "/content/pages/movies.md"
+      - label: "Accepting Submissions"
+        name: "submissions"
+        file: "content/submissions.yml"
         fields:
-          - {label: Heading, name: heading, widget: string}
-          - {label: Body, name: body, widget: markdown}
-          - {label: Announced, name: isAnnounced, widget: boolean }
-      - label: "Discussions Page"
-        name: "discussions"
-        file: "/content/pages/discussions.md"
-        fields:
-          - {label: Heading, name: heading, widget: string}
-          - {label: Body, name: body, widget: markdown}
-          - {label: Announced, name: isAnnounced, widget: boolean }
-      - label: "Tickets"
-        name: "tickets"
-        file: "/content/pages/tickets.md"
-        fields:
-          - {label: Heading, name: heading, widget: string}
-          - {label: Body, name: body, widget: markdown}
-          - {label: Tickets Link, name: link, widget: string, hint: Must be the full URL to the site ("http://mysite.com"), pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', 'Must be a full URL']}
-      - label: "Sponsors"
-        name: "sponsors"
-        file: "/content/pages/sponsors.md"
-        fields:
-          - {label: Heading, name: heading, widget: string}
-          - {label: Body, name: body, widget: markdown}
-          - label: Sponsors
-            label_singular: Sponsor
-            name: logos
-            widget: list
-            fields: 
-              - { label: Name, name: name, widget: string}
-              - label: Logo
-                name: logo
-                widget: "image"
-                media_folder: /static/img/sponsor-logos
-      - label: "About"
-        name: "about"
-        file: "/content/pages/about.md"
-        fields:
-          - {label: Heading, name: heading, widget: string}
-          - {label: About, name: body, widget: markdown}
-          - label: Staff
-            name: staff 
-            label_singular: Person
-            create: true
-            widget: list
-            fields: 
-              - { label: Name, name: name, widget: string}
-              - { label: Role, name: role, widget: string}
-              - { label: 'Email', name: 'email', widget: 'string', hint: Must be in valid email address format, pattern: ['\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b', 'Full email address format']}
-              - label: "Featured Image"
-                name: "thumbnail"
-                widget: "image"
-                media_folder: /static/img/staff-portraits
+          - {label: Accepting Submissions, name: acceptingSubmissions, widget: boolean}
