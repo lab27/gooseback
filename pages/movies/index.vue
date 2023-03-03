@@ -16,6 +16,14 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: 'Movies',
+      bodyAttrs: {
+        class: 'page-movies'
+      }
+    }
+  },
   async asyncData({ $content }) {
     const films = await $content('films').fetch()
     const filmPage = await $content('pages/movies').fetch()

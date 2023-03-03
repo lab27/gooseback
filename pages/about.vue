@@ -18,6 +18,14 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: 'About',
+      bodyAttrs: {
+        class: 'page-about'
+      }
+    }
+  },
   async asyncData({ $content }) {
     const page = await $content('pages/about').fetch()
     return { page }

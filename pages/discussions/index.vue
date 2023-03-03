@@ -16,6 +16,14 @@
 
 <script>
 export default {
+    head() {
+    return {
+      title: 'Talks',
+      bodyAttrs: {
+        class: 'page-talks'
+      }
+    }
+  },
   async asyncData({ $content }) {
     const talks = await $content('talks').fetch()
     const discussionsPage = await $content('pages/discussions').fetch()

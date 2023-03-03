@@ -9,6 +9,14 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: 'Tickets',
+      bodyAttrs: {
+        class: 'page-tickets'
+      }
+    }
+  },
   async asyncData({ $content }) {
     const page = await $content('pages/tickets').fetch()
     return { page }
