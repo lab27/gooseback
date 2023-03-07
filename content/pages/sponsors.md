@@ -8,4 +8,4 @@ logos:
 ---
 The festival is made possible through the support of Helsingborg Stad and Region Skåne.
 
-Want to be a sponsor? Email us: [sponsors@gff.se](mailto:sponsors@gff.se)
+Want to be a sponsor? Email us: hussain@mastermechanicfilms.com[](mailto:sponsors@gff.se)
