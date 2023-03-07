@@ -1,7 +1,6 @@
 <template lang="pug">
   main
     .tower-wrapper.cols-12
-      //- img(src="/img/towerrays.svg", alt="Gåsebäck Film Festival Hero Image")
       TowerRays
     .mobile-info-block.mt-12
       h1.text-center.mb-2 Gåsebäck
@@ -9,7 +8,7 @@
         | Film Festival
       p.mobile-dates.text-center March 31 — April 2, 2023
       p.mobile-location.text-center Gåsebäck, Helsingborg
-    img(src="/img/ok-hand-film.svg", alt="Film Reel Hand Illustration").m-auto
+    //- img(src="/img/ok-hand-film.svg", alt="Film Reel Hand Illustration").m-auto
 </template>
 
 <script>
