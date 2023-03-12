@@ -1,8 +1,8 @@
 ---
-title: Desert Peony
+title: INVISBLE DEMONS
 type: Fiction
-durationInMinutes: "89"
-thumbnail: /static/img/film-stills/mesh-gradient.png
+durationInMinutes: "70"
+thumbnail: /static/img/film-stills/invisible_demons_still_-c-toinen-katse-oy-ma.ja.de.-filmproduktions-gmbh-2021-2.jpg
 stills:
   - still: /static/img/film-stills/wfm-locations.jpg
   - still: /static/img/film-stills/coyote-leaping.jpeg
