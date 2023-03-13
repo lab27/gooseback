@@ -2,7 +2,7 @@
 title: THE OIL MACHINE
 type: Documentary
 durationInMinutes: "82"
-thumbnail: /static/img/film-stills/invisible_demons_still_-c-toinen-katse-oy-ma.ja.de.-filmproduktions-gmbh-2021-2.jpg
+thumbnail: /static/img/film-stills/theoilmachine_still_03_10022800_1.1.3.jpg
 stills:
   - still: /static/img/film-stills/wfm-locations.jpg
   - still: /static/img/film-stills/coyote-leaping.jpeg
