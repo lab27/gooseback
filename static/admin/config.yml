@@ -94,9 +94,26 @@ collections:
         fields: 
           - {label: Still, name: still, widget: image, media_folder: "/static/img/film-stills" }
       - { label: 'Synopsis', name: 'body', widget: 'markdown' }
+      - { label: 'Country', name: 'country', widget: 'string' }
+      - { label: 'Language', name: 'language', widget: 'string' }
       - { label: 'Director', name: 'director', widget: 'string' }
-      - { label: 'Producer', name: 'producer', widget: 'string' }
-      - { label: 'Executive Producer', name: 'execProducer', widget: 'string' }
+      # - { label: 'Producer', name: 'producer', widget: 'string' }
+      - label: 'Producers'
+        name: 'producers'
+        widget: 'list'
+        allow_add: true
+        label_singular: Producer
+        summary: '{{fields.producer}}'
+        fields: 
+          - {label: Producer, name: producer, widget: string }
+      - label: 'Executive Producers'
+        name: 'exectProducers'
+        widget: 'list'
+        allow_add: true
+        label_singular: Executive Producer
+        summary: '{{fields.execProducer}}'
+        fields: 
+          - {label: Executive Producer, name: exectProducer, widget: string }
       - label: 'Cast'
         name: 'cast'
         widget: 'list'

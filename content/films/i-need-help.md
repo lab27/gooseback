@@ -10,7 +10,7 @@ execProducer: Hussain Currimbhoy
 cast:
   - actor: Saif Mehdi
   - actor: Mohammad Kurdi
-music: NA
+music: 
 cinematography: Simon Pedersen
 editor: Manhal Ahmed
 contact: manhalahmedvh@gmail.com

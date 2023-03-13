@@ -6,9 +6,15 @@ thumbnail: /static/img/film-stills/003-enys-men-the-volunteer-mary-woodvine-bose
 stills:
   - still: /static/img/film-stills/001-enys-men-the-volunteer-mary-woodvine-bosena-©-2022-_1.555.1.jpg
 director: Mark Jenkins
-producer: Denzil Monk
-execProducer: Deborah Boden, Ben Coren, Lauren Dark, Johnny Fewings, Kingsley
-  Marshall, Denzil Monk
+producers: 
+  - producer: Denzil Monk
+execProducers: 
+  - execProducer: Deborah Boden
+  - execProducer: Ben Coren
+  - execProducer: Lauren Dark
+  - execProducer: Johnny Fewings
+  - execProducer: Kingsley Marshall
+  - execProducer: Denzil Monk
 cast:
   - actor: Mary Woodvine (The Volunteer)
   - actor: Edward Rowe	(The Boatman)
@@ -16,7 +22,7 @@ cast:
   - actor: John Woodvine (The Preacher)
   - actor: Joe Gray (The Miner)
   - actor: Loveday Twomlow (The Baby)
-music: What music?
+music:
 cinematography: Mark Jenkin
 editor: Mark Jenkin
 contact: julia.dicosta@nonstopentertainment.com
