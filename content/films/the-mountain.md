@@ -2,7 +2,7 @@
 title: THE MOUNTAIN
 type: Fiction
 durationInMinutes: "115"
-thumbnail: /img/film-stills/coyote-leaping.jpeg
+thumbnail: /static/img/film-stills/louise-resto-soir-cchristmas-in-july.jpeg
 stills:
   - still: /static/img/film-stills/coucher_soleil_col_midi-ļchristmas-in-july.jpg
   - still: /static/img/film-stills/le_bras_lumineux-ёchristmas-in-july.jpg

@@ -1,6 +1,6 @@
 <template lang="pug">
   main.film-detail
-    nuxt-link(to="/films").back-button &#8592; All Films
+    nuxt-link(to="/movies").back-button &#8592; All Films
     h1 {{ film.title }}
     p.film-header-meta dir. {{ film.director }} / {{ film.type }} / {{ film.durationInMinutes }} min
     .film-content
@@ -24,13 +24,13 @@
           .film-credits-line
             span.film-credits-label Executive Producer
             span.film-credits-value {{ film.execProducer }}
-          .film-credits-line
+          .film-credits-line(v-if="film.cast.length > 0")
             span.film-credits-label Cast
             span.film-credits-value {{ film.cast[0].actor }}
-          .film-credits-line.no-underline
+          .film-credits-line.no-underline(v-if="film.cast.length > 1")
             span.film-credits-label 
             span.film-credits-value {{ film.cast[1].actor }}
-          .film-credits-line.no-underline
+          .film-credits-line.no-underline(v-if="film.cast.length > 2")
             span.film-credits-label 
             span.film-credits-value {{ film.cast[2].actor }}
           .film-credits-line

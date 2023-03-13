@@ -1,10 +1,10 @@
 <template lang="pug">
   main
     h1 The Movies
-    nuxt-content.lead(:document="filmPage")
-    ul.film-grid(v-if="films.isAnnounced")
+    nuxt-content.lead-text(:document="filmPage")
+    ul.film-grid
       li(v-for="film in films")
-        nuxt-link(:to="`/films/${film.slug}`")
+        nuxt-link(:to="`/movies/${film.slug}`")
           .film-thumbnail-wrapper
             .thumbnail-arrow-wrapper
               //- img(src="/img/arrow.svg")

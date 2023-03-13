@@ -4,8 +4,7 @@ type: Documentary
 durationInMinutes: "82"
 thumbnail: /static/img/film-stills/theoilmachine_still_03_10022800_1.1.3.jpg
 stills:
-  - still: /static/img/film-stills/wfm-locations.jpg
-  - still: /static/img/film-stills/coyote-leaping.jpeg
+  - still: /static/img/film-stills/theoilmachine_still_03_10022800_1.1.3.jpg
 director: Emma Davie
 producer: Sonja Henrici
 execProducer: James Marriott, Terry Macalister

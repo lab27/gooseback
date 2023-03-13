@@ -9,7 +9,7 @@
     p.ornament &plus;
     br
     br
-    a(href="https://filmfreeway.com/festivals" target="_blank").submit-link 
+    a(href="https://filmfreeway.com/GasebackFilmFestival" target="_blank").submit-link 
       span.email Submit A Film
       span.external &nbsp;&#8599;
 </template>

@@ -4,8 +4,6 @@ type: Fiction
 durationInMinutes: "92"
 thumbnail: /static/img/film-stills/lapecera-main.jpg
 stills:
-  - still: /img/film-stills/dude.jpeg
-  - still: /img/film-stills/camille.png
   - still: /static/img/film-stills/lapecera-2.jpg
 director: Glorimar Marrero Sánchez
 producer: José Esteban Alenda, Amaya Izquierdo, and Glorimar Marrero-Sánchez
