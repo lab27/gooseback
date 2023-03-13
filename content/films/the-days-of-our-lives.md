@@ -1,36 +1,29 @@
 ---
-title: The Death of King Arthur
+title: ENYS MEN
 type: Fiction
-durationInMinutes: "234"
-thumbnail: /img/film-stills/Tumbler.jpeg
+durationInMinutes: "91"
+thumbnail: /static/img/film-stills/003-enys-men-the-volunteer-mary-woodvine-bosena-©-2022-_1.19.1.jpg
 stills:
-  - still: /img/film-stills/dude.jpeg
-  - still: /img/film-stills/camille.png
-director: asdf
-producer: asdf
-execProducer: asdf
+  - still: /static/img/film-stills/001-enys-men-the-volunteer-mary-woodvine-bosena-©-2022-_1.555.1.jpg
+director: Mark Jenkins
+producer: Denzil Monk
+execProducer: Deborah Boden, Ben Coren, Lauren Dark, Johnny Fewings, Kingsley
+  Marshall, Denzil Monk
 cast:
-  - actor: asdfasdf
-  - actor: fewfwewfew
-  - actor: jfghjfghjfghj
-music: asdf
-cinematography: asdf
-editor: asdf
-contact: asdf@asdfa.com
-filmWebsite: http://asdf.com
-filmTrailer: http://asdfasd.com
+  - actor: Mary Woodvine (The Volunteer)
+  - actor: Edward Rowe	(The Boatman)
+  - actor: Flo Crowe (The Girl	)
+  - actor: John Woodvine (The Preacher)
+  - actor: Joe Gray (The Miner)
+  - actor: Loveday Twomlow (The Baby)
+music: What music?
+cinematography: Mark Jenkin
+editor: Mark Jenkin
+contact: julia.dicosta@nonstopentertainment.com
+filmWebsite: https://www.enysmen.co.uk/
+filmTrailer: https://www.youtube.com/watch?v=f7Pwf94_XLY
 screenings:
-  - dateTime: 2023-01-08T03:43:04.371Z
+  - dateTime: Saturday, April 01 21:00
     venue: venue1
-  - dateTime: 2023-04-25T02:44:14.511Z
-    venue: venue2
 ---
-The Days of Our Lives follows the story of a talented but mysterious artist who has retreated from the world and lives in a room filled with instruments. Despite his solitude, he continues to create beautiful music that captures the hearts of those who hear it.
-
-As the film begins, we see the musician at work, composing and rehearsing in his isolated space. Through flashbacks, we learn that he was once a celebrated musician, but something caused him to withdraw from the public eye.
-
-As the film unfolds, we see the musician's relationships with those around him - an old friend who tries to coax him out of his shell, a young musician who seeks his mentorship, and a love interest who helps him confront his past.
-
-Despite the musician's reluctance to open up and share his music with the world, he eventually realizes that his talent was meant to be shared. He steps out of his comfort zone and performs at a local venue, bringing joy and inspiration to those in attendance.
-
-The Days of Our Lives is a poignant and moving tale about the power of music to heal and connect us all. It's a must-see film for music lovers and anyone who has ever struggled with fear and self-doubt.
+Shot on 16mm, this Cornish folk horror film unfolds on an uninhabited island in the Celtic Sea where a wildlife volunteer’s daily observations of a rare flower takes a dark turn into the strange and metaphysical. Jostling between dreams and reality, between cinematic and Cornish folklore, what we encounter is a  richly authentic portrait of Cornwall -  an ancient yet fresh land defined by working class industry locked in an elemental struggle with the sea and driven by a palpable sense of the past underpinning the future. ENYS MEN means ’stone island’. But this  dreamy, measured, haunted tale of what lies between myth and reality will mean something very different for everyone. Sparse, naturalist and often times sublime, Mark Jenkin’s second feature is a highly unusual but fascinating cinematic experience that establishes  a new and exciting voice in British cinema. 
