@@ -9,16 +9,13 @@ stills:
 director: Rahul Jain
 producer: Iikka Vehkalahti, Heino Deckert
 execProducer: Jeff Skoll, Diane Weyermann, Frank Lehmann
-cast:
-  - actor: asdfasf
-  - actor: rdhthdgf
-  - actor: y8rifyc
-music: stghdg
+cast: []
+music: Kimmo Pohjonen
 cinematography: Director of Photography
 editor: Yael Bitton
 contact: "intlfest@mk2.com Anaëlle JOUANNARD "
-filmWebsite: http://asdfas.com
-filmTrailer: http://sdfasdfds.com
+filmWebsite: https://mk2films.com/en/film/invisible-demons/
+filmTrailer: https://www.youtube.com/watch?v=AkJ_yO0OouU
 screenings:
   - dateTime: Sunday, April 02 18:00
     venue: venue1
