@@ -1,36 +1,37 @@
 ---
-title: The Telltale Heart
+title: THE MOUNTAIN
 type: Fiction
-durationInMinutes: "234"
+durationInMinutes: "115"
 thumbnail: /img/film-stills/coyote-leaping.jpeg
 stills:
-  - still: /img/film-stills/dude.jpeg
-  - still: /img/film-stills/camille.png
-director: asdf
-producer: asdf
-execProducer: asdf
+  - still: /static/img/film-stills/coucher_soleil_col_midi-ļchristmas-in-july.jpg
+  - still: /static/img/film-stills/le_bras_lumineux-ёchristmas-in-july.jpg
+  - still: /static/img/film-stills/tente_sous_la_neige-ļchristmas-in-july.jpg
+director: Thomas Salvador
+producer: Julie Salvador
+execProducer: NA
 cast:
-  - actor: asdfasdf
-  - actor: fewfwewfew
-  - actor: jfghjfghjfghj
-music: asdf
-cinematography: asdf
-editor: asdf
-contact: asdf@asdfa.com
-filmWebsite: http://asdf.com
-filmTrailer: http://asdfasd.com
+  - actor: Thomas Salvador (Pierre)
+  - actor: Louise Bourgoin (Léa)
+  - actor: Laurent Poitrenaux (Marc)
+  - actor: Andranic Manet (Julien)
+  - actor: Sylvain Frendo (The Mountain Guide)
+  - actor: Catherine Lefroid (The Nurse)
+  - actor: Lucie Vadot (The Mountaineer Woman)
+  - actor: Alexandre Marchesseau  (The Mountaineer Man)
+  - actor: Adam Pouilhe (Martin)
+music: Chloé Thevenin
+cinematography: Alexis Kavyrchine
+editor: Mathilde Muyard
+contact: e.riedin@le-pacte.com
+filmWebsite: https://le-pacte.com/international/film/the-mountain
+filmTrailer: https://vimeo.com/781858827?embedded=true&source=vimeo_logo&owner=11931828
 screenings:
-  - dateTime: 2023-01-08T03:43:04.371Z
+  - dateTime: Saturday, April 01 18:00
     venue: venue1
-  - dateTime: 2023-04-25T02:44:14.511Z
-    venue: venue2
 ---
-The Days of Our Lives follows the story of a talented but mysterious artist who has retreated from the world and lives in a room filled with instruments. Despite his solitude, he continues to create beautiful music that captures the hearts of those who hear it.
+Pierre, a Parisian engineer, goes up in the Alps for his work. Irresistibly attracted by what surrounds him, he camps out alone high in the mountains and leaves behind his everyday life. He meets Léa, a chef of an alpine restaurant, while mysterious glows glitter in the deep mountains. Pierre is drawn to it, mesmerizing and transforming him in ways he would never imagine. 
 
-As the film begins, we see the musician at work, composing and rehearsing in his isolated space. Through flashbacks, we learn that he was once a celebrated musician, but something caused him to withdraw from the public eye.
+The Mountain, starring the director as Pierre, is a beguiling personal journey of  isolation from society that opens a unique brand of introspection and almost mystic doors.   Thomas Salvador is a filmmaker like no other, surprising audiences by capturing modern malaise and internal tensions in humble, simple and cinema ways that are deep in their ambition. 
 
-As the film unfolds, we see the musician's relationships with those around him - an old friend who tries to coax him out of his shell, a young musician who seeks his mentorship, and a love interest who helps him confront his past.
-
-Despite the musician's reluctance to open up and share his music with the world, he eventually realizes that his talent was meant to be shared. He steps out of his comfort zone and performs at a local venue, bringing joy and inspiration to those in attendance.
-
-The Days of Our Lives is a poignant and moving tale about the power of music to heal and connect us all. It's a must-see film for music lovers and anyone who has ever struggled with fear and self-doubt.
+Q﻿&A with the director
