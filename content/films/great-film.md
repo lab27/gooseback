@@ -1,5 +1,5 @@
 ---
-title: The Fishbowl ((La Pecera)
+title: THE FISHBOWL (LA PECEARA)
 type: Fiction
 durationInMinutes: "92"
 thumbnail: /static/img/film-stills/lapecera-main.jpg
