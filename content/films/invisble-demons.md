@@ -1,36 +1,45 @@
 ---
-title: INVISBLE DEMONS
-type: Fiction
-durationInMinutes: "70"
+title: THE OIL MACHINE
+type: Documentary
+durationInMinutes: "82"
 thumbnail: /static/img/film-stills/invisible_demons_still_-c-toinen-katse-oy-ma.ja.de.-filmproduktions-gmbh-2021-2.jpg
 stills:
   - still: /static/img/film-stills/wfm-locations.jpg
   - still: /static/img/film-stills/coyote-leaping.jpeg
-director: wefwef
-producer: ahdgh
-execProducer: hsru6sft asdfg
+director: Emma Davie
+producer: Sonja Henrici
+execProducer: James Marriott, Terry Macalister
 cast:
-  - actor: asdfasf
-  - actor: rdhthdgf
-  - actor: y8rifyc
-music: stghdg
-cinematography: sdfgsdfg
-editor: sdfgsdg
-contact: dfgjfghkjf@arfc.com
-filmWebsite: http://asdfas.com
-filmTrailer: http://sdfasdfds.com
+  - actor: Holly Gillibrand
+  - actor: James Marriott
+  - actor: Deirdre Michie
+  - actor: Emeka Emembolu
+  - actor: Phil Kirk
+  - actor: Prof. Kevin Anderson
+  - actor: Sir David King
+  - actor: Ann Pettifor
+  - actor: Dr. Ewan Gibbs
+music: Alexandra Hamilton-Ayres
+cinematography: Julian Schwanitz
+editor: Martin Kayser Landwehr
+contact: alex.rowley@ar-pr.co.uk
+filmWebsite: https://www.theoilmachine.org
+filmTrailer: https://www.youtube.com/watch?v=6JfArIOGC-A
 screenings:
-  - dateTime: Saturday, January 07 20:20
+  - dateTime: Sunday, April 02 14:00
     venue: venue2
-  - dateTime: Saturday, January 07 20:20
-    venue: venue3
 ---
-In the film "Desert Peony," we follow the story of a young woman named Sophia who is struggling to find meaning and purpose in her life. She feels lost and alone in the vast desert, until one day she stumbles upon a beautiful peony flower blooming in the sand.
+Oil has been an invisible machine at the core of our economy and society. It now faces an uncertain future as activists and investors demand change. Is this the end of oil?
 
-Sophia is captivated by the peony and becomes determined to nurture it and help it thrive in the harsh desert environment. As she cares for the flower, Sophia begins to discover her own strength and resilience. She finds joy in the simple act of tending to the peony, and begins to believe that she too can thrive and find happiness in the desert.
+By highlighting the complexities of how oil is embedded in our society – from high finance to cheap consumer goods – THE OIL MACHINE brings together a wide range of voices from oil company executives, economists, young activists, workers, scientists, and pension fund managers. It considers how this machine can be tamed, dismantled, or repurposed.
 
-As the peony blooms, Sophia finds herself falling in love with the flower and the life it represents. She begins to see the beauty and potential in the desert, and feels a sense of connection to the land and the people who live there.
+We have five to ten years to control our oil addiction, and yet the licensing of new oil fields continues in direct contradiction with the Paris Climate Agreement. This documentary looks at how the drama of global climate action is playing out in the fight over North Sea oil.
 
-As Sophia's love for the peony deepens, she begins to understand that true love is about acceptance and understanding, and not about trying to change or control the other person. She learns to let go of her expectations and desires, and to embrace the imperfections and quirks that make the peony and the desert so special.
+Oil companies are convinced that they can continue to keep drilling while keeping to Net Zero ambitions through adopting new technologies, such as carbon capture. But climate scientists are deeply sceptical of the Net Zero concept and the time it would take for these technologies to be effective.
 
-In the end, Sophia's journey with the peony helps her to find her own path and to understand the true meaning of love. She learns that it is possible to find beauty and happiness in unexpected places, and that love can blossom and thrive in even the most unlikely of circumstances.
+The film reveals the hidden infrastructure of oil from the offshore rigs and the buried pipelines to its flow through the stock markets of London. As the North Sea industry struggles to meet the need to cut carbon emissions, oil workers see their livelihoods under threat, and investors seek to protect their assets. Meanwhile a younger generation of climate activists are catalysed by the signs of impending chaos, and the very real threat of global sea level rises. THE OIL MACHINE explores the complexities of transitioning away from oil and gas as a society and considers how quickly we can do it.
+
+P﻿ART OF CLIMATE/ACTION PROGRAM
+
+VQ﻿&A with director and contributors of the film on Zoom, following the screening.
+
