@@ -1,4 +1,6 @@
 ---
+contact: "intlfest@mk2.com Anaëlle JOUANNARD "
+execProducer: Jeff Skoll, Diane Weyermann, Frank Lehmann
 title: INVISBLE DEMONS
 type: Fiction
 durationInMinutes: "71"
@@ -6,16 +8,16 @@ thumbnail: /static/img/film-stills/invisible_demons_still_-c-toinen-katse-oy-ma.
 stills:
   - still: /static/img/film-stills/wfm-locations.jpg
   - still: /static/img/film-stills/coyote-leaping.jpeg
+country: India
+language: English/Hindi
 director: Rahul Jain
-producer: Iikka Vehkalahti, Heino Deckert
-execProducer: Jeff Skoll, Diane Weyermann, Frank Lehmann
 cast: []
 music: Kimmo Pohjonen
 cinematography: Director of Photography
 editor: Yael Bitton
-contact: "intlfest@mk2.com Anaëlle JOUANNARD "
-filmWebsite: https://mk2films.com/en/film/invisible-demons/
 filmTrailer: https://www.youtube.com/watch?v=AkJ_yO0OouU
+producer: Iikka Vehkalahti, Heino Deckert
+filmWebsite: https://mk2films.com/en/film/invisible-demons/
 screenings:
   - dateTime: Sunday, April 02 18:00
     venue: venue1

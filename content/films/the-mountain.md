@@ -1,4 +1,6 @@
 ---
+contact: e.riedin@le-pacte.com
+execProducer: NA
 title: THE MOUNTAIN
 type: Fiction
 durationInMinutes: "115"
@@ -7,9 +9,9 @@ stills:
   - still: /static/img/film-stills/coucher_soleil_col_midi-ļchristmas-in-july.jpg
   - still: /static/img/film-stills/le_bras_lumineux-ёchristmas-in-july.jpg
   - still: /static/img/film-stills/tente_sous_la_neige-ļchristmas-in-july.jpg
+country: France
+language: French
 director: Thomas Salvador
-producer: Julie Salvador
-execProducer: NA
 cast:
   - actor: Thomas Salvador (Pierre)
   - actor: Louise Bourgoin (Léa)
@@ -23,9 +25,9 @@ cast:
 music: Chloé Thevenin
 cinematography: Alexis Kavyrchine
 editor: Mathilde Muyard
-contact: e.riedin@le-pacte.com
-filmWebsite: https://le-pacte.com/international/film/the-mountain
 filmTrailer: https://vimeo.com/781858827?embedded=true&source=vimeo_logo&owner=11931828
+producer: Julie Salvador
+filmWebsite: https://le-pacte.com/international/film/the-mountain
 screenings:
   - dateTime: Saturday, April 01 18:00
     venue: venue1

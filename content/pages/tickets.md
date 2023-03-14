@@ -1,6 +1,6 @@
 ---
 heading: Get Tix
-link: https://www.eventbrite.com/
+link: https://filmfreeway.com/GasebackFilmFestival/tickets
 ---
 **Tickets for screenings and conversations:**  100 kr
 

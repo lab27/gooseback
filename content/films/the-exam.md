@@ -1,4 +1,6 @@
 ---
+contact: festivals@arthoodentertainment.com
+execProducer: NA
 title: THE EXAM
 type: Fiction
 durationInMinutes: "89"
@@ -8,9 +10,9 @@ stills:
   - still: /static/img/film-stills/05_the_exam_300_dpi_©_mitosfilm.jpg
   - still: /static/img/film-stills/03_the_exam_300_dpi_©_mitosfilm.jpg
   - still: /static/img/film-stills/01_the_exam_©_300dpi_mitosfilm.jpg
+country: Iraq
+language: Arabic
 director: Shawkat Amin Korki
-producer: Mehmet Aktaş
-execProducer: NA
 cast:
   - actor: Avan Jamal (Shilan)
   - actor: Vania Salar (Rojin)
@@ -20,9 +22,9 @@ cast:
 music: Mehmûd Berazî
 cinematography: Adib Sobhani
 editor: Ebrahim Saeedi
-contact: festivals@arthoodentertainment.com
-filmWebsite: https://www.arthoodentertainment.com/eng/
 filmTrailer: https://vimeo.com/584806586?embedded=true&source=vimeo_logo&owner=94714380
+producer: Mehmet Aktaş
+filmWebsite: https://www.arthoodentertainment.com/eng/
 screenings:
   - dateTime: Saturday, April 01 14:00
     venue: venue1
