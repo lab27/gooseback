@@ -1,13 +1,15 @@
 ---
+contact: alex.rowley@ar-pr.co.uk
+execProducer: James Marriott, Terry Macalister
 title: THE OIL MACHINE
 type: Documentary
 durationInMinutes: "82"
 thumbnail: /static/img/film-stills/theoilmachine_still_03_10022800_1.1.3.jpg
 stills:
   - still: /static/img/film-stills/theoilmachine_still_03_10022800_1.1.3.jpg
+country: United Kingdom
+language: English
 director: Emma Davie
-producer: Sonja Henrici
-execProducer: James Marriott, Terry Macalister
 cast:
   - actor: Holly Gillibrand
   - actor: James Marriott
@@ -21,12 +23,12 @@ cast:
 music: Alexandra Hamilton-Ayres
 cinematography: Julian Schwanitz
 editor: Martin Kayser Landwehr
-contact: alex.rowley@ar-pr.co.uk
-filmWebsite: https://www.theoilmachine.org
 filmTrailer: https://www.youtube.com/watch?v=6JfArIOGC-A
+producer: Sonja Henrici
+filmWebsite: https://www.theoilmachine.org
 screenings:
   - dateTime: Sunday, April 02 14:00
-    venue: venue2
+    venue: venue1
 ---
 Oil has been an invisible machine at the core of our economy and society. It now faces an uncertain future as activists and investors demand change. Is this the end of oil?
 
