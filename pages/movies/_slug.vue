@@ -67,7 +67,8 @@
       h2 Screenings
       .film-screenings-list
         .film-screening(v-for="screening in film.screenings")
-          .film-screening-date {{ formattedDate(screening.dateTime)}}
+          //- .film-screening-date {{ formattedDate(screening.dateTime)}}
+          .film-screening-date {{ screening.dateTime}}
           .film-screening-venue 
             a(href="https://goo.gl/maps/24UHpb31Xt13gXQH7" target="_blank") Verkstadsgatan 11
           .film-screening-tickets
