@@ -1,13 +1,15 @@
 ---
+contact: info@visitfilms.com / Visit Films
+execProducer: NA
 title: THE FISHBOWL (LA PECEARA)
 type: Fiction
 durationInMinutes: "92"
 thumbnail: /static/img/film-stills/lapecera-main.jpg
 stills:
   - still: /static/img/film-stills/lapecera-2.jpg
+country: USA/Spain
+language: Spanish
 director: Glorimar Marrero Sánchez
-producer: José Esteban Alenda, Amaya Izquierdo, and Glorimar Marrero-Sánchez
-execProducer: NA
 cast:
   - actor: Isel Rodriguez (Noelia)
   - actor: Modesto Lacén (Juni)
@@ -20,9 +22,9 @@ cast:
 music: Sergio de la Puente
 cinematography: PJ López, SPC
 editor: Clara Martínez Malagelada
-contact: info@visitfilms.com / Visit Films
-filmWebsite: https://visitfilms.com/
 filmTrailer: https://vimeo.com/807408384
+producer: José Esteban Alenda, Amaya Izquierdo, and Glorimar Marrero-Sánchez
+filmWebsite: https://visitfilms.com/
 screenings:
   - dateTime: Friday, March 31 18:00
     venue: venue1
