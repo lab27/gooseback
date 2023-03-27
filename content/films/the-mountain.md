@@ -35,5 +35,3 @@ screenings:
 Pierre, a Parisian engineer, goes up in the Alps for his work. Irresistibly attracted by what surrounds him, he camps out alone high in the mountains and leaves behind his everyday life. He meets Léa, a chef of an alpine restaurant, while mysterious glows glitter in the deep mountains. Pierre is drawn to it, mesmerizing and transforming him in ways he would never imagine. 
 
 The Mountain, starring the director as Pierre, is a beguiling personal journey of  isolation from society that opens a unique brand of introspection and almost mystic doors.   Thomas Salvador is a filmmaker like no other, surprising audiences by capturing modern malaise and internal tensions in humble, simple and cinema ways that are deep in their ambition. 
-
-Q﻿&A with the director
