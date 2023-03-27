@@ -33,4 +33,3 @@ Noelia, a 40-year-old Puerto Rican visual artist, discovers her cancer has metas
 
 As Noelia’s health worsens and she joins her neighbors to secretly enter closed testing areas to document undetonated bombs and toxic remains, her struggle to survive and the struggle of Vieques to recover from decades of bomb testing become inextricably intertwined. When an approaching hurricane threatens the island and Noelia rekindles an old romance, she faces the decision to leave and seek treatment or stay with her community.
 
-V﻿irtual Q&A with Glorimar Marrero Sánchez
