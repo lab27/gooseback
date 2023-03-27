@@ -2,4 +2,10 @@
 heading: Discussions
 isAnnounced: false
 ---
-In-conversations with filmmakers and creators will be announced in mid-March. Some will be live discussions, others over Zoom. This is your chance to meet the filmmakers and hear their insights into the craft of filmmaking.
+Artist Activist from Crude Britannia & Just Transition, James Marriott will appear on Zoom to discuss his feature documentary ‘The Oil Machine’ at 14.00, Sunday April 2nd. 
+
+Questions from the audience welcomed. Q&A moderated by Hussain Currimbhoy of the Gåsebäck Film Festival. 
+
+
+
+Director Rahul Jain will appear on Zoom to talk craft, process and the themes within his new film ‘Invisible Demons’. Screening is at 18:00, Q&A starting at 19:30. Bring all your climate change questions!
