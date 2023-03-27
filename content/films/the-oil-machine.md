@@ -42,5 +42,4 @@ The film reveals the hidden infrastructure of oil from the offshore rigs and the
 
 P﻿ART OF CLIMATE/ACTION PROGRAM
 
-VQ﻿&A with director and contributors of the film on Zoom, following the screening.
-
+Q﻿&A with James Marriott on Zoom following the screening
