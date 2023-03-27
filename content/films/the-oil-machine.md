@@ -36,9 +36,9 @@ By highlighting the complexities of how oil is embedded in our society – from 
 
 We have five to ten years to control our oil addiction, and yet the licensing of new oil fields continues in direct contradiction with the Paris Climate Agreement. This documentary looks at how the drama of global climate action is playing out in the fight over North Sea oil.
 
-Oil companies are convinced that they can continue to keep drilling while keeping to Net Zero ambitions through adopting new technologies, such as carbon capture. But climate scientists are deeply sceptical of the Net Zero concept and the time it would take for these technologies to be effective.
+Oil companies are convinced that they can continue to keep drilling while keeping to Net Zero ambitions through adopting new technologies, such as carbon capture. But climate scientists are deeply skeptical of the Net Zero concept and the time it would take for these technologies to be effective.
 
-The film reveals the hidden infrastructure of oil from the offshore rigs and the buried pipelines to its flow through the stock markets of London. As the North Sea industry struggles to meet the need to cut carbon emissions, oil workers see their livelihoods under threat, and investors seek to protect their assets. Meanwhile a younger generation of climate activists are catalysed by the signs of impending chaos, and the very real threat of global sea level rises. THE OIL MACHINE explores the complexities of transitioning away from oil and gas as a society and considers how quickly we can do it.
+The film reveals the hidden infrastructure of oil from the offshore rigs and the buried pipelines to its flow through the stock markets of London. As the North Sea industry struggles to meet the need to cut carbon emissions, oil workers see their livelihoods under threat, and investors seek to protect their assets. Meanwhile a younger generation of climate activists are catalyzed by the signs of impending chaos, and the very real threat of global sea level rises. THE OIL MACHINE explores the complexities of transitioning away from oil and gas as a society and considers how quickly we can do it.
 
 P﻿ART OF CLIMATE/ACTION PROGRAM
 
