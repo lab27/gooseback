@@ -478,6 +478,10 @@ main.film-detail .back-button {
   place-content: center;
 }
 
+.sponsors-grid li img {
+  width: 100%;
+}
+
 .staff-grid {
   @apply grid grid-cols-1 lg:grid-cols-2 gap-4;
 }
