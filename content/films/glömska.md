@@ -3,15 +3,19 @@ title: Glömska
 type: Fiction
 durationInMinutes: "10"
 thumbnail: /static/img/film-stills/glömska-2.jpg
+stills: []
 country: Sweden
 language: Swedish
 director: Vivien Yue
 producers:
   - producer: David Väcklén
 cast:
-  - actor: Christoffer Linde (Man In The Apartment)
-  - actor: Christina Wideland (Cleaning Lady)
-  - actor: Maria Svensson (Woman in Stairwell)
+  - actor: Christoffer Linde 
+  - actor: (Man In The Apartment)
+  - actor: Christina Wideland 
+  - actor: (Cleaning Lady)
+  - actor: Maria Svensson 
+  - actor: (Woman in Stairwell)
 music: NA
 cinematography: David Väcklén
 editor: NA
