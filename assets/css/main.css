@@ -88,6 +88,14 @@ a.underlined-link {
   background-color: white;
 }
 
+.page-when h4 {
+  font-weight: 700;
+}
+
+.page-when ul {
+  margin-bottom: 2rem;
+}
+
 .lead-text {
   max-width: 720px;
 }

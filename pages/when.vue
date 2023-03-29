@@ -1,5 +1,5 @@
 <template lang="pug">
-  main
+  main.page-when
     h1 {{ page.heading }}
     nuxt-content.lead-text(:document="page")
 </template>
