@@ -5,8 +5,8 @@ link: https://filmfreeway.com/GasebackFilmFestival/tickets
 **Tickets for screenings and conversations:**  100 kr
 
 **Students/Pensioners:** 70 kr 
-U﻿se discount code Gåsebäckdiscount2023 at Film Freeway check out
+U﻿se discount code GasbackFlimFestival23 at Film Freeway check out
 
-L﻿imited tickets also availble on site. 
+L﻿imited tickets also available on site. 
 
-V﻿enue opens 2 hours before the first screening.
+V﻿enue opens 1 hour before the first screening.
