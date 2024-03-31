@@ -2,6 +2,7 @@
   main.page-when
     h1 {{ page.heading }}
     nuxt-content.lead-text(:document="page")
+    Calendar
 </template>
 
 <script>
