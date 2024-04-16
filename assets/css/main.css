@@ -5,13 +5,15 @@
 
 
 :root {
-  --c-gold: #FBAF1D;
-  --c-red: #F35336;
+  --c-gold: #f0825c;
+  --c-red: #754655;
   --c-brown: #4F3A2E;
-  --c-beige: #FEEFD2;
+  --c-beige: #fcdfd6;
   --c-black: #140C08;
+  --c-blue: #2eb9d9;
+  --c-dark-blue: #0f3253;
   --easing-curve1: cubic-bezier(0, .67, .52, 1);
-  --background-color: var(--c-beige);
+  --background-color: var(--c-black);
 }
 
 html {
@@ -30,7 +32,39 @@ body {
   --background-color: var(--c-beige);
   min-height: 100vh;
   height: 100%;
-  color: var(--c-black)
+  color: var(--c-be)
+}
+
+.sky {
+  position: absolute;
+  inset: 0;
+  height: calc(100dvh / 3 * 2);
+  z-index: -1;
+}
+
+.sky-bg1 {
+  background :  linear-gradient(180deg, rgba(185, 106, 107, 1) 0%, rgba(194, 111, 104, 1) 14.4%, rgba(220, 123, 97, 1) 38.25%, rgba(245, 135, 89, 1) 57.64%, rgba(245, 138, 93, 1) 65.08%, rgba(246, 147, 105, 1) 72.66%, rgba(247, 161, 126, 1) 80.3%, rgba(249, 182, 154, 1) 87.98%, rgba(251, 208, 191, 1) 95.63%, rgba(253, 225, 215, 1) 100%);
+}
+
+.sky-bg2 {
+background: linear-gradient(180deg,  rgba(210, 109, 74, .2), rgba(210, 109, 74, 1),  rgba(210, 109, 74, .2) );
+/* background: linear-gradient(180deg, red 20%, transparent); */
+mix-blend-mode: multiply;
+opacity: .6;
+}
+
+.sky-bg3 {
+background: linear-gradient(180deg, #754755, transparent);
+mix-blend-mode: multiply;
+opacity: .6;
+}
+
+.horizon {
+  position: absolute;
+  inset: 0;
+  background: url(/img/horizon.webp);
+  background-size: cover;
+  height: 100vh;
 }
 
 a.underlined-link {
@@ -59,13 +93,15 @@ a.underlined-link {
   transform-origin: top right;
 }
 
-.moving-title .g {
+ .title-g {
   position: relative;
-} 
-.moving-title .ff {
+  color: #f0825c;
+}
+.title-ff {
   position: relative;
   transform-origin: 100% 100%;
-} 
+  color: #fcdfd6;
+}
 
 .logo-wrapper {
   height: 7rem;
@@ -81,6 +117,10 @@ a.underlined-link {
 .page-home {
   --background-color: var(--c-gold);
   background-color: var(--c-gold);
+  background: url(/img/poster.webp);
+  background-size: cover;
+  background-position: center;
+  color: var(--c-beige);
 }
 
 .page-sponsors {
@@ -156,7 +196,7 @@ header nav {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
   header nav {
     top: 5rem;
     left: 3rem;
@@ -179,7 +219,7 @@ header nav {
 }
 
 header nav li a {
-  background: linear-gradient(to right, var(--background-color), var(--background-color) 33%, var(--c-black) 66%, var(--c-black) 100%);
+  background: linear-gradient(to right, var(--background-color), var(--background-color) 33%, var(--c-blue) 66%, var(--c-blue) 100%);
   background-size:400% 2px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -205,6 +245,7 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
   max-width: calc(100% - 80px);
+  color: var(--c-dark-blue);
 }
 
 .page-home h1 {
@@ -284,7 +325,7 @@ main.film-detail .back-button {
   position: relative;
   top: 0.375em;
   padding-right: 0.375em;
-  
+
 }
 
 .film-credits-value {
@@ -557,7 +598,7 @@ main .talk-info {
   opacity: 1;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
   .tickets-grid .tickets-button {
     position: absolute;
   }
@@ -596,4 +637,19 @@ footer.site-footer {
 
 .mobile-info-block {
   @apply block lg:hidden;
+}
+
+.mobile-dates,
+.mobile-location {
+  color: var(--c-blue);
+}
+
+.page-movies .title-ff,
+.page-talks .title-ff,
+.page-schedule .title-ff,
+.page-about .title-ff,
+.page-tickets .title-ff,
+.page-venues .title-ff
+ {
+  color: var(--c-gold);
 }

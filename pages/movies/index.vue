@@ -1,8 +1,13 @@
 <template lang="pug">
   main
     h1 The Movies
-    nuxt-content.lead-text(:document="filmPage")
-    ul.film-grid
+    //- nuxt-content.lead-text(:document="filmPage")
+    p Program to be announced mid-August 2024
+    br
+    a(href="https://filmfreeway.com/GasebackFilmFestival" target="_blank").submit-link
+      span.email Submit A Film
+      span.external &nbsp;&#8599;
+    //- ul.film-grid
       li(v-for="film in films")
         nuxt-link(:to="`/movies/${film.slug}`")
           .film-thumbnail-wrapper

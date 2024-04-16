@@ -7,7 +7,7 @@
   MetaBlock
   //- ButtonBlock
   Footer
-  Ruler
+  //- Ruler
   transition(name="fade")
     MobileNav(v-if="isMobile")
 </template>
@@ -74,7 +74,7 @@ export default {
           this.onContentPageLoaded()
         })
       }
-     
+
     },
   }
 }
