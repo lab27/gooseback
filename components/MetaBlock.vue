@@ -3,6 +3,8 @@
     p.ornament &plus;
     p Friday August 30 —
     p Sunday September 1
+    p 2024
+    br
     p Gåsebäck
     p.ornament *
     p Helsingborg

@@ -8,7 +8,7 @@ main
     h1.text-center.mb-2.title-g Gåsebäck
       br
       span.title-ff Film Festival
-    p.mobile-dates.text-center August 30 — September 1, 2023
+    p.mobile-dates.text-center August 30 — September 1, 2024
     p.mobile-location.text-center Gåsebäck, Helsingborg
     //- img(src="/img/ok-hand-film.svg", alt="Film Reel Hand Illustration").m-auto
 </template>

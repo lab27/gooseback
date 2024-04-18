@@ -119,7 +119,7 @@ a.underlined-link {
   background-color: var(--c-gold);
   background: url(/img/poster.webp);
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
   color: var(--c-beige);
 }
 
