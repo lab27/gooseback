@@ -5,8 +5,13 @@ logos:
     logo: /static/img/sponsor-logos/logo_helsingborg.png
   - logo: /static/img/sponsor-logos/revelop_logo.svg
     name: Revelop
+  - name: Film i Skåne
+    logo: /static/img/sponsor-logos/film-i-skane_rgb_kvadrat_pos.svg
 ---
-The festival is made possible through the support of Helsingborg Stad, and Master Mechanic Films AB.
-V﻿ery special thanks to our friends at Revelop for the venue sponsorship!
+Gåsebäck Film Festival is an independently funded film culture event. The festival is only possible due to the generous support of Helsingborg Stad, Film I Skåne and Master Mechanic Films AB. 
 
-Want to be a sponsor? Email us: hussain@mastermechanicfilms.com[](mailto:sponsors@gff.se)
+And v﻿ery special thanks to our friends at Revelop for the venue sponsorship! 
+
+If you would like to support the festival or become a sponsor please email us: info@gasebackfilmfestival.com[](mailto:sponsors@gff.se)
+
+See you at the festival !
