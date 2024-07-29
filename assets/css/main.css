@@ -621,7 +621,7 @@ main.film-detail {
 }
 
 .socials-grid {
-  @apply grid grid-cols-4 gap-4;
+  @apply grid grid-cols-3 gap-4;
   width: fit-content;
   justify-self: center;
 }
