@@ -1,27 +1,28 @@
 ---
-title: ENYS MEN
+title: AGRA
 type: Fiction
-durationInMinutes: "91"
-thumbnail: /static/img/film-stills/003-enys-men-the-volunteer-mary-woodvine-bosena-©-2022-_1.19.1.jpg
+durationInMinutes: 132 minutes
+thumbnail: /static/img/film-stills/e1a0096-160x107.jpg
 stills:
-  - still: /static/img/film-stills/001-enys-men-the-volunteer-mary-woodvine-bosena-©-2022-_1.555.1.jpg
-country: United Kingdom
-language: English
-director: Mark Jenkins
+  - still: /static/img/film-stills/e1a2111-3-160x114.jpg
+country: India
+language: Hindi
+director: Kanu Behl
 producers:
-  - producer: Denzil Monk
+  - producer: "Vikram Mehra "
+  - producer: Siddarth Anand Kumar
+  - producer: "William Jéhannin "
+  - producer: Kanu Behl
 cast:
-  - actor: Mary Woodvine (The Volunteer)
-  - actor: Edward Rowe	(The Boatman)
-  - actor: Flo Crowe (The Girl	)
-  - actor: John Woodvine (The Preacher)
-  - actor: Joe Gray (The Miner)
-  - actor: Loveday Twomlow (The Baby)
-music: NA
-cinematography: Mark Jenkin
-editor: Mark Jenkin
-contact: julia.dicosta@nonstopentertainment.com
-filmTrailer: https://www.youtube.com/watch?v=f7Pwf94_XLY
+  - actor: Mohit Agarwal
+  - actor: "Priyanka Bose "
+  - actor: "Rahul Roy "
+  - actor: Vibha Chibber
+music: Karan Gour
+cinematography: Saurabh Monga
+editor: Samarth Dixit and Nitesh Bhatia
+contact: pascale@pascaleramonda.com
+filmTrailer: https://www.youtube.com/watch?v=ooCxCQh1dcI&themeRefresh=1
 execProducers:
   - execProducer: Deborah Boden
   - execProducer: Ben Coren
@@ -29,9 +30,9 @@ execProducers:
   - execProducer: Johnny Fewings
   - execProducer: Kingsley Marshall
   - execProducer: Denzil Monk
-filmWebsite: https://www.enysmen.co.uk/
+filmWebsite: https://www.pascaleramonda.com/agra/
 screenings:
-  - dateTime: Saturday, April 01 21:00
+  - dateTime: Saturday, August 31 18:00
     venue: venue1
 ---
-Shot on 16mm, this Cornish folk horror film unfolds on an uninhabited island in the Celtic Sea where a wildlife volunteer’s daily observations of a rare flower takes a dark turn into the strange and metaphysical. Jostling between dreams and reality, between cinematic and Cornish folklore, what we encounter is a  richly authentic portrait of Cornwall -  an ancient yet fresh land defined by working class industry locked in an elemental struggle with the sea and driven by a palpable sense of the past underpinning the future. ENYS MEN means ’stone island’. But this  dreamy, measured, haunted tale of what lies between myth and reality will mean something very different for everyone. Sparse, naturalist and often times sublime, Mark Jenkin’s second feature is a highly unusual but fascinating cinematic experience that establishes  a new and exciting voice in British cinema. 
+Guru, a young man in his twenties, works in a call center in Agra. In love with Mala, a work colleague, he stills lives with his parents, whose house is divided in two parts. Guru lives on the ground floor with his mother while his father is upstairs with his mistress. when Guru announces that he wants to marry Mala, and make the terrace of the house his future bedroom, nothing goes as planned. Frustrations, faults and family hatreds come to light, symptoms of an Indian patriarchal society with many taboos.
