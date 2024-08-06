@@ -2,6 +2,7 @@
 title: GREEN NIGHT
 type: Fiction
 durationInMinutes: "92"
+program: features
 thumbnail: /static/img/film-stills/green-night_05_fan-bingbing-lee-joo-young-©-demei-holdings-limited-hong-kong-.jpg
 country: Hong Kong
 language: Korean

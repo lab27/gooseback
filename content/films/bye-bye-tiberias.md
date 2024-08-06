@@ -2,6 +2,7 @@
 title: "BYE BYE TIBERIAS "
 type: Documentary
 durationInMinutes: "82"
+program: features
 thumbnail: /static/img/film-stills/1.-hiam_lina_deir-hanna-night_credit_frida-marzouk_beall-productions.jpg
 stills:
   - still: /static/img/film-stills/5.-hiam-lina-collage-paris_credit_thomas-brémond_beall-productions.jpg

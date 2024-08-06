@@ -1,6 +1,7 @@
 ---
 title: TOMORROW'S FREEDOM
 type: Documentary
+program: features
 durationInMinutes: "97"
 thumbnail: /static/img/film-stills/untitled-19.jpg
 stills:

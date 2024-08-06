@@ -2,6 +2,7 @@
 title: TEDIOUS DAYS AND NIGHTS
 type: Documentary
 durationInMinutes: "110"
+program: features
 thumbnail: /static/img/film-stills/still3.png
 stills:
   - still: /static/img/film-stills/still4.jpeg

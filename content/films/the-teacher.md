@@ -2,6 +2,7 @@
 title: THE TEACHER
 type: Fiction
 durationInMinutes: "115"
+program: features
 thumbnail: /static/img/film-stills/the-teacher-still-1.jpg
 country: United Kingdom, Palestine
 language: Arabic, English

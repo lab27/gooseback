@@ -2,6 +2,7 @@
 title: AGRA
 type: Fiction
 durationInMinutes: 132 minutes
+program: features
 thumbnail: /static/img/film-stills/e1a0096-160x107.jpg
 stills:
   - still: /static/img/film-stills/e1a2111-3-160x114.jpg

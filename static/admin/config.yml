@@ -43,7 +43,7 @@ collections:
             label_singular: Sponsor
             name: logos
             widget: list
-            fields: 
+            fields:
               - { label: Name, name: name, widget: string}
               - label: Logo
                 name: logo
@@ -56,11 +56,11 @@ collections:
           - {label: Heading, name: heading, widget: string}
           - {label: About, name: body, widget: markdown}
           - label: Staff
-            name: staff 
+            name: staff
             label_singular: Person
             create: true
             widget: list
-            fields: 
+            fields:
               - { label: Name, name: name, widget: string}
               - { label: Role, name: role, widget: string}
               - { label: 'Email', name: 'email', widget: 'string', hint: Must be in valid email address format, pattern: ['\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b', 'Full email address format']}
@@ -80,6 +80,7 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Type', name: 'type', widget: 'select', options: ['Documentary', 'Fiction'] }
+      - { label: 'Program', name: 'program', widget: select, options: ['features', 'shorts1', 'shorts2'] }
       - { label: 'Duration in Minutes', name: 'durationInMinutes', widget: 'string' }
       - label: "Featured Image"
         name: "thumbnail"
@@ -91,7 +92,7 @@ collections:
         allow_add: true
         label_singular: Additional Still
         summary: '{{fields.still}}'
-        fields: 
+        fields:
           - {label: Still, name: still, widget: image, media_folder: "/static/img/film-stills" }
       - { label: 'Synopsis', name: 'body', widget: 'markdown' }
       - { label: 'Country', name: 'country', widget: 'string' }
@@ -104,7 +105,7 @@ collections:
         allow_add: true
         label_singular: Producer
         summary: '{{fields.producer}}'
-        fields: 
+        fields:
           - {label: Producer, name: producer, widget: string }
       - label: 'Executive Producers'
         name: 'exectProducers'
@@ -112,7 +113,7 @@ collections:
         allow_add: true
         label_singular: Executive Producer
         summary: '{{fields.execProducer}}'
-        fields: 
+        fields:
           - {label: Executive Producer, name: exectProducer, widget: string }
       - label: 'Cast'
         name: 'cast'
@@ -120,7 +121,7 @@ collections:
         allow_add: true
         label_singular: Cast Member
         summary: '{{fields.actor}}'
-        fields: 
+        fields:
           - {label: Actor, name: actor, widget: string }
       - { label: 'Music', name: 'music', widget: 'string' }
       - { label: 'Cinematography', name: 'cinematography', widget: 'string' }
@@ -129,12 +130,12 @@ collections:
       - { label: 'Film Website', name: 'filmWebsite', widget: 'string', hint: Must be the full URL to the site ("http://mysite.com"), pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', 'Must be a full URL'] }
       - { label: 'Film Trailer', name: 'filmTrailer', widget: 'string', hint: Must be the full URL to the site ("http://youtu.be/12345"), pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', 'Must be a full URL'] }
       - label: Screenings
-        name: screenings 
-        label_singular: screening 
+        name: screenings
+        label_singular: screening
         allow_add: true
-        widget: list 
+        widget: list
         summary: "{{dateTime | date('dddd, MMMM DD HH:mm')}}"
-        fields: 
+        fields:
           - {label: Date/Time, name: dateTime, widget: datetime,  date_format: "dddd, MMMM DD", time_format: "HH:mm", format: "dddd, MMMM DD HH:mm"}
           - {label: Venue, name: venue, widget: select, options: [venue1, venue2, venue3]}
   - name: talks

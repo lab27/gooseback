@@ -2,6 +2,7 @@
 title: THE FEELING THAT THE TIME FOR DOING SOMETHING HAS PASSED
 type: Fiction
 durationInMinutes: 87mins
+program: features
 thumbnail: /static/img/film-stills/still-1.jpg
 stills:
   - still: /static/img/film-stills/still-2.jpg
