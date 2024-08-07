@@ -19,6 +19,9 @@ collections:
           - {label: Heading, name: heading, widget: string}
           - {label: Body, name: body, widget: markdown}
           - {label: Announced, name: isAnnounced, widget: boolean }
+          - {label: 'Features Description', name: featuresDescription, widget: string, required: false}
+          - {label: 'Shorts 1 Description', name: shorts1Description, widget: string, required: false}
+          - {label: 'Shorts 2 Description', name: shorts2Description, widget: string, required: false}
       - label: "Discussions Page"
         name: "discussions"
         file: "/content/pages/discussions.md"

@@ -1,6 +1,9 @@
 ---
 heading: The Movies
 isAnnounced: false
+featuresDescription: These are the features and this is an introductory paragraph about them.
+shorts1Description: This is a short introduction to the Shorts Program 1.
+shorts2Description: This is a short introduction to the Shorts Program 2.
 ---
 Hi! 
 
