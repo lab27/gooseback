@@ -10,7 +10,14 @@ featuresDescription: Selected from some of our favorite film festivals from
 shorts1Description: " A raucous, sometimes cantankerous, black-comedy loving and
   form-challenging deep dive into some of the best emerging filmmaking talent
   from Sweden, and Skåne in particular, and around this weird, wild, wide world.
-  "
+  Shorts Program 2: Short Program 2: Resistance - Dedicated to the act of
+  rebellion and the culture and people of Palestine, we have hand-picked this
+  collection of unpredictable, highly crafted and  emotional short films to
+  build our thematic focus for 2024. The filmmakers come from Palestine, Iran,
+  Europe: but they are all bound by the desire to shine a much needed light on
+  the human price Palestinians must pay in order to survive under Occupation.
+  Nonetheless, humor, family and dignity fuel this special brand of resilience.
+  Catch the shorts that reflect one of the most important moments in history."
 shorts2Description: ""
 ---
 \
