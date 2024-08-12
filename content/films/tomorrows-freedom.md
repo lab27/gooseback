@@ -28,3 +28,10 @@ screenings:
     venue: venue1
 ---
 In 2017 filmmaking sisters Georgia and Sophia Scott gained intimate access to the story of imprisoned Palestinian political leader Marwan Barghouthi. Working closely with Marwan’s family in the occupied West Bank, Palestine, the Scott sisters spent over 3 years following the family as they struggled through Marwan’s prisoner hunger strike. Brought on by harsh prison conditions and the desire to make a stand, the following months were an intense year that took its toll on Marwan’s family and inner circle. The film follows painful prison visits by his family to see Marwan, only to be turned away at the last moment. As the hunger strike builds, we see in depth interviews from the people who know Marwan best, from Israeli political leaders to his lawyers, his sons and beloved wife Fadwa. Highly crafted, daring and humanist in its approach, Tomorrow’s Freedom film builds a powerful picture of a man that might one day lead the Palestinian people. And poses the question; can peace between Israel and Palestine be reached with the right leaders? Is Marwan that leader?
+
+“Marwan Barghouthi is one of those rare historical figures who really could change the course of history.”\
+Brian Eno
+
+Sheffield Doc/Fest
+
+L﻿ondon Palestine Film Festival
