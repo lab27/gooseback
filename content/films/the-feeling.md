@@ -1,8 +1,8 @@
 ---
 title: THE FEELING THAT THE TIME FOR DOING SOMETHING HAS PASSED
 type: Fiction
-durationInMinutes: 87mins
 program: features
+durationInMinutes: 87mins
 thumbnail: /static/img/film-stills/still-1.jpg
 stills:
   - still: /static/img/film-stills/still-2.jpg
@@ -35,3 +35,9 @@ screenings:
     venue: venue1
 ---
 ​Ann, a morose New Yorker in her 30s, feels stuck in all areas of her life. To her dismay, the years have gone by quickly in her long-term casual BDSM relationship, low-level corporate job, and quarrelsome Jewish family. As she begins to feel increasingly alienated, she wrestles with herself and her relationships in this self-deprecating auto-fictional comedy and feature debut from writer/director/actor Joanna Arnow.
+
+A Deceptively Plain Masterpiece - Richard Brody, The New Yorker.
+
+Cannes Director’s Fortnight, 2023
+
+New York Film Festival, 2023
