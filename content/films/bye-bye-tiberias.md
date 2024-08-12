@@ -1,8 +1,8 @@
 ---
 title: "BYE BYE TIBERIAS "
 type: Documentary
-durationInMinutes: "82"
 program: features
+durationInMinutes: "82"
 thumbnail: /static/img/film-stills/1.-hiam_lina_deir-hanna-night_credit_frida-marzouk_beall-productions.jpg
 stills:
   - still: /static/img/film-stills/5.-hiam-lina-collage-paris_credit_thomas-brémond_beall-productions.jpg
@@ -25,3 +25,14 @@ screenings:
 In her early twenties, Hiam Abbass left her native Palestinian village to follow her dream of becoming an actress in Europe, leaving behind her mother, grandmother, and seven sisters. Thirty years later, her filmmaker daughter Lina returns with her to the village and questions for the first time her mother’s bold choices, her chosen exile and the way the women in their family influenced both their lives. 
 
 Set between past and present, Bye Bye Tiberias pieces together images of today, family footage from the nineties and historical archives to portray four generations of daring Palestinian women who keep their story and legacy alive through the strength of their bonds, despite exile, dispossession, and heartbreak.
+
+'this is a deeply emotional film, one that I have to applaud Abbass for having the guts to do. Allowing moments like what she went through to be shown to everyone and anyone shows a bravery mirrored by the women who came before her.
+
+Michael Talbot-Haynes - Film Threat
+
+Nominated for Best Documentary at the 39th Independent Spirit Awards\
+Winner of the international DOXA Feature Documentary Award, DOX Documentary Film Festival 
+
+Winner - Best Documentary - Grierson Awards
+
+ Jury Prize Ex Aequo,  Marrakech Film Festival
