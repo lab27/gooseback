@@ -1,8 +1,8 @@
 ---
 title: THE TEACHER
 type: Fiction
-durationInMinutes: "115"
 program: features
+durationInMinutes: "115"
 thumbnail: /static/img/film-stills/the-teacher-still-1.jpg
 country: United Kingdom, Palestine
 language: Arabic, English
@@ -33,3 +33,19 @@ screenings:
     venue: venue1
 ---
 A Palestinian school teacher (Saleh Bakri) struggles to reconcile his life-threatening commitment to political resistance with his emotional support for one of his students (Muhammad Abed ElRahman) and the chance of a new romantic relationship with a volunteer worker (Imogen Poots).
+
+'Nabulsi... has a sure grasp of emotional give-and-take and day-to-day realities. At the core of her movie are three compelling performances, led by the striking and understated intensity of Saleh Bakri (who starred in Nabulsi’s Oscar-nominated short, The Present).'
+
+Sheri Linden, The Hollywood Reporter.
+
+
+
+Jury Award, Red Sea Int. Film Festival
+
+Audience Award, San Fransisco Int. Film Festival 
+
+Audience Award, Washington DC Int. Film Festival
+
+Audience Award, Cyprus Film Days
+
+Audience Award, Arab Film Days
