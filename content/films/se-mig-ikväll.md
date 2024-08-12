@@ -1,5 +1,5 @@
 ---
-title: "Se mig ikväll "
+title: "Se Mig Ikväll "
 type: Fiction
 program: shorts1
 durationInMinutes: "25"
@@ -13,13 +13,16 @@ language: Swedish
 director: Jonna Carlberg and Paul Raphael D'Indy
 producers:
   - producer: "Fredrik Rönnqvist "
+  - producer: Jonna Carlberg
 cast:
-  - actor: Johannes Wanselow
-  - actor: Magnus Schmitz
+  - actor: Jonna Carlberg
+  - actor: "Jesper Barkselius "
   - actor: Sofia Håarderup
   - actor: "Christoffer Larsson, "
   - actor: Josefine Kinnvall
-music: NA
+  - actor: "Magnus Schmitz "
+  - actor: "Johannes Wanselow "
+music: Aramis Silvereke and Niklas Hammerdahl
 cinematography: Benjamin Zadig
 editor: Paul Raphael D'Indy
 contact: fredrik.r@flaskpostfilm.com
@@ -29,4 +32,4 @@ screenings:
   - dateTime: Saturday, August 31 12:00
     venue: venue1
 ---
-A seemingly ordinary online  hook up evolves  into a special connection between a recent ly divorced man and a woman half his age.
+A seemingly ordinary online  hook up evolves  into a special connection between a man searching for a spark in his life, and a woman half his age.
