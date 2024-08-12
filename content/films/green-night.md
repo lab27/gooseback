@@ -1,9 +1,14 @@
 ---
 title: GREEN NIGHT
 type: Fiction
-durationInMinutes: "92"
 program: features
+durationInMinutes: "92"
 thumbnail: /static/img/film-stills/green-night_05_fan-bingbing-lee-joo-young-©-demei-holdings-limited-hong-kong-.jpg
+stills:
+  - still: <a href="https://filmfreeway.com/GasebackFilmFestival/tickets"
+      target="_blank" title="Get Tickets at FilmFreeway"><img
+      src="https://public-assets.filmfreeway.com/ticket_buttons/v2/sm_ticket_btn@2x-sky-gradient.png"
+      title="Get Tickets at FilmFreeway" width="263" height="49"></a>
 country: Hong Kong
 language: Korean
 director: Han Shuai
