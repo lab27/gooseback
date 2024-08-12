@@ -71,6 +71,13 @@ collections:
                 name: "thumbnail"
                 widget: "image"
                 media_folder: /static/img/staff-portraits
+      - label: "When"
+        name: "when"
+        file: "/content/pages/when.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Announced, name: isAnnounced, widget: boolean }
+          - {label: Body, name: body, widget: markdown}
   - name: films
     label: Films
     label_singular: Film

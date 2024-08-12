@@ -1,13 +1,19 @@
 <template lang="pug">
   main
-    h1 {{ filmPage.heading }}
+    header.films-header
+      h1 {{ filmPage.heading }}
+      .sort-by
+        label Sort by:
+        select(v-model="sortBy")
+          option(value="title") Title
+          option(value="dateTime") Screening Date
     .films-wrapper(v-if="filmPage.isAnnounced")
 
       //- Features
       h2 Features
       p.lead-text {{ filmPage.featuresDescription }}
       ul.film-grid
-        li(v-for="film in films" :key="film.slug" v-if="film.program === 'features'")
+        li(v-for="film in sortedFilms" :key="film.slug" v-if="film.program === 'features'")
           nuxt-link(:to="`/movies/${film.slug}`")
             .film-thumbnail-wrapper
               .thumbnail-arrow-wrapper
@@ -15,13 +21,15 @@
                 Arrow
               .thumbnail-gauze
               NuxtImg(:src="$staticRemover(film.thumbnail)" :alt="film.title" :placeholder="[160, 90, 10]" format="webp" fit="cover" width="1600" height="900" sizes="sm:100vw md:50vw lg:400px xl:800px" preload).thumbnail-image
-            p.film-title {{ film.title }}
+            .film-details-wrapper
+              span.film-title {{ film.title }}
+              span.film-date {{formattedDate(film.screenings[0].dateTime) }}
 
       //- Shorts 1
       h2 Shorts Program 1
       p.lead-text {{ filmPage.shorts1Description }}
       ul.film-grid
-        li(v-for="film in films" :key="film.slug" v-if="film.program === 'shorts1'")
+        li(v-for="film in sortedFilms" :key="film.slug" v-if="film.program === 'shorts1'")
           nuxt-link(:to="`/movies/${film.slug}`")
             .film-thumbnail-wrapper
               .thumbnail-arrow-wrapper
@@ -29,7 +37,9 @@
                 Arrow
               .thumbnail-gauze
               NuxtImg(:src="$staticRemover(film.thumbnail)" :alt="film.title" :placeholder="[160, 90, 10]" format="webp" fit="cover" width="1600" height="900" sizes="sm:100vw md:50vw lg:400px xl:800px" preload).thumbnail-image
-            p.film-title {{ film.title }}
+            .film-details-wrapper
+              span.film-title {{ film.title }}
+              span.film-date {{formattedDate(film.screenings[0].dateTime) }}
 
       //- Shorts 2
       h2
@@ -45,7 +55,7 @@
         span.flop E
       p.lead-text {{ filmPage.shorts1Description }}
       ul.film-grid
-        li(v-for="film in films" :key="film.slug" v-if="film.program === 'shorts2'")
+        li(v-for="film in sortedFilms" :key="film.slug" v-if="film.program === 'shorts2'")
           nuxt-link(:to="`/movies/${film.slug}`")
             .film-thumbnail-wrapper
               .thumbnail-arrow-wrapper
@@ -53,7 +63,9 @@
                 Arrow
               .thumbnail-gauze
               NuxtImg(:src="$staticRemover(film.thumbnail)" :alt="film.title" :placeholder="[160, 90, 10]" format="webp" fit="cover" width="1600" height="900" sizes="sm:100vw md:50vw lg:400px xl:800px" preload).thumbnail-image
-            p.film-title {{ film.title }}
+            .film-details-wrapper
+              span.film-title {{ film.title }}
+              span.film-date {{formattedDate(film.screenings[0].dateTime) }}
 
 
     section(v-else)
@@ -62,6 +74,7 @@
 </template>
 
 <script>
+import { format } from 'date-fns'
 export default {
   head() {
     return {
@@ -75,6 +88,27 @@ export default {
     const films = await $content('films').fetch()
     const filmPage = await $content('pages/movies').fetch()
     return { films, filmPage }
+  },
+  data() {
+    return {
+      sortBy: 'title'
+    }
+  },
+  computed: {
+    sortedFilms() {
+      if (this.sortBy === 'dateTime') {
+        return this.films.sort((a, b) => new Date(a.screenings[0].dateTime) - new Date(b.screenings[0].dateTime))
+      } else {
+        return this.films.sort((a, b) => a[this.sortBy].localeCompare(b[this.sortBy]))
+      }
+    }
+  },
+  methods: {
+    formattedDate(isoDate) {
+      const date = new Date(isoDate);
+      const timestamp = date.getTime() / 1000;
+      return format(date, 'dd.MM HH:mm');
+    },
   }
 }
 </script>
@@ -103,5 +137,17 @@ h2 span.flop {
 
 h2 span.flip {
   transform: scaleY(-1) translateY(-1px) translateX(1px);
+}
+
+.film-details-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.films-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 </style>

@@ -47,21 +47,21 @@
             span.film-credits-value {{ film.editor }}
           .film-credits-line(v-if="film.contact")
             span.film-credits-label Contact
-            span.film-credits-value 
-              a(:href="`mailto:${film.contact}`") 
-                span &#8599; 
+            span.film-credits-value
+              a(:href="`mailto:${film.contact}`")
+                span &#8599;
                 span.clickable {{ film.contact }}
           .film-credits-line(v-if="film.filmWebsite")
             span.film-credits-label Film Website
-            span.film-credits-value 
-              a(:href="film.filmWebsite" target="_blank") 
-                span &#8599; 
+            span.film-credits-value
+              a(:href="film.filmWebsite" target="_blank")
+                span &#8599;
                 span.clickable {{ simplifyURL(film.filmWebsite) }}
           .film-credits-line(v-if="film.filmTrailer")
             span.film-credits-label Film Trailer
-            span.film-credits-value 
-              a(:href="film.filmTrailer" target="_blank") 
-                span &#8599; 
+            span.film-credits-value
+              a(:href="film.filmTrailer" target="_blank")
+                span &#8599;
                 span.clickable {{ simplifyURL(film.filmTrailer) }}
     .film-screenings
       h2 Screenings
@@ -69,10 +69,10 @@
         .film-screening(v-for="screening in film.screenings")
           //- .film-screening-date {{ formattedDate(screening.dateTime)}}
           .film-screening-date {{ screening.dateTime}}
-          .film-screening-venue 
+          .film-screening-venue
             a(href="https://goo.gl/maps/24UHpb31Xt13gXQH7" target="_blank") Verkstadsgatan 11
           .film-screening-tickets
-            span &#8599; 
+            span &#8599;
             a(href="https://filmfreeway.com/GasebackFilmFestival/tickets?welcome=true" target="_blank") Buy Tickets
 </template>
 
@@ -94,9 +94,11 @@ export default {
       // pull the "still" value out of the stills array and add it to the stills array
       const stills = []
       stills.push(this.film.thumbnail)
-      this.film.stills.forEach(still => {
-        stills.push(still.still)
-      })
+      if(this.film.stills) {
+        this.film.stills.forEach(still => {
+          stills.push(still.still)
+        })
+      }
       return stills
     },
     currentImage() {
