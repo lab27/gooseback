@@ -16,7 +16,7 @@ producers:
 cast:
   - actor: Jonna Carlberg
   - actor: "Jesper Barkselius "
-  - actor: Sofia Håarderup
+  - actor: Sofia Hårderup
   - actor: "Christoffer Larsson, "
   - actor: Josefine Kinnvall
   - actor: "Magnus Schmitz "
