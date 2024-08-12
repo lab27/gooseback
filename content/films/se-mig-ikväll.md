@@ -5,7 +5,6 @@ program: shorts1
 durationInMinutes: "25"
 thumbnail: /static/img/film-stills/image8.jpeg
 stills:
-  - still: /static/img/film-stills/poster_semigikvall.jpeg
   - still: /static/img/film-stills/image9.jpeg
   - still: /static/img/film-stills/image14.jpeg
 country: Sweden
