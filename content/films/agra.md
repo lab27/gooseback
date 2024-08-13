@@ -3,7 +3,7 @@ title: AGRA
 type: Fiction
 program: features
 durationInMinutes: 132 minutes
-thumbnail: /static/img/film-stills/e1a0096-160x107.jpg
+thumbnail: /static/img/film-stills/screenshot-2024-08-13-at-14.35.24.png
 stills:
   - still: /static/img/film-stills/e1a2111-3-160x114.jpg
 country: India
