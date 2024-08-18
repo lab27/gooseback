@@ -19,5 +19,4 @@ isAnnounced: true
 
 * 12:00 [Short Film Program 2 (Resistance Short Film Program)](https://gasebackfilmfestival.com/movies)
 * 15:00 [Tomorrow’s Freedom](https://gasebackfilmfestival.com/movies/tomorrows-freedom)
-* 16:30 [In Conversation with Daniel Levy, President of the US/ Middle East Project](https://gasebackfilmfestival.com/discussions)
 * 18:00 [Bye Bye Tiberias](https://gasebackfilmfestival.com/movies/bye-bye-tiberias)
