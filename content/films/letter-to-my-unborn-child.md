@@ -11,9 +11,12 @@ language: Swedish
 director: Ida Åkesson
 producers:
   - producer: Caroline Drab, BCD Films
+cast:
+  - actor: Dina Gordon
+  - actor: Göran Dyrssen
 music: NA
-cinematography: NA
-editor: NA
+cinematography: Martin Lang
+editor: Kim Sundbeck
 contact: caroline@bcdfilm.se  ida@denisedanger.com
 filmWebsite: https://vimeo.com/858574703/af40dc09b5?share=copy
 filmTrailer: https://vimeo.com/858574703/af40dc09b5?share=copy
