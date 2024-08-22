@@ -7,6 +7,8 @@
       li
         nuxt-link(to="/movies") The Movies
       li
+        nuxt-link(to="/photo") Photo Exhibit
+      li
         nuxt-link(to="/discussions") Discussions
       li
         nuxt-link(to="/when") When
