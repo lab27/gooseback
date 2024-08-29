@@ -19,4 +19,5 @@ isAnnounced: true
 
 * 12:00 [Short Film Program 2 (Resistance Short Film Program)](https://gasebackfilmfestival.com/movies)
 * 15:00 [Tomorrow’s Freedom](https://gasebackfilmfestival.com/movies/tomorrows-freedom)
+* 16:30 Industry Talk: Art and Resistance - with Danish/ Palestinian filmmaker, [Omar Shargawi. ](https://www.imdb.com/name/nm1494245/)
 * 18:00 [Bye Bye Tiberias](https://gasebackfilmfestival.com/movies/bye-bye-tiberias)
