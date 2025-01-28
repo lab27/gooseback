@@ -1,8 +1,10 @@
 ---
 heading: When
-isAnnounced: true
+isAnnounced: false
 ---
-#### Friday August 30
+
+Event schedule for 2025 coming soon.
+<!-- #### Friday August 30
 
 * 18:00[ The Teacher ](https://gasebackfilmfestival.com/movies/the-teacher)
 * 21:00 [Tedious Days And Nights](https://gasebackfilmfestival.com/movies/tedious-days-and-nights)
@@ -19,4 +21,4 @@ isAnnounced: true
 
 * 12:00 [Short Film Program 2 (Resistance Short Film Program)](https://gasebackfilmfestival.com/movies)
 * 15:00 [Tomorrow’s Freedom](https://gasebackfilmfestival.com/movies/tomorrows-freedom)
-* 18:00 [Bye Bye Tiberias](https://gasebackfilmfestival.com/movies/bye-bye-tiberias)
+* 18:00 [Bye Bye Tiberias](https://gasebackfilmfestival.com/movies/bye-bye-tiberias) -->
