@@ -25,7 +25,7 @@ The festival was founded and run by producer and director [Hussain Currimbhoy](
 \
 Program Advisor:
 
-Loreta Gandofli 
+Loreta Gandolfi
 
 Loreta is a senior film curator for the oldest film festival in Latin America, the Festival Internacional de Cine de Cartagena de Indias, Colombia. In her parallel roles as an affiliated lecturer in Film Studies at Cambridge University and as a curator, she collaborates as a film expert with film festivals and film institutions in Europe and North America.​ Eagerly on the look out for ​exciting new voices ​in film that challenge common assumptions and promote novel perspectives on society and its identities, her passion for fiction and documentary cinema encompasses all formats and styles from short to feature length, experimental, animation,  VR. ​Loreta is a member of the European Film Academy, the European Women’s Audiovisual Network and FIPRESCI, the International Federation of Film Critics.
 
