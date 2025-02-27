@@ -27,13 +27,11 @@ Team:
 The festival was founded and run by producer and director [Hussain Currimbhoy](https://hussain.studio/) executive director of  [Master Mechanic Films](https://mastermechanicfilms.com/).
 
 \
-Program Advisor:
-
-Loreta Gandolfi
+Program Advisor: Loreta Gandolfi
 
 Loreta is a senior film curator for the oldest film festival in Latin America, the Festival Internacional de Cine de Cartagena de Indias, Colombia. In her parallel roles as an affiliated lecturer in Film Studies at Cambridge University and as a curator, she collaborates as a film expert with film festivals and film institutions in Europe and North America.​ Eagerly on the look out for ​exciting new voices ​in film that challenge common assumptions and promote novel perspectives on society and its identities, her passion for fiction and documentary cinema encompasses all formats and styles from short to feature length, experimental, animation,  VR. ​Loreta is a member of the European Film Academy, the European Women’s Audiovisual Network and FIPRESCI, the International Federation of Film Critics.
 
-Lucrezia De Biase 
+P﻿roduction Manger/Head Chef Hel's Kitchen: Lucrezia De Biase
 
 Lucrezia is a cultural manager with experience in event planning, exhibition management, and audience engagement. With a deep background in arts and cultural activities management, Lucrezia is currently completing a Master’s in Service Management – Culture and Creativity Management at Lund University. Lucrezia has also worked in marketing and communication for cultural organizations, focusing on content creation, audience outreach, and strategic promotion.
 
