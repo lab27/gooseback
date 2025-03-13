@@ -1,8 +1,4 @@
 @import url("https://use.typekit.net/ijl5pip.css");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 
 :root {
   --c-gold: #f0825c;
