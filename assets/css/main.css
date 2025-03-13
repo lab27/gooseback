@@ -116,7 +116,7 @@ a.underlined-link {
 
 .page-home {
   --background-color: var(--c-gold);
-  background-color: var(--c-gold);
+  background-color: var(--c-dark-blue);
   background: url(/img/poster.webp);
   background-size: cover;
   background-position: center;
@@ -649,7 +649,9 @@ footer.site-footer {
 .page-schedule .title-ff,
 .page-about .title-ff,
 .page-tickets .title-ff,
-.page-venues .title-ff
+.page-venues .title-ff,
+.page-helskitchen .title-ff,
+.page-photo .title-ff
  {
   color: var(--c-gold);
 }

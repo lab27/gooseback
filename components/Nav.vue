@@ -2,26 +2,32 @@
   nav
     ul
       li.logo-wrapper
-        nuxt-link(to="/")
+        NuxtLink(to="/")
           img(src="/img/gff-logo.svg", alt="GFF Logo")
       li
-        nuxt-link(to="/movies") The Movies
+        NuxtLink(to="/movies") The Movies
       li
-        nuxt-link(to="/photo") Photo Exhibit
+        NuxtLink(to="/helskitchen") Hel's Kitchen
       li
-        nuxt-link(to="/discussions") Discussions
+        NuxtLink(to="/photo") Photo Exhibit
       li
-        nuxt-link(to="/when") When
+        NuxtLink(to="/discussions") Discussions
       li
-        nuxt-link(to="/where") Where
+        NuxtLink(to="/when") When
       li
-        nuxt-link(to="/sponsors") Sponsors
+        NuxtLink(to="/where") Where
       li
-        nuxt-link(to="/about") A Bit About
+        NuxtLink(to="/sponsors") Sponsors
       li
-        nuxt-link(to="/tickets") Get Tix
+        NuxtLink(to="/about") A Bit About
+      li
+        NuxtLink(to="/tickets") Get Tix
 
 </template>
+
+<script setup lang="ts">
+// Component is stateless, no setup needed
+</script>
 
 <style>
 nav ul {

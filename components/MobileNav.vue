@@ -6,38 +6,30 @@
     .close-button(@click="showMenu = false") &times;
     ul
       li
-        nuxt-link(to="/") Home
+        NuxtLink(to="/") Home
       li
-        nuxt-link(to="/movies") The Movies
+        NuxtLink(to="/movies") The Movies
       li
-        nuxt-link(to="/discussions") Discussions
+        NuxtLink(to="/discussions") Discussions
       li
-        nuxt-link(to="/when") When
+        NuxtLink(to="/when") When
       li
-        nuxt-link(to="/where") Where
+        NuxtLink(to="/where") Where
       li
-        nuxt-link(to="/sponsors") Sponsors
+        NuxtLink(to="/sponsors") Sponsors
       li
-        nuxt-link(to="/about") A Bit About
+        NuxtLink(to="/about") A Bit About
       li
-        nuxt-link(to="/tickets") Get Tix
-
+        NuxtLink(to="/tickets") Get Tix
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      showMenu: false
-    }
-  },
-  // watch the route and change the showMenu value
-  watch: {
-    $route() {
-      this.showMenu = false
-    }
-  }
-}
+<script setup lang="ts">
+const showMenu = ref(false)
+const route = useRoute()
+
+watch(route, () => {
+  showMenu.value = false
+})
 </script>
 
 <style>
@@ -54,7 +46,6 @@ export default {
   right: 2rem;
   cursor: pointer;
 }
-
 
 .mobile-nav {
   position: fixed;

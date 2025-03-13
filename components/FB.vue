@@ -24,3 +24,14 @@
     </g>
   </svg>
 </template>
+
+<script setup lang="ts">
+// Stateless SVG component
+</script>
+
+<style scoped>
+svg {
+  width: 100%;
+  height: 100%;
+}
+</style>

@@ -1,45 +1,45 @@
 <template lang="pug">
   main
     header.films-header
-      h1 {{ filmPage.heading }}
+      h1 {{ filmPage?.heading }}
       .sort-by
         label Sort by:
         select(v-model="sortBy")
           option(value="title") Title
           option(value="dateTime") Screening Date
-    .films-wrapper(v-if="filmPage.isAnnounced")
+    .films-wrapper(v-if="filmPage?.isAnnounced")
 
       //- Features
       h2 Features
-      p.lead-text {{ filmPage.featuresDescription }}
+      p.lead-text {{ filmPage?.featuresDescription }}
       ul.film-grid
         li(v-for="film in sortedFilms" :key="film.slug" v-if="film.program === 'features'")
-          nuxt-link(:to="`/movies/${film.slug}`")
+          NuxtLink(:to="`/movies/${film.slug}`")
             .film-thumbnail-wrapper
               .thumbnail-arrow-wrapper
                 //- img(src="/img/arrow.svg")
                 Arrow
               .thumbnail-gauze
-              NuxtImg(:src="$staticRemover(film.thumbnail)" :alt="film.title" :placeholder="[160, 90, 10]" format="webp" fit="cover" width="1600" height="900" sizes="sm:100vw md:50vw lg:400px xl:800px" preload).thumbnail-image
+              NuxtImg(:src="staticRemover(film.thumbnail)" :alt="film.title" :placeholder="[160, 90, 10]" format="webp" fit="cover" width="1600" height="900" sizes="sm:100vw md:50vw lg:400px xl:800px" preload).thumbnail-image
             .film-details-wrapper
               span.film-title {{ film.title }}
-              span.film-date {{formattedDate(film.screenings[0].dateTime) }}
+              span.film-date {{ formattedDate(film.screenings[0].dateTime) }}
 
       //- Shorts 1
       h2 Shorts Program 1
-      p.lead-text {{ filmPage.shorts1Description }}
+      p.lead-text {{ filmPage?.shorts1Description }}
       ul.film-grid
         li(v-for="film in sortedFilms" :key="film.slug" v-if="film.program === 'shorts1'")
-          nuxt-link(:to="`/movies/${film.slug}`")
+          NuxtLink(:to="`/movies/${film.slug}`")
             .film-thumbnail-wrapper
               .thumbnail-arrow-wrapper
                 //- img(src="/img/arrow.svg")
                 Arrow
               .thumbnail-gauze
-              NuxtImg(:src="$staticRemover(film.thumbnail)" :alt="film.title" :placeholder="[160, 90, 10]" format="webp" fit="cover" width="1600" height="900" sizes="sm:100vw md:50vw lg:400px xl:800px" preload).thumbnail-image
+              NuxtImg(:src="staticRemover(film.thumbnail)" :alt="film.title" :placeholder="[160, 90, 10]" format="webp" fit="cover" width="1600" height="900" sizes="sm:100vw md:50vw lg:400px xl:800px" preload).thumbnail-image
             .film-details-wrapper
               span.film-title {{ film.title }}
-              span.film-date {{formattedDate(film.screenings[0].dateTime) }}
+              span.film-date {{ formattedDate(film.screenings[0].dateTime) }}
 
       //- Shorts 2
       h2
@@ -53,63 +53,84 @@
         span N
         span C
         span.flop E
-      p.lead-text {{ filmPage.shorts1Description }}
+      p.lead-text {{ filmPage?.shorts1Description }}
       ul.film-grid
         li(v-for="film in sortedFilms" :key="film.slug" v-if="film.program === 'shorts2'")
-          nuxt-link(:to="`/movies/${film.slug}`")
+          NuxtLink(:to="`/movies/${film.slug}`")
             .film-thumbnail-wrapper
               .thumbnail-arrow-wrapper
                 //- img(src="/img/arrow.svg")
                 Arrow
               .thumbnail-gauze
-              NuxtImg(:src="$staticRemover(film.thumbnail)" :alt="film.title" :placeholder="[160, 90, 10]" format="webp" fit="cover" width="1600" height="900" sizes="sm:100vw md:50vw lg:400px xl:800px" preload).thumbnail-image
+              NuxtImg(:src="staticRemover(film.thumbnail)" :alt="film.title" :placeholder="[160, 90, 10]" format="webp" fit="cover" width="1600" height="900" sizes="sm:100vw md:50vw lg:400px xl:800px" preload).thumbnail-image
             .film-details-wrapper
               span.film-title {{ film.title }}
-              span.film-date {{formattedDate(film.screenings[0].dateTime) }}
+              span.film-date {{ formattedDate(film.screenings[0].dateTime) }}
 
 
     section(v-else)
-      nuxt-content(:document="filmPage").lead-text
+      ContentDoc(path="/pages/movies")
 
 </template>
 
-<script>
+<script setup lang="ts">
 import { format } from 'date-fns'
-export default {
-  head() {
-    return {
-      title: 'Movies',
-      bodyAttrs: {
-        class: 'page-movies'
-      }
-    }
-  },
-  async asyncData({ $content }) {
-    const films = await $content('films').fetch()
-    const filmPage = await $content('pages/movies').fetch()
-    return { films, filmPage }
-  },
-  data() {
-    return {
-      sortBy: 'title'
-    }
-  },
-  computed: {
-    sortedFilms() {
-      if (this.sortBy === 'dateTime') {
-        return this.films.sort((a, b) => new Date(a.screenings[0].dateTime) - new Date(b.screenings[0].dateTime))
-      } else {
-        return this.films.sort((a, b) => a[this.sortBy].localeCompare(b[this.sortBy]))
-      }
-    }
-  },
-  methods: {
-    formattedDate(isoDate) {
-      const date = new Date(isoDate);
-      const timestamp = date.getTime() / 1000;
-      return format(date, 'dd.MM HH:mm');
-    },
+
+interface Film {
+  slug: string
+  title: string
+  thumbnail: string
+  program: 'features' | 'shorts1' | 'shorts2'
+  screenings: Array<{
+    dateTime: string
+  }>
+}
+
+interface FilmPage {
+  heading: string
+  isAnnounced: boolean
+  featuresDescription: string
+  shorts1Description: string
+}
+
+useHead({
+  title: 'Movies',
+  bodyAttrs: {
+    class: 'page-movies'
   }
+})
+
+const { $staticRemover } = useNuxtApp()
+const sortBy = ref('title')
+
+// Fetch data
+const { data: films } = await useAsyncData('films', () =>
+  queryContent<Film>('films').find()
+)
+
+const { data: filmPage } = await useAsyncData('filmPage', () =>
+  queryContent<FilmPage>('pages/movies').findOne()
+)
+
+// Computed
+const sortedFilms = computed(() => {
+  if (!films.value) return []
+
+  if (sortBy.value === 'dateTime') {
+    return [...films.value].sort((a, b) =>
+      new Date(a.screenings[0].dateTime).getTime() - new Date(b.screenings[0].dateTime).getTime()
+    )
+  }
+
+  return [...films.value].sort((a, b) =>
+    a[sortBy.value].localeCompare(b[sortBy.value])
+  )
+})
+
+// Methods
+const formattedDate = (isoDate: string) => {
+  const date = new Date(isoDate)
+  return format(date, 'dd.MM HH:mm')
 }
 </script>
 

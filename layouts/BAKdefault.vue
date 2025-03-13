@@ -29,42 +29,42 @@ const onIndexPageLoaded = () => {
     ease: 'Power2.easeInOut',
     duration: 1
   })
-    .to('.moving-title .ff', {
-      rotation: 0,
-      y: 0,
-      ease: 'Power2.easeInOut',
-      duration: 1
-    }, '<')
-    .to('.moving-title .g', {
-      rotation: 0,
-      x: 0,
-      y: 0,
-      ease: 'Power2.easeInOut',
-      duration: 1
-    }, '<')
+  .to('.moving-title .ff', {
+    rotation: 0,
+    y: 0,
+    ease: 'Power2.easeInOut',
+    duration: 1
+  }, '<')
+  .to('.moving-title .g', {
+    rotation: 0,
+    x: 0,
+    y: 0,
+    ease: 'Power2.easeInOut',
+    duration: 1
+  }, '<')
 }
 
 const onContentPageLoaded = () => {
   const tl = gsap.timeline()
   tl.to('.moving-title', {
-    x: window.innerWidth / 2 - 32,
+    x: window.innerWidth/2 - 32,
     xPercent: -50,
     y: 52,
     ease: 'Power2.easeInOut',
     duration: 1
   })
-    .to('.moving-title .ff', {
-      rotation: -90,
-      y: "-30%",
-      ease: 'Power2.easeInOut',
-      duration: 1
-    }, '<')
-    .to('.moving-title .g', {
-      rotation: 0,
-      x: "105%",
-      ease: 'Power2.easeInOut',
-      duration: 1
-    }, '<')
+  .to('.moving-title .ff', {
+    rotation: -90,
+    y: "-30%",
+    ease: 'Power2.easeInOut',
+    duration: 1
+  }, '<')
+  .to('.moving-title .g', {
+    rotation: 0,
+    x: "105%",
+    ease: 'Power2.easeInOut',
+    duration: 1
+  }, '<')
 }
 
 // Lifecycle hooks
