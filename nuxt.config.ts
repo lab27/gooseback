@@ -41,7 +41,25 @@ export default defineNuxtConfig({
   },
 
   image: {
-    // Nuxt Image configuration
+    provider: 'ipx',
+    dir: 'public',
+    // Optional: default image options
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+      xxl: 1536,
+    },
+    presets: {
+      default: {
+        modifiers: {
+          format: 'webp',
+          quality: 80,
+        }
+      }
+    }
   },
 
   postcss: {
@@ -51,5 +69,11 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2025-03-13'
+  compatibilityDate: '2025-03-13',
+
+  nitro: {
+    prerender: {
+      failOnError: false // Temporarily add this to debug image issues
+    }
+  }
 })
