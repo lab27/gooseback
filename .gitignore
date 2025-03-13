@@ -91,3 +91,59 @@ sw.*
 
 # Local Netlify folder
 .netlify
+
+# Dependencies
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnpm-store
+
+# Nuxt
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+
+# Testing
+coverage
+
+# IDEs and editors
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env files
+.env.*
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+.eslintcache
+
+# Build artifacts
+dist-ssr
+*.local
+
+# Netlify
+.netlify
+
+# Vercel
+.vercel
+
+# Generated files
+public/sw.js
+public/workbox-*.js
