@@ -1,0 +1,191 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: "static/img"
+public_folder: "/img"
+local_backend: true
+# site_url: http://localhost:3000
+# display_url: https://gff.f
+
+collections:
+  - label: Pages
+    name: pages
+    create: false
+    files:
+      - label: "Movies Page"
+        name: "movies"
+        file: "/content/pages/movies.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Announced, name: isAnnounced, widget: boolean }
+          - {label: 'Features Description', name: featuresDescription, widget: string, required: false}
+          - {label: 'Shorts 1 Description', name: shorts1Description, widget: string, required: false}
+          - {label: 'Shorts 2 Description', name: shorts2Description, widget: string, required: false}
+      - label: "Photo Exhibit Page"
+        name: "photo"
+        file: "/content/pages/photo.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - label: Photos
+            name: photos
+            widget: list
+            create: true
+            fields:
+              - {label: Photo, name: photo, widget: image, media_folder: "/static/img/photo-exhibit" }
+
+      - label: "Discussions Page"
+        name: "discussions"
+        file: "/content/pages/discussions.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Announced, name: isAnnounced, widget: boolean }
+      - label: "Tickets"
+        name: "tickets"
+        file: "/content/pages/tickets.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Tickets Link, name: link, widget: string, hint: Must be the full URL to the site ("http://mysite.com"), pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', 'Must be a full URL']}
+      - label: "Sponsors"
+        name: "sponsors"
+        file: "/content/pages/sponsors.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - label: Sponsors
+            label_singular: Sponsor
+            name: logos
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string}
+              - label: Logo
+                name: logo
+                widget: "image"
+                media_folder: /static/img/sponsor-logos
+      - label: "About"
+        name: "about"
+        file: "/content/pages/about.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: About, name: body, widget: markdown}
+          - label: Staff
+            name: staff
+            label_singular: Person
+            create: true
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string}
+              - { label: Role, name: role, widget: string}
+              - { label: 'Email', name: 'email', widget: 'string', hint: Must be in valid email address format, pattern: ['\b[\w\.-]+@[\w\.-]+\.\w{2,8}\b', 'Full email address format']}
+              - label: "Featured Image"
+                name: "thumbnail"
+                widget: "image"
+                media_folder: /static/img/staff-portraits
+      - label: "When"
+        name: "when"
+        file: "/content/pages/when.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Announced, name: isAnnounced, widget: boolean }
+          - {label: Body, name: body, widget: markdown}
+  - name: films
+    label: Films
+    label_singular: Film
+    folder: 'content/films'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Type', name: 'type', widget: 'select', options: ['Documentary', 'Fiction'] }
+      - { label: 'Program', name: 'program', widget: select, options: ['features', 'shorts1', 'shorts2'] }
+      - { label: 'Duration in Minutes', name: 'durationInMinutes', widget: 'string' }
+      - label: "Featured Image"
+        name: "thumbnail"
+        widget: "image"
+        media_folder: /static/img/film-stills
+      - label: 'Additional Still'
+        name: 'stills'
+        widget: 'list'
+        allow_add: true
+        label_singular: Additional Still
+        summary: '{{fields.still}}'
+        fields:
+          - {label: Still, name: still, widget: image, media_folder: "/static/img/film-stills" }
+      - { label: 'Synopsis', name: 'body', widget: 'markdown' }
+      - { label: 'Country', name: 'country', widget: 'string' }
+      - { label: 'Language', name: 'language', widget: 'string' }
+      - { label: 'Director', name: 'director', widget: 'string' }
+      # - { label: 'Producer', name: 'producer', widget: 'string' }
+      - label: 'Producers'
+        name: 'producers'
+        widget: 'list'
+        allow_add: true
+        label_singular: Producer
+        summary: '{{fields.producer}}'
+        fields:
+          - {label: Producer, name: producer, widget: string }
+      - label: 'Executive Producers'
+        name: 'exectProducers'
+        widget: 'list'
+        allow_add: true
+        label_singular: Executive Producer
+        summary: '{{fields.execProducer}}'
+        fields:
+          - {label: Executive Producer, name: exectProducer, widget: string }
+      - label: 'Cast'
+        name: 'cast'
+        widget: 'list'
+        allow_add: true
+        label_singular: Cast Member
+        summary: '{{fields.actor}}'
+        fields:
+          - {label: Actor, name: actor, widget: string }
+      - { label: 'Music', name: 'music', widget: 'string' }
+      - { label: 'Cinematography', name: 'cinematography', widget: 'string' }
+      - { label: 'Editor', name: 'editor', widget: 'string' }
+      - { label: 'Contact', name: 'contact', widget: 'string', hint: Must be in valid email address format, pattern: ['\b[\w\.-]+@[\w\.-]+\.\w{2,8}\b', 'Full email address format']}
+      - { label: 'Film Website', name: 'filmWebsite', widget: 'string', hint: Must be the full URL to the site ("http://mysite.com"), pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', 'Must be a full URL'] }
+      - { label: 'Film Trailer', name: 'filmTrailer', widget: 'string', hint: Must be the full URL to the site ("http://youtu.be/12345"), pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', 'Must be a full URL'] }
+      - label: Screenings
+        name: screenings
+        label_singular: screening
+        allow_add: true
+        widget: list
+        summary: "{{dateTime | date('dddd, MMMM DD HH:mm')}}"
+        fields:
+          - {label: Date/Time, name: dateTime, widget: datetime,  date_format: "dddd, MMMM DD", time_format: "HH:mm", format: "dddd, MMMM DD HH:mm"}
+          - {label: Venue, name: venue, widget: select, options: [venue1, venue2, venue3]}
+  - name: talks
+    label: Talks
+    label_singular: Talk
+    folder: 'content/talks'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - label: "Featured Image"
+        name: "thumbnail"
+        widget: "image"
+        media_folder: /static/img/talk-stills
+      - { label: 'Synopsis', name: 'body', widget: 'markdown' }
+      # - { label: 'Location', name: 'location', widget: 'string' }
+      - { label: Date/Time, name: dateTime, widget: datetime,  date_format: "dddd, MMMM DD", time_format: "HH:mm", format: "dddd, MMMM DD HH:mm"}
+      - { label: Venue, name: venue, widget: select, options: [venue1, venue2, venue3]}
+      - { label: Ticket Page, name: 'ticketsLink', widget: 'string' }
+  - label: "Site Settings"
+    name: "settings"
+    files:
+      - label: "Accepting Submissions"
+        name: "submissions"
+        file: "content/submissions.yml"
+        fields:
+          - {label: Accepting Submissions, name: acceptingSubmissions, widget: boolean}
