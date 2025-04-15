@@ -1,14 +1,14 @@
 <template lang="pug">
 .page-wrapper
-  header
+  header.relative.z-20
     Nav
-  MovingTitle
+  MovingTitle.relative.z-20
   slot
   MetaBlock
   //- ButtonBlock
-  Footer
+  Footer.relative.z-20
   //- Ruler
-  Transition(name="fade")
+  Transition(name="fade").relative.z-30
     MobileNav(v-if="isMobile")
 </template>
 
