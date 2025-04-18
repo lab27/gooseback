@@ -43,19 +43,19 @@ export default {
 
         if (markerCounter % 5 === 0) {
           topMarker.style.height = `${markerHeight * 1.5}px`;
-          topMarker.style.background = "var(--c-black)";
+          topMarker.style.background = "var(--color-dark-indigo)";
           bottomMarker.style.height = `${markerHeight * 2}px`;
-          bottomMarker.style.background = "var(--c-black)";
+          bottomMarker.style.background = "var(--color-dark-indigo)";
         } else if (markerCounter % 10 === 0) {
           topMarker.style.height = `${markerHeight * 2}px`;
-          topMarker.style.background = "var(--c-black)";
+          topMarker.style.background = "var(--color-dark-indigo)";
           bottomMarker.style.height = `${markerHeight}px`;
-          bottomMarker.style.background = "var(--c-black)";
+          bottomMarker.style.background = "var(--color-dark-indigo)";
         } else {
           topMarker.style.height = `${markerHeight}px`;
-          topMarker.style.background = "var(--c-black)";
+          topMarker.style.background = "var(--color-dark-indigo)";
           bottomMarker.style.height = `${markerHeight}px`;
-          bottomMarker.style.background = "var(--c-black)";
+          bottomMarker.style.background = "var(--color-dark-indigo)";
         }
         markerCounter++;
         topRulerContainer.appendChild(topMarker)
@@ -113,7 +113,7 @@ export default {
   z-index: 10;
   margin-top: 4px;
   left: 3.5rem;
-  color: var(--c-brown);
+  color: var(--color-indigo-purple);
   font-size: 0.8125rem;
   transition: background 1s;
 }

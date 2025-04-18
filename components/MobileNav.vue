@@ -1,7 +1,7 @@
 <template lang="pug">
 .mobile-nav-wrapper
   .nav-toggle(@click="showMenu = true")
-    img(src="/img/gff-logo.svg", alt="GFF Logo")
+    GBLogo(class="w-16")
   nav.mobile-nav(v-if="showMenu")
     .close-button(@click="showMenu = false") &times;
     ul

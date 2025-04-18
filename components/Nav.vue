@@ -3,7 +3,7 @@
     ul
       li.logo-wrapper
         NuxtLink(to="/")
-          img(src="/img/gff-logo.svg", alt="GFF Logo")
+          GBLogo
       li
         NuxtLink(to="/movies") The Movies
       li
@@ -25,13 +25,10 @@
 
 </template>
 
-<script setup lang="ts">
-// Component is stateless, no setup needed
-</script>
-
 <style>
 nav ul {
   text-align: right;
   font-size: 1rem;
 }
+
 </style>

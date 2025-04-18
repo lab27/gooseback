@@ -68,7 +68,7 @@ export default {
 }
 
 .cls-2 {
-  stroke: var(--c-black);
+  stroke: var(--color-dark-indigo);
   stroke-width: 30px;
 }
 
@@ -78,7 +78,7 @@ export default {
 }
 
 .cls-4 {
-  fill: var(--c-red);
+  fill: var(--color-magenta);
 }
 
 .cls-5 {
@@ -94,7 +94,7 @@ export default {
 }
 
 .ray {
-  stroke: var(--c-red);
+  stroke: var(--color-magenta);
   stroke-width: 3;
 }
 </style>

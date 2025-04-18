@@ -6,7 +6,7 @@
       }
 
       .cls-2 {
-        stroke: var(--c-black);
+        stroke: var(--color-dark-indigo);
         stroke-width: 30px;
       }
 
@@ -15,7 +15,7 @@
       }
 
       .cls-4 {
-        fill: var(--c-red);
+        fill: var(--color-magenta);
       }
 
       .cls-5 {
@@ -31,7 +31,7 @@
       }
 
       .ray {
-        stroke: var(--c-red);
+        stroke: var(--color-magenta);
         stroke-width: 3;
       }
     </style>

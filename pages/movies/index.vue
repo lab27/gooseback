@@ -2,11 +2,11 @@
   main
     header.films-header
       h1 {{ filmPage?.heading }}
-      .sort-by
-        label Sort by:
-        select(v-model="sortBy")
-          option(value="title") Title
-          option(value="dateTime") Screening Date
+    .sort-by.mb-8(v-if="filmPage?.isAnnounced")
+      label Sort by:
+      select(v-model="sortBy")
+        option(value="title") Title
+        option(value="dateTime") Screening Date
     .films-wrapper(v-if="filmPage?.isAnnounced")
 
       //- Features

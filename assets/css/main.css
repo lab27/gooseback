@@ -1,13 +1,19 @@
 :root {
-  --c-gold: #f0825c;
-  --c-red: #754655;
-  --c-brown: #4F3A2E;
-  --c-beige: #fcdfd6;
-  --c-black: #140C08;
-  --c-blue: #2eb9d9;
-  --c-dark-blue: #0f3253;
   --easing-curve1: cubic-bezier(0, .67, .52, 1);
-  --background-color: var(--c-black);
+
+  /* new colors */
+  --color-lavender: #e1d6ea;
+  --color-dark-indigo: #1a1848;
+  --color-dark-blue: #343289;
+  --color-purple: #704497;
+  --color-indigo-purple: #5e4b97;
+  --color-magenta: #b95aa3;
+  --color-yellow: #f5d643;
+  --color-sky-blue: #56b7e8;
+  --color-cream: #fcf8cd;
+  --color-peach: #f7b3a4;
+  --color-pale-cyan: #d5effb;
+  --background-color: var(--color-dark-indigo);
 }
 
 html {
@@ -17,13 +23,11 @@ html {
 }
 
 body {
-  /* background: linear-gradient(var(--c-gold) 0%, var(--c-gold) 20%, var(--c-beige) 40%, var(--c-beige) 60%, white 80%, white 100%);
-   */
   background-size: 100% 1000%;
   background-position: 0% 40%;
   transition: background 1s;
-  background-color: var(--c-beige);
-  --background-color: var(--c-beige);
+  background-color: var(--color-cream);
+  --background-color: var(--color-cream);
   min-height: 100vh;
   height: 100%;
   color: var(--c-be)
@@ -62,7 +66,7 @@ opacity: .6;
 }
 
 a.underlined-link {
-  box-shadow: inset 0 -2px 0 var(--c-red);
+  box-shadow: inset 0 -2px 0 var(--color-magenta);
 }
 .moving-title-wrapper {
   width: 100%;
@@ -89,12 +93,12 @@ a.underlined-link {
 
  .title-g {
   position: relative;
-  color: #f0825c;
+  color: var(--color-lavender);
 }
 .title-ff {
   position: relative;
   transform-origin: 100% 100%;
-  color: #fcdfd6;
+  color: var(--color-yellow);
 }
 
 .logo-wrapper {
@@ -102,6 +106,7 @@ a.underlined-link {
   width: 5rem;
   position: relative;
   left: 18px;
+  color: var(--color-sky-blue);
 }
 
 /* .page-home .logo-wrapper a{
@@ -109,12 +114,16 @@ a.underlined-link {
 } */
 
 .page-home {
-  --background-color: var(--c-gold);
-  background-color: var(--c-dark-blue);
+  --background-color: var(--color-lavender);
+  background-color: var(--color-dark-indigo);
   background: url(/img/poster.webp);
   background-size: cover;
   background-position: center;
-  color: var(--c-beige);
+  color: var(--color-cream);
+
+  .mobile-nav {
+    color: var(--color-dark-indigo);
+  }
 }
 
 .page-sponsors {
@@ -138,11 +147,11 @@ margin-bottom: 1rem;
 }
 
 .lead-text a {
-  box-shadow: inset 0 -2px 0 var(--c-red);
+  box-shadow: inset 0 -2px 0 var(--color-magenta);
 }
 
 .lead-text a:hover {
-  color: var(--c-red);
+  color: var(--color-magenta);
 }
 
 .page-enter-active,
@@ -212,8 +221,12 @@ header nav {
   }
 }
 
+.nav-toggle {
+  color: var(--color-sky-blue);
+}
+
 header nav li a {
-  background: linear-gradient(to right, var(--background-color), var(--background-color) 33%, var(--c-blue) 66%, var(--c-blue) 100%);
+  background: linear-gradient(to right, var(--background-color), var(--background-color) 33%, var(--color-sky-blue) 66%, var(--color-sky-blue) 100%);
   background-size:400% 2px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -239,7 +252,7 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
   max-width: calc(100% - 80px);
-  color: var(--c-dark-blue);
+  color: var(--color-dark-blue);
 }
 
 .page-home h1 {
@@ -314,8 +327,8 @@ main.film-detail .back-button {
 
 .film-credits-label {
   justify-self: start;
-  /* color: var(--c-red); */
-  background-color: var(--c-beige);
+  /* color: var(--color-magenta); */
+  background-color: var(--color-cream);
   position: relative;
   top: 0.375em;
   padding-right: 0.375em;
@@ -324,7 +337,7 @@ main.film-detail .back-button {
 
 .film-credits-value {
   justify-self: end;
-  background-color: var(--c-beige);
+  background-color: var(--color-cream);
   padding-left: 0.375em;
   position: relative;
   top: 0.375em;
@@ -357,7 +370,7 @@ main.film-detail .back-button {
 .thumbnail-arrow-wrapper svg {
   transform: translateX(-100%);
   transition: transform .5s var(--easing-curve1);
-  stroke: var(--c-beige);
+  stroke: var(--color-cream);
   /* filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .4)); */
 }
 
@@ -371,7 +384,7 @@ main.film-detail .back-button {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: var(--c-beige);
+  background-color: var(--color-cream);
   z-index: 15;
   opacity: 0;
   transition: opacity .2s;
@@ -387,7 +400,7 @@ main.film-detail .back-button {
 
 .film-grid .film-title {
   display: inline;
-  background: linear-gradient(to right, var(--c-beige), var(--c-beige) 33%, var(--c-black) 66%, var(--c-black) 100%);
+  background: linear-gradient(to right, var(--color-cream), var(--color-cream) 33%, var(--color-dark-indigo) 66%, var(--color-dark-indigo) 100%);
   background-size: 400% 2px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -415,7 +428,7 @@ main.film-detail .back-button {
   border-radius: 2rem;
   display: grid;
   place-content: center;
-  background-color: var(--c-gold);
+  background-color: var(--color-yellow);
   position: absolute;
   top: 50%;
   left: 1rem;
@@ -451,11 +464,11 @@ main.film-detail .back-button {
 
 .film-screenings-list .film-screening {
   @apply grid grid-cols-1 lg:grid-cols-3 py-2;
-  border-top: 1px solid var(--c-red);
+  border-top: 1px solid var(--color-magenta);
 }
 
 .film-screenings-list .film-screening:last-child {
-  border-bottom: 1px solid var(--c-red);
+  border-bottom: 1px solid var(--color-magenta);
 }
 
 .film-screenings-list .film-screening .film-screening-venue {
@@ -487,10 +500,10 @@ main.film-detail .back-button {
 
 .tickets-button {
   /* justify-self: end; */
-  color: var(--c-black);
-  background: linear-gradient(transparent, transparent 50%, var(--c-gold) 50%, var(--c-gold));
+  color: var(--color-dark-indigo);
+  background: linear-gradient(transparent, transparent 50%, var(--color-yellow) 50%, var(--color-yellow));
   background-size: 100% 200%;
-  border: 6px solid var(--c-black);
+  border: 6px solid var(--color-dark-indigo);
   display: grid;
   place-content: center;
   padding: 3rem;
@@ -504,7 +517,7 @@ main.film-detail .back-button {
 }
 
 .tickets-button span {
-  color: var(--c-black);
+  color: var(--color-dark-indigo);
 }
 
  .tickets-button:hover {
@@ -571,6 +584,11 @@ main .talk-info {
   right: 6.4rem;
   top: 7.5rem;
   display: none;
+  color: var(--color-sky-blue);
+
+  .page-home & {
+    color: var(--color-cream);
+  }
 }
 
 .meta-block .ornament {
@@ -580,7 +598,7 @@ main .talk-info {
 }
 
 .meta-block .submit-link .email {
-  box-shadow:inset 0 -2px var(--c-red);
+  box-shadow:inset 0 -2px var(--color-magenta);
 }
 
 .meta-block .submit-link .external {
@@ -635,7 +653,7 @@ footer.site-footer {
 
 .mobile-dates,
 .mobile-location {
-  color: var(--c-blue);
+  color: var(--color-sky-blue);
 }
 
 .page-movies .title-ff,
@@ -647,5 +665,9 @@ footer.site-footer {
 .page-helskitchen .title-ff,
 .page-photo .title-ff
  {
-  color: var(--c-gold);
+  color: var(--color-yellow);
+}
+
+section p {
+  max-width: 720px;
 }
