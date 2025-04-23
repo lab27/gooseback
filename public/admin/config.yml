@@ -49,6 +49,12 @@ collections:
           - {label: Heading, name: heading, widget: string}
           - {label: Body, name: body, widget: markdown}
           - {label: Tickets Link, name: link, widget: string, hint: Must be the full URL to the site ("http://mysite.com"), pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', 'Must be a full URL']}
+      - label: "Hel's Kitchen"
+        name: "helskitchen"
+        file: "/content/pages/helskitchen.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
       - label: "Sponsors"
         name: "sponsors"
         file: "/content/pages/sponsors.md"
