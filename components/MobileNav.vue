@@ -10,6 +10,8 @@
       li
         NuxtLink(to="/movies") The Movies
       li
+        NuxtLink(to="/helskitchen") Hel's Kitchen
+      li
         NuxtLink(to="/discussions") Discussions
       li
         NuxtLink(to="/when") When
