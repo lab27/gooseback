@@ -239,13 +239,32 @@ header nav li:hover a {
 
 .page-wrapper main {
   padding-top: calc(3rem + 4px);
+  margin-bottom: 3rem;
   height: 100%;
   min-height: 100vh;
+}
+
+.page-wrapper p {
+  margin-bottom: 1rem;
+}
+
+.page-wrapper ul li {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  list-style-type: disc;
+}
+
+.page-wrapper header nav ul li {
+  margin-bottom: .5rem;
+  padding: 0;
+  list-style-type: none;
+  margin-left: 0;
 }
 
 .page-home .page-wrapper main {
   padding-top: 2rem;
 }
+
 
 h1 {
   @apply text-4xl mb-12;
@@ -264,8 +283,11 @@ h1 {
   @apply grid grid-cols-3 lg:grid-cols-6 gap-4;
 }
 
-.film-grid li {
+.page-wrapper ul.film-grid li {
   @apply col-span-3;
+  margin-left: 0;
+  list-style-type: none;
+  list-style: none;
 }
 
 main.film-detail h1
