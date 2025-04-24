@@ -38,3 +38,5 @@ At Hel’s Kitchen, selected filmmakers are given a platform to:
 *
 
 Hel’s Kitchen also features masterclasses and in-depth conversations around craft with attending filmmakers and industry partners. We aim to foster knowledge-sharing and the exploration of new ways to collaborate. Programming also includes networking events designed to spark meaningful connections and lasting friendships.
+
+D﻿eadline is June 2 2025.
