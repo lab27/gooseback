@@ -2,6 +2,7 @@
 .mobile-nav-wrapper
   .nav-toggle(@click="showMenu = true")
     GBLogo(class="w-16")
+    .nav-toggle-lines
   nav.mobile-nav(v-if="showMenu")
     .close-button(@click="showMenu = false") &times;
     ul
@@ -78,9 +79,19 @@ watch(route, () => {
 
 .mobile-nav ul li {
   margin-bottom: 1rem;
+  list-style: none;
 }
 
 .mobile-nav ul li a {
   font-size: 2rem;
 }
+
+.nav-toggle-lines {
+  width: 100%;
+  height: 1rem;
+  border-top: 2px solid var(--color-sky-blue);
+  border-bottom: 2px solid var(--color-sky-blue);
+  margin-top: 1rem;
+}
+
 </style>

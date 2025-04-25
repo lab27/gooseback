@@ -33,6 +33,10 @@ body {
   color: var(--c-be)
 }
 
+p, li {
+  font-size: 1.25rem;
+}
+
 .sky {
   position: absolute;
   inset: 0;
@@ -102,7 +106,7 @@ a.underlined-link {
 }
 
 .logo-wrapper {
-  height: 7rem;
+  height: calc(6rem - 4px);
   width: 5rem;
   position: relative;
   left: 18px;
@@ -199,9 +203,9 @@ header nav {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1001px) {
   header nav {
-    top: 5rem;
+    top: calc(2.5rem - 2px);
     left: 3rem;
     display: block;
   }
@@ -211,7 +215,7 @@ header nav {
   }
 
 .page-wrapper {
-  padding: 1.5rem 18rem 0 13rem;
+  padding: 1.5rem 18rem 0 14rem;
 }
 }
 
@@ -225,8 +229,18 @@ header nav {
   color: var(--color-sky-blue);
 }
 
+.page-home .mobile-nav-wrapper .nav-toggle {
+  right: 50%;
+  top: 0;
+  transform: translateX(50%);
+
+  #logo {
+    fill-opacity: 0;
+  }
+}
+
 header nav li a {
-  background: linear-gradient(to right, var(--background-color), var(--background-color) 33%, var(--color-sky-blue) 66%, var(--color-sky-blue) 100%);
+  background: linear-gradient(to right, var(--color-magenta), var(--color-magenta) 33%, var(--color-sky-blue) 66%, var(--color-sky-blue) 100%);
   background-size:400% 2px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -238,7 +252,7 @@ header nav li:hover a {
 }
 
 .page-wrapper main {
-  padding-top: calc(3rem + 4px);
+  padding-top: calc(1.5rem + 3px);
   margin-bottom: 3rem;
   height: 100%;
   min-height: 100vh;
@@ -603,7 +617,7 @@ main .talk-info {
 .meta-block {
   text-transform: uppercase;
   position: fixed;
-  right: 6.4rem;
+  right: 3.2rem;
   top: 7.5rem;
   display: none;
   color: var(--color-sky-blue);
@@ -611,6 +625,11 @@ main .talk-info {
   .page-home & {
     color: var(--color-cream);
   }
+}
+
+.meta-block p {
+  font-size: 1rem;
+  margin-bottom: 0;
 }
 
 .meta-block .ornament {
@@ -632,7 +651,7 @@ main .talk-info {
   opacity: 1;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1001px) {
   .tickets-grid .tickets-button {
     position: absolute;
   }
@@ -670,12 +689,18 @@ footer.site-footer {
 
 
 .mobile-info-block {
-  @apply block lg:hidden;
+  display: block;
+  top: 2rem;
+
+  @media screen and (min-width: 1001px) {
+    display: none;
+  }
 }
 
-.mobile-dates,
-.mobile-location {
-  color: var(--color-sky-blue);
+p.mobile-dates,
+p.mobile-location {
+  color: var(--color-cream);
+  margin-bottom: 0;
 }
 
 .page-movies .title-ff,
@@ -690,6 +715,6 @@ footer.site-footer {
   color: var(--color-yellow);
 }
 
-section p {
+section p, section li {
   max-width: 720px;
 }
