@@ -26,8 +26,8 @@ body {
   background-size: 100% 1000%;
   background-position: 0% 40%;
   transition: background 1s;
-  background-color: var(--color-cream);
-  --background-color: var(--color-cream);
+  background-color: white;
+  --background-color: white;
   min-height: 100vh;
   height: 100%;
   color: var(--c-be)
@@ -231,11 +231,11 @@ header nav {
 
 .page-home .mobile-nav-wrapper .nav-toggle {
   right: 50%;
-  top: 0;
+  top: 1.5rem;
   transform: translateX(50%);
 
   #logo {
-    fill-opacity: 0;
+    width: 3rem;
   }
 }
 
