@@ -15,8 +15,12 @@ producers:
   - producer: Jan Nielsen
 cast:
   - actor: Jan Nielsen
+  - actor: Lars Wiik
+  - actor: Catherine Jeppsson
+  - actor: Magnus Eriksson
+  - actor: BoG Andersson      
 music: TBC
-cinematography: Jan Nielsen
+cinematography: Kimmo Salmela
 editor: Jan Nielsen
 contact: jan.nordvald@gmail.com
 filmWebsite: https://gasebackfilmfestival.com/movies/
