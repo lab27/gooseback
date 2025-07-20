@@ -1,8 +1,8 @@
 ---
-heading: Photo Exhibit
+heading: Music Video Workshop
 photos:
-  - photo: /static/img/photo-exhibit/dyke-m.jpg
-  - photo: /static/img/photo-exhibit/11.jpg
+  - photo: /public/img/photo-exhibit/dyke-m.jpg
+  - photo: /public/img/photo-exhibit/11.jpg
 ---
 For the first time in Helsingborg, a new collection of photographic works by Malmö photographer Gary Ellejberg will be on display at the festival cinema. 
 

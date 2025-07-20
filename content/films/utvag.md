@@ -3,11 +3,11 @@ title: Utväg / Way Out
 type: Fiction
 program: shorts1
 durationInMinutes: "16"
-thumbnail: /static/img/film-stills/utvagotsv2 Large.png
+thumbnail: /public/img/film-stills/utvagotsv2lg.png
 stills:
-  - still: /static/img/film-stills/stills_1.24.1.png
-  - still: /static/img/film-stills/stills_1.137.1 Large.png
-  - still: /static/img/film-stills/utvag_stills__1.102.1 Large.png
+  - still: /public/img/film-stills/stills_1.24.1.png
+  - still: /public/img/film-stills/stills_1.137.1 Large.png
+  - still: /public/img/film-stills/utvag_stills__1.102.1 Large.png
 country: Sweden
 language: Swedish
 director: Fredrik Rönnqvist
@@ -27,6 +27,6 @@ filmWebsite: https://qvistfilm.com/
 filmTrailer: https://qvistfilm.com/
 screenings:
   - dateTime: Saturday, August 31 12:00
-    venue: venue1
+    venue: roda-kvarn
 ---
 Ellen and Marie are members of a cult, which focuses on leaving your old life behind. After having violent experiences within the cult the two of them decide to escape together.

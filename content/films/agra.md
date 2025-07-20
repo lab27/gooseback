@@ -3,9 +3,9 @@ title: AGRA
 type: Fiction
 program: features
 durationInMinutes: 132 minutes
-thumbnail: /static/img/film-stills/screenshot-2024-08-13-at-14.35.24.png
+thumbnail: /public/img/film-stills/screenshot-2024-08-13-at-14.35.24.png
 stills:
-  - still: /static/img/film-stills/e1a2111-3-160x114.jpg
+  - still: /public/img/film-stills/e1a2111-3-160x114.jpg
 country: India
 language: Hindi
 director: Kanu Behl
@@ -34,7 +34,7 @@ execProducers:
 filmWebsite: https://www.pascaleramonda.com/agra/
 screenings:
   - dateTime: Saturday, August 31 21:00
-    venue: venue1
+    venue: roda-kvarn
 ---
 Guru, a young man in his twenties, works in a call center in Agra. In love with Mala, a work colleague, he stills lives with his parents, whose house is divided in two parts. Guru lives on the ground floor with his mother while his father is upstairs with his mistress. when Guru announces that he wants to marry Mala, and make the terrace of the house his future bedroom, nothing goes as planned. Frustrations, faults and family hatreds come to light, symptoms of an Indian patriarchal society with many taboos.
 

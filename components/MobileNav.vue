@@ -15,6 +15,8 @@
       li
         NuxtLink(to="/discussions") Discussions
       li
+        NuxtLink(to="/photo") Music Video Workshop
+      li
         NuxtLink(to="/when") When
       li
         NuxtLink(to="/where") Where

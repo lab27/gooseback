@@ -28,5 +28,5 @@ const { data: page } = await useAsyncData('about', () =>
   queryContent('pages/about').findOne()
 )
 
-const staticRemover = (path) => path.replace('/static', '')
+const staticRemover = (path) => path.replace('/public', '')
 </script>

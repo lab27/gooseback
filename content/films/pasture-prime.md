@@ -3,12 +3,12 @@ title: PASTURE PRIME
 type: Fiction
 program: shorts1
 durationInMinutes: "10"
-thumbnail: /static/img/film-stills/pp_final-0-03-14-23-.png
+thumbnail: /public/img/film-stills/pp_final-0-03-14-23-.png
 stills:
-  - still: /static/img/film-stills/pp_final-0-03-26-15-.png
-  - still: /static/img/film-stills/pp_final-0-07-43-20-.png
-  - still: /static/img/film-stills/pp_final-0-01-51-09-.png
-  - still: /static/img/film-stills/pp_final-0-08-26-14-.png
+  - still: /public/img/film-stills/pp_final-0-03-26-15-.png
+  - still: /public/img/film-stills/pp_final-0-07-43-20-.png
+  - still: /public/img/film-stills/pp_final-0-01-51-09-.png
+  - still: /public/img/film-stills/pp_final-0-08-26-14-.png
 country: USA
 language: English
 director: Diffan Sina Norman
@@ -28,7 +28,7 @@ filmWebsite: https://rangkapictures.com/
 filmTrailer: https://rangkapictures.com/
 screenings:
   - dateTime: Saturday, August 31 12:00
-    venue: venue1
+    venue: roda-kvarn
 ---
 Shirley, an eighty-three-year-old East Texan widow becomes infatuated with Marvin, a younger married man she meets at the Cowboy Church. Their relationship begins innocently, but Shirley’s son Dean and daughter-in-law Debbie worry that their lonely mother is misreading Marvin’s light banter.
 

@@ -2,9 +2,9 @@
   main
     h1 {{ discussionsPage?.heading }}
     ContentDoc(path="/pages/discussions").lead-text
-    ul.film-grid(v-if="talks?.isAnnounced")
-      li(v-for="talk in talks" :key="talk.slug")
-        NuxtLink(:to="`/talks/${talk.slug}`")
+    ul.film-grid(v-if="discussionsPage?.isAnnounced")
+      li(v-for="talk in talks" :key="talk._path")
+        NuxtLink(:to="`/discussions/${talk._path.split('/').pop()}`")
           .film-thumbnail-wrapper
             .thumbnail-arrow-wrapper
               //- img(src="/img/arrow.svg")

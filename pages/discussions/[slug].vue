@@ -19,7 +19,8 @@
               span.film-credits-value {{ talk?.dateTime ? formattedDate(talk.dateTime) : '' }}
             .film-credits-line
               span.film-credits-label Venue
-              span.film-credits-value {{ talk?.venue }}
+              span.film-credits-value
+                a(:href="getVenueMapLink(talk?.venue || '')" target="_blank") {{ getVenueName(talk?.venue || '') }}
             .film-credits-line
               span.film-credits-label Tickets
               span.film-credits-value
@@ -30,6 +31,7 @@
 
 <script setup lang="ts">
 import { format } from 'date-fns'
+import { useVenues } from '~/composables/useVenues'
 
 interface Talk {
   title: string
@@ -42,6 +44,7 @@ interface Talk {
 
 const route = useRoute()
 const { staticRemover } = useStaticRemover()
+const { getVenueName, getVenueMapLink } = useVenues()
 
 const { data: talk } = await useAsyncData('talk', () =>
   queryContent<Talk>('talks', route.params.slug as string).findOne()

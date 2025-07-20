@@ -208,6 +208,7 @@ header nav {
     top: calc(2.5rem - 2px);
     left: 3rem;
     display: block;
+    max-width: 110px;
   }
 
   .moving-title-wrapper {
@@ -680,10 +681,9 @@ main.film-detail {
 }
 
 footer.site-footer {
-  @apply grid grid-cols-1 lg:grid-cols-3 pb-8 lg:pb-0;
-  justify-content: center;
-  justify-items: center;
+  @apply text-center lg:text-left flex flex-col items-center lg:flex-row lg:justify-between pb-8 lg:pb-0;
   gap: 1rem;
+  padding-top: 2rem;
 }
 
 

@@ -93,7 +93,7 @@
         .film-screening(v-for="screening in film.screenings")
           .film-screening-date {{ formattedDate(screening.dateTime) }}
           .film-screening-venue
-            a(href="https://goo.gl/maps/24UHpb31Xt13gXQH7" target="_blank") Verkstadsgatan 11
+            a(:href="getVenueMapLink(screening.venue)" target="_blank") {{ getVenueName(screening.venue) }}
           .film-screening-tickets
             span &#8599;
             a(href="https://filmfreeway.com/GasebackFilmFestival/tickets?welcome=true" target="_blank") Buy Tickets
@@ -101,6 +101,7 @@
 
 <script setup lang="ts">
 import { format } from 'date-fns'
+import { useVenues } from '~/composables/useVenues'
 
 interface Producer {
   producer: string
@@ -120,6 +121,7 @@ interface Still {
 
 interface Screening {
   dateTime: string
+  venue: string
 }
 
 interface Film {
@@ -146,6 +148,7 @@ interface Film {
 
 const route = useRoute()
 const { staticRemover } = useStaticRemover()
+const { getVenueName, getVenueMapLink } = useVenues()
 const currentImageIndex = ref(0)
 
 const { data: film } = await useAsyncData('film', () =>

@@ -3,9 +3,9 @@ title: Till Mia
 type: Fiction
 program: shorts1
 durationInMinutes: "9 "
-thumbnail: /static/img/film-stills/e57bb113-45be-4e99-9b47-611497af769a.jpeg
+thumbnail: /public/img/film-stills/e57bb113-45be-4e99-9b47-611497af769a.jpeg
 stills:
-  - still: /static/img/film-stills/6459fe15-785b-4814-8dec-05762ee66523.jpeg
+  - still: /public/img/film-stills/6459fe15-785b-4814-8dec-05762ee66523.jpeg
 country: Sweden
 language: Swedish
 director: Alexandar Miodrag
@@ -21,6 +21,6 @@ filmWebsite: https://gasebackfilmfestival.com/tickets
 filmTrailer: https://gasebackfilmfestival.com/tickets
 screenings:
   - dateTime: Saturday, August 30 11:00
-    venue: venue1
+    venue: roda-kvarn
 ---
 TO MIA is about Mia who returns to her art studio to try find joy in painting again after her mother's death.

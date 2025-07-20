@@ -3,9 +3,9 @@ title: "Khoon, Kaatil aur Suraag "
 type: Fiction
 program: shorts1
 durationInMinutes: "10"
-thumbnail: /static/img/film-stills/khoon-kaatil-aur-suraag2.png
+thumbnail: /public/img/film-stills/khoon-kaatil-aur-suraag2.png
 stills:
-  - still: /static/img/film-stills/khoon-kaatil-aur-suraag.png
+  - still: /public/img/film-stills/khoon-kaatil-aur-suraag.png
 country: India
 language: Hindi
 director: Aditya Nair
@@ -26,6 +26,6 @@ filmWebsite: https://www.youtube.com/watch?v=7r0kzgcxEUA
 filmTrailer: https://www.youtube.com/watch?v=7r0kzgcxEUA
 screenings:
   - dateTime: Saturday, August 31 12:00
-    venue: venue1
+    venue: roda-kvarn
 ---
 6 actors , one house , one role- is it a role to die for ? A role to kill for ?

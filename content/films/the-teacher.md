@@ -3,7 +3,7 @@ title: THE TEACHER
 type: Fiction
 program: features
 durationInMinutes: "115"
-thumbnail: /static/img/film-stills/the-teacher-still-1.jpg
+thumbnail: /public/img/film-stills/the-teacher-still-1.jpg
 country: United Kingdom, Palestine
 language: Arabic, English
 director: Farah Nabulsi
@@ -30,7 +30,7 @@ filmWebsite: https://theteacher.film/
 filmTrailer: https://www.youtube.com/watch?v=obNeQELnLWY&t=1s
 screenings:
   - dateTime: Friday, August 30 18:00
-    venue: venue1
+    venue: roda-kvarn
 ---
 A Palestinian school teacher (Saleh Bakri) struggles to reconcile his life-threatening commitment to political resistance with his emotional support for one of his students (Muhammad Abed ElRahman) and the chance of a new romantic relationship with a volunteer worker (Imogen Poots).
 

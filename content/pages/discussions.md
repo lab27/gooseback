@@ -1,5 +1,5 @@
 ---
 heading: Discussions
-isAnnounced: false
+isAnnounced: true
 ---
 More info on our discussion panels is coming soon.

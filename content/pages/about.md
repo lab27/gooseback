@@ -4,15 +4,15 @@ staff:
   - name: Hussain Currimbhoy
     role: Festival Director
     email: hussain@mastermechanicfilms.com
-    thumbnail: /static/img/staff-portraits/hussain_currimbhoy_bw.jpeg
+    thumbnail: /public/img/staff-portraits/hussain_currimbhoy_bw.jpeg
   - name: Loreta Gandofli
     role: Program Advisor
     email: programming@gasebackfilmfestival.com
-    thumbnail: /static/img/staff-portraits/loreta-pic-vienna.png
+    thumbnail: /public/img/staff-portraits/loreta-pic-vienna.png
   - name: Lucrezia De Biase
     role: "P﻿roduction Manager/Head Chef Hel's Kitchen:"
     email: info@gasebackfilmfestival.com
-    thumbnail: /static/img/staff-portraits/lucrezia-portrait-.jpg
+    thumbnail: /public/img/staff-portraits/lucrezia-portrait-.jpg
 ---
 Gåsebäck Film Festival enters its 3rd edition in 2025. 
 

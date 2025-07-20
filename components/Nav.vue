@@ -9,7 +9,7 @@
       li
         NuxtLink(to="/helskitchen") Hel's Kitchen
       li
-        NuxtLink(to="/photo") Photo Exhibit
+        NuxtLink(to="/photo") Music Video Workshop
       li
         NuxtLink(to="/discussions") Discussions
       li

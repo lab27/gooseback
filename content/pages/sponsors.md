@@ -2,11 +2,11 @@
 heading: Sponsors
 logos:
   - name: Helsingborg
-    logo: /static/img/sponsor-logos/logo_helsingborg.png
-  - logo: /static/img/sponsor-logos/revelop_logo.svg
+    logo: /public/img/sponsor-logos/logo_helsingborg.png
+  - logo: /public/img/sponsor-logos/revelop_logo.svg
     name: Revelop
   - name: Film i Skåne
-    logo: /static/img/sponsor-logos/film-i-skane_rgb_kvadrat_pos.svg
+    logo: /public/img/sponsor-logos/film-i-skane_rgb_kvadrat_pos.svg
 ---
 Gåsebäck Film Festival is an independently funded film culture event. The festival is only possible due to the generous support of Helsingborg Stad, Film I Skåne and Master Mechanic Films AB. 
 

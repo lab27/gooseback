@@ -1,6 +1,6 @@
 ---
 heading: The Movies
-isAnnounced: false
+isAnnounced: true
 featuresDescription: Full program for the 2024 Gåsebäck Film Festival is live.
   We are super proud to present an expanded program of seven international
   feature and documentary films curated from some of the most vibrant film

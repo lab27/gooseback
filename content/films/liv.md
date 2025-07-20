@@ -3,9 +3,9 @@ title: LIV
 type: Fiction
 program: shorts1
 durationInMinutes: "14"
-thumbnail: /static/img/film-stills/logo-full-black.png
+thumbnail: /public/img/film-stills/logo-full-black.png
 stills:
-  - still: /static/img/film-stills/logo-full-black.png
+  - still: /public/img/film-stills/logo-full-black.png
 country: "Sweden "
 language: "Swedish "
 director: Hillevi Gustafson
@@ -23,6 +23,6 @@ filmWebsite: https://www.hillevigustafson.com/
 filmTrailer: https://www.hillevigustafson.com/
 screenings:
   - dateTime: Saturday, August 31 12:00
-    venue: venue1
+    venue: roda-kvarn
 ---
 Life is about the night before the scariest day of any teenager's life - the day they start high school. Fifteen-year-old Olivia spends this night in her room and through increasingly desperate actions she remakes herself. Tomorrow arrives and, ready or not, she must now face the world outside.

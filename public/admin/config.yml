@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-media_folder: "static/img"
+media_folder: "public/img"
 public_folder: "/img"
 local_backend: true
 # site_url: http://localhost:3000
@@ -22,7 +22,9 @@ collections:
           - {label: 'Features Description', name: featuresDescription, widget: string, required: false}
           - {label: 'Shorts 1 Description', name: shorts1Description, widget: string, required: false}
           - {label: 'Shorts 2 Description', name: shorts2Description, widget: string, required: false}
-      - label: "Photo Exhibit Page"
+          - {label: 'Helsingborg Program Description', name: helsingborgDescription, widget: string, required: false}
+          - {label: 'Music Program Description', name: musicDescription, widget: string, required: false}
+      - label: "Music Video Workshop"
         name: "photo"
         file: "/content/pages/photo.md"
         fields:
@@ -33,7 +35,7 @@ collections:
             widget: list
             create: true
             fields:
-              - {label: Photo, name: photo, widget: image, media_folder: "/static/img/photo-exhibit" }
+              - {label: Photo, name: photo, widget: image, media_folder: "/public/img/photo-exhibit" }
 
       - label: "Discussions Page"
         name: "discussions"
@@ -70,7 +72,7 @@ collections:
               - label: Logo
                 name: logo
                 widget: "image"
-                media_folder: /static/img/sponsor-logos
+                media_folder: /public/img/sponsor-logos
       - label: "About"
         name: "about"
         file: "/content/pages/about.md"
@@ -89,7 +91,7 @@ collections:
               - label: "Featured Image"
                 name: "thumbnail"
                 widget: "image"
-                media_folder: /static/img/staff-portraits
+                media_folder: /public/img/staff-portraits
       - label: "When"
         name: "when"
         file: "/content/pages/when.md"
@@ -109,12 +111,12 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Type', name: 'type', widget: 'select', options: ['Documentary', 'Fiction'] }
-      - { label: 'Program', name: 'program', widget: select, options: ['features', 'shorts1', 'shorts2'] }
+      - { label: 'Program', name: 'program', widget: select, options: ['features', 'helsingborg', 'music', 'shorts1', 'shorts2'] }
       - { label: 'Duration in Minutes', name: 'durationInMinutes', widget: 'string' }
       - label: "Featured Image"
         name: "thumbnail"
         widget: "image"
-        media_folder: /static/img/film-stills
+        media_folder: /public/img/film-stills
       - label: 'Additional Still'
         name: 'stills'
         widget: 'list'
@@ -122,7 +124,7 @@ collections:
         label_singular: Additional Still
         summary: '{{fields.still}}'
         fields:
-          - {label: Still, name: still, widget: image, media_folder: "/static/img/film-stills" }
+          - {label: Still, name: still, widget: image, media_folder: "/public/img/film-stills" }
       - { label: 'Synopsis', name: 'body', widget: 'markdown' }
       - { label: 'Country', name: 'country', widget: 'string' }
       - { label: 'Language', name: 'language', widget: 'string' }
@@ -166,7 +168,7 @@ collections:
         summary: "{{dateTime | date('dddd, MMMM DD HH:mm')}}"
         fields:
           - {label: Date/Time, name: dateTime, widget: datetime,  date_format: "dddd, MMMM DD", time_format: "HH:mm", format: "dddd, MMMM DD HH:mm"}
-          - {label: Venue, name: venue, widget: select, options: [venue1, venue2, venue3]}
+          - {label: Venue, name: venue, widget: select, options: ["roda-kvarn", "fryshusset", "vagnhall-16"]}
   - name: talks
     label: Talks
     label_singular: Talk
@@ -181,11 +183,11 @@ collections:
       - label: "Featured Image"
         name: "thumbnail"
         widget: "image"
-        media_folder: /static/img/talk-stills
+        media_folder: /public/img/talk-stills
       - { label: 'Synopsis', name: 'body', widget: 'markdown' }
       # - { label: 'Location', name: 'location', widget: 'string' }
       - { label: Date/Time, name: dateTime, widget: datetime,  date_format: "dddd, MMMM DD", time_format: "HH:mm", format: "dddd, MMMM DD HH:mm"}
-      - { label: Venue, name: venue, widget: select, options: [venue1, venue2, venue3]}
+      - { label: Venue, name: venue, widget: select, options: ["roda-kvarn", "fryshusset", "vagnhall-16"]}
       - { label: Ticket Page, name: 'ticketsLink', widget: 'string' }
   - label: "Site Settings"
     name: "settings"
