@@ -42,7 +42,7 @@
               span.film-date {{ film.screenings?.[0]?.dateTime ? formattedDate(film.screenings[0].dateTime) : 'TBA' }}
 
       //- Helsingborg Program
-      h2 Helsingborg Program
+      h2 Helsingborg Special
       p.lead-text {{ filmPage?.helsingborgDescription }}
       ul.film-grid
         li(v-for="film in helsingborgFilms" :key="film.slug")
