@@ -12,14 +12,14 @@ language: English
 director: Lee Knight
 producers:
   - producer: James Dean
-  - producer: Scottie Fotré Max Marlow
+  - producer: "Scottie Fotré "
   - producer: Max Marlow
 cast:
   - actor: Miriam Margolyes
   - actor: Stephen Fry
   - actor: Alistair Nwachukwu
   - actor: Oscar Lloyd
-music: Gabriela Opacka-Boccadoro
+music: Stuart Hancock
 cinematography: Vanessa Whyte
 editor: " Phil Hookway"
 contact: filthygorgeousproductions@gmail.com
