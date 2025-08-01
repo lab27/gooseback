@@ -1,7 +1,7 @@
 ---
 title: Till Mia
 type: Fiction
-program: shorts1
+program: helsingborg
 durationInMinutes: "9 "
 thumbnail: /public/img/film-stills/e57bb113-45be-4e99-9b47-611497af769a.jpeg
 stills:
