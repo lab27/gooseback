@@ -3,8 +3,6 @@ heading: Sponsors
 logos:
   - name: Helsingborg
     logo: /public/img/sponsor-logos/logo_helsingborg.png
-  - logo: /public/img/sponsor-logos/revelop_logo.svg
-    name: Revelop
   - name: Film i Skåne
     logo: /public/img/sponsor-logos/film-i-skane_rgb_kvadrat_pos.svg
 ---
