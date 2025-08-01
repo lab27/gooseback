@@ -1,7 +1,7 @@
 ---
 title: "Michel Gondry: Do it Yourself!"
 type: Documentary
-program: features
+program: music
 durationInMinutes: 1h 20m
 thumbnail: /public/img/film-stills/sans-titre-4.jpg
 country: France
