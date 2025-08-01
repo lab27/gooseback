@@ -1,7 +1,7 @@
 ---
 title: "Billy Preston: That's The Way God Planned It"
 type: Fiction
-program: features
+program: music
 durationInMinutes: "90"
 thumbnail: /public/img/film-stills/approved-billy-preston-press-image.jpg
 stills:
