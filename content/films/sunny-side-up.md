@@ -1,7 +1,7 @@
 ---
 title: Sunny Side Up
 type: Fiction
-program: shorts1
+program: helsingborg
 durationInMinutes: "39"
 thumbnail: /public/img/film-stills/img_5399.jpeg
 stills:
