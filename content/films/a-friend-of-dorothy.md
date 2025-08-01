@@ -9,7 +9,7 @@ stills:
   - still: /public/img/film-stills/photo-7-a_friend_of_dorothy_-_jj_and_scott_in_boardroom.jpg
 country: UK
 language: English
-director: Lee Knight
+director: Lee Knight (and writer)
 producers:
   - producer: James Dean
   - producer: "Scottie Fotré "
