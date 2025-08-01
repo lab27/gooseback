@@ -20,8 +20,6 @@ We are the only film festival event in Helsingborg, Sweden. Our program is dedi
 
 The festival takes place from August 28 to August 31st in Gåsebäck and in venues around the city. The festival is supported by Film i Skåne, Helsingborg Stad, and Master Mechanic Films AB. But we also get by with a little help from our friends at Fryshuset, Vagnhall 16, Mindpark and Boost HBG as well as other creative partners in the city who are dedicated to elevating culture in our city. 
 
-Program launch is scheduled for 1st week of August 2025. Follow us out on social media for program updates. 
-
 Team:
 
 The festival was founded and run by producer and director [Hussain Currimbhoy](https://hussain.studio/) executive director of  [Master Mechanic Films](https://mastermechanicfilms.com/).
