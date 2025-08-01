@@ -1,6 +1,6 @@
 ---
 heading: When
-isAnnounced: false
+isAnnounced: true
 ---
 Thursday August 28th 18:00-20:30, Opening Night
 
