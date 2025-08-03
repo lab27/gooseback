@@ -1,5 +1,5 @@
 ---
-title: FAKK THE SISTEM
+title: Fakk The THE Sistem
 type: Documentary
 program: music
 durationInMinutes: "15"
