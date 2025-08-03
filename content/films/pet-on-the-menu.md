@@ -1,5 +1,5 @@
 ---
-title: PET ON THE MENU
+title: Pet On The Menu
 type: Documentary
 program: shorts1
 durationInMinutes: "12"
