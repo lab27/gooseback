@@ -1,5 +1,5 @@
 ---
-title: Fakk The THE Sistem
+title: Fakk The Sistem
 type: Documentary
 program: music
 durationInMinutes: "15"
@@ -17,7 +17,7 @@ cast:
 music: Anti Cimex
 cinematography: Anna Viola Hallberg
 editor: Anna Viola Hallberg
-contact: mimaisha@gmail.com
+contact: amimaisha@gmail.com
 filmWebsite: https://studiobuji.com/
 filmTrailer: https://studiobuji.com/
 screenings:
