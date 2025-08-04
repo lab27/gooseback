@@ -7,7 +7,7 @@ thumbnail: /public/img/film-stills/potm_still3.jpg
 stills:
   - still: /public/img/film-stills/potm_still1.jpg
 country: Finland
-language: "Swedish "
+language: "Finnish "
 director: " 8MIR"
 producers:
   - producer: Jonna Vainio
