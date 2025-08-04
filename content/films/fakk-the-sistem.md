@@ -11,15 +11,15 @@ country: "Sweden / Indonesia "
 language: English, Indonesian, Swedish
 director: Anna Viola Hallberg & Ami Skånberg
 producers:
-  - producer: Anna Viola Hallberg
+  - producer: Ami Skånberg
 cast:
   - actor: Ami Skånberg
 music: Anti Cimex
 cinematography: Anna Viola Hallberg
-editor: Anna Viola Hallberg
+editor: Ami Skånberg/AV Hallberg
 contact: amimaisha@gmail.com
-filmWebsite: https://studiobuji.com/
-filmTrailer: https://studiobuji.com/
+filmWebsite: https://studiobuji.com/2024/05/15/fakk-the-sistem/
+filmTrailer: https://studiobuji.com/2024/05/15/fakk-the-sistem/
 screenings:
   - dateTime: Sunday, August 31 11:00
     venue: roda-kvarn
