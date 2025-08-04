@@ -91,7 +91,8 @@
       h2 Screenings
       .film-screenings-list
         .film-screening(v-for="screening in film.screenings")
-          .film-screening-date {{ formattedDate(screening.dateTime) }}
+          //- pre {{ screening.dateTime }}
+          .film-screening-date {{ screening.dateTime }}
           .film-screening-venue
             a(:href="getVenueMapLink(screening.venue)" target="_blank") {{ getVenueName(screening.venue) }}
           .film-screening-tickets
