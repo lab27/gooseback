@@ -18,7 +18,7 @@ cast:
   - actor: Ar
   - actor: " Iman"
   - actor: Emi
-  - actor: Peter and Ridwan of Nuclear Annihilation
+  - actor: Peter & Ridwan of Nuclear Annihilation
   - actor: Gagah of Noise 82
   - actor: "Farhan of Gloath "
   - actor: Sarma
