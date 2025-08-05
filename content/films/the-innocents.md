@@ -17,12 +17,12 @@ cast:
   - actor: "José Miguel Chuman "
   - actor: "Grecia Pino "
   - actor: José Masías
-music: NA
+music: Daniel Ruiz González “Bongo”
 cinematography: Julián Apezteguia
-editor: NA
+editor: Edson Ramírez Martell
 contact: festivals@idaagency.net
-filmWebsite: https://www.idaagency.net/?fbclid=PAZXh0bgNhZW0CMTEAAafa4sM7pKvQi0hwDINM4X06OHTOoefzlpPHumlWrEbePk6I6EwevWDu2k7rgw_aem_RAAH5ibGTEu75XBEfE3oBQ
-filmTrailer: https://www.idaagency.net/?fbclid=PAZXh0bgNhZW0CMTEAAafa4sM7pKvQi0hwDINM4X06OHTOoefzlpPHumlWrEbePk6I6EwevWDu2k7rgw_aem_RAAH5ibGTEu75XBEfE3oBQ
+filmWebsite: https://www.imdb.com/es/title/tt27798033/
+filmTrailer: https://www.youtube.com/watch?v=mlDSpoynZWg
 screenings:
   - dateTime: Friday, August 29 21:00
     venue: roda-kvarn
