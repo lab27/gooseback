@@ -18,7 +18,7 @@ contact: sarakhayat249@gmail.com
 filmWebsite: https://www.instagram.com/sarakhayatart_alia/reels/
 filmTrailer: https://www.youtube.com/watch?v=ESCkZXuOD5A
 screenings:
-  - dateTime: Saturday, August 30 11:00
+  - dateTime: Saturday, August 30 12:00
     venue: roda-kvarn
 ---
 HOME is for those who fought hard to keep their homes safe, even when they didn't feel safe inside them. HOME is for those whom might have a home but still feel misplaced. HOME is for all of us that has chosen to leave their home for any reason and start all over. HOME is for anyone who felt or still feel lost or alone in any way.
