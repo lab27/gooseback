@@ -26,7 +26,7 @@ contact: jan.nordvald@gmail.com
 filmWebsite: https://gasebackfilmfestival.com/movies/
 filmTrailer: https://gasebackfilmfestival.com/movies/
 screenings:
-  - dateTime: Saturday, August 30 11:00
+  - dateTime: Saturday, August 30 12:00
     venue: roda-kvarn
 ---
 L﻿ife moves fast
