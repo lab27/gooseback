@@ -14,6 +14,20 @@ producers:
   - producer: Ami Skånberg
 cast:
   - actor: Ami Skånberg
+  - actor: Tremor
+  - actor: Ar
+  - actor: " Iman"
+  - actor: Emi
+  - actor: Peter and Ridwan of Nuclear Annihilation
+  - actor: Gagah of Noise 82
+  - actor: "Farhan of Gloath "
+  - actor: Sarma
+  - actor: Aguy
+  - actor: Wendy and Gia of Laxx
+  - actor: Adinda of Nails Vomit
+  - actor: Fizal
+  - actor: Alifh
+  - actor: Democrust
 music: Anti Cimex
 cinematography: Anna Viola Hallberg
 editor: Ami Skånberg/AV Hallberg
