@@ -20,7 +20,7 @@ contact: "alexandar.miodrag@hotmail.com "
 filmWebsite: https://gasebackfilmfestival.com/tickets
 filmTrailer: https://gasebackfilmfestival.com/tickets
 screenings:
-  - dateTime: Saturday, August 30 11:00
+  - dateTime: Saturday, August 30 12:00
     venue: roda-kvarn
 ---
 TO MIA is about Mia who returns to her art studio to try find joy in painting again after her mother's death.
