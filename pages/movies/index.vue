@@ -7,6 +7,8 @@
       select(v-model="sortBy")
         option(value="title") Title
         option(value="dateTime") Screening Date
+    article 
+      ContentDoc(path="/pages/movies")
     .films-wrapper(v-if="filmPage?.isAnnounced")
 
       //- Features
