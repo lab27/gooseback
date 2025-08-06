@@ -1,5 +1,6 @@
 ---
 heading: Hel's Kitchen
+isAnnounced: true
 ---
 ![]()
 

@@ -57,6 +57,7 @@ collections:
         fields:
           - {label: Heading, name: heading, widget: string}
           - {label: Body, name: body, widget: markdown}
+          - {label: Announced, name: isAnnounced, widget: boolean }
       - label: "Sponsors"
         name: "sponsors"
         file: "/content/pages/sponsors.md"
@@ -92,6 +93,12 @@ collections:
                 name: "thumbnail"
                 widget: "image"
                 media_folder: /public/img/staff-portraits
+      - label: "Where"
+        name: "where"
+        file: "/content/pages/where.md"
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Body, name: body, widget: markdown}
       - label: "When"
         name: "when"
         file: "/content/pages/when.md"
