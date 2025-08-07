@@ -25,7 +25,7 @@ contact: olivierdebannes@o2bfilms.com
 filmWebsite: https://www.o2bfilms.com/
 filmTrailer: https://youtu.be/c-YK_n7joN0?si=0zexeZX4RTp--iBm
 screenings:
-  - dateTime: Sunday, August 31 15:00
+  - dateTime: Sunday, August 31 18:00
     venue: roda-kvarn
 ---
 Michel Gondry is a creative genius who is best known for his brilliantly cinematic music videos, scripts and film direction. Michel is a filmmaker and artist who’s always done things his own quirky way. Gondry started out making super imaginative music videos for big names like Björk, Daft Punk, and The White Stripes. His playful, handmade style caught Hollywood’s attention, and he went on to direct Eternal Sunshine of the Spotless Mind, winning an Oscar and becoming one of the few French filmmakers to do so.
