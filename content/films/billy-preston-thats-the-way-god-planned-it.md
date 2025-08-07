@@ -32,7 +32,7 @@ contact: info@whitehorsepictures.com
 filmWebsite: https://www.whitehorsepics.com/in-development/keith-moon-drhz2-f8k39
 filmTrailer: https://www.whitehorsepics.com/in-development/keith-moon-drhz2-f8k39
 screenings:
-  - dateTime: Sunday, August 31 18:00
+  - dateTime: Sunday, August 31 15:00
     venue: roda-kvarn
 ---
 Mega-talented keyboardist and songwriter Billy Preston was often referred to as “the best musician in the room.” Stylistically influenced by the Black church, Preston’s illustrious career includes collaborations with Aretha Franklin, the Rolling Stones, Elton John, the Beatles, and more. A private man who turned to drugs to dull the pain of personal trauma, his poignant story unfolds through insights from Billy Porter, Eric Clapton, and Ringo Starr, complemented by rare footage and an original score by Robert Glasper. – *Karen McMullen*
