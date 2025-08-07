@@ -22,7 +22,7 @@ contact: felicia.sjobergn@gmail.com
 filmWebsite: https://kulturhosnehlin.wixsite.com/kulturhosnehlin
 filmTrailer: https://kulturhosnehlin.wixsite.com/kulturhosnehlin
 screenings:
-  - dateTime: Sunday, August 31 12:00
+  - dateTime: Sunday, August 31 11:00
     venue: roda-kvarn
 ---
 Edith's heart beats for Elvira. On her way to their date, the unthinkable happens, forcing her to make a heart-wrenching choice. A story about love and relationships, with the heart at its core.
