@@ -27,7 +27,7 @@ contact: festivals@idaagency.net
 filmWebsite: https://www.imdb.com/es/title/tt27798033/
 filmTrailer: https://www.youtube.com/watch?v=mlDSpoynZWg
 screenings:
-  - dateTime: Friday, August 29 21:00
+  - dateTime: Saturday, August 30 21:00
     venue: roda-kvarn
 ---
 Cara de Ángel is a sensitive teenager in search of his identity, trying to understand what it means to be a man in a world shaped by hostile masculinity. To earn a place in the neighborhood pack and prove his manhood, he joins a robbery; they plan to break into the house of a man they want revenge on. Driven by sexual desire, he explores his connection with Gabriela, a girl from the neighborhood he believes he’s in love with, and Jhonny, the lead singer of a punk band he deeply admires. His impulsive, hormone-fueled choices lead him into betrayal and mark the end of his innocence.
