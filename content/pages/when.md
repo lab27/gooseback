@@ -80,7 +80,7 @@ Address: 
 
 [Fryshuset Helsingborg, Kvarnstensgatan 8, 252 27 Helsingborg](https://share.google/JeBv6qHW0fIsFDNmD)
 
-11:00 - 13:00
+12:00 - 13:00
 
 [Helsingborg Special](https://gasebackfilmfestival.com/movies)
 
