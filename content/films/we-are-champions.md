@@ -10,7 +10,7 @@ stills:
   - still: /public/img/film-stills/original-a8499fed-25ea-4ae8-a75c-bd446a2d01b6.jpeg
 country: Sweden
 language: Bosnian, Croatian, Serbian
-director: Danjin Malinovic, Rex Brådhe and Michaela Hennig
+director: Danjin Malinovic, Rex Brådhe & Michaela Hennig
 producers:
   - producer: Danjin Malinovic
   - producer: Rex Brådhe
