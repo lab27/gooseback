@@ -2,10 +2,10 @@
 heading: When
 isAnnounced: true
 ---
-**The full program for public audiences is below. Please check out individual film listings on our home page for more details. Tickets will be on sale very soon!**
+**The full program for public audiences is below. Please check out individual film listings on our home page for more details. Tickets on sale now via [FilmFreeway](https://filmfreeway.com/GasebackFilmFestival) or Swish**
 
 \
-Thursday August 28th 18:00-20:30, Opening Night
+**Thursday August 28th 18:00-20:30, Opening Night**
 
 [The Editorial Office ](https://gasebackfilmfestival.com/movies/the-editorial-office)
 
@@ -14,6 +14,8 @@ Location:  [Röda Kvarn Cinemas](https://www.biorodakvarn.se/)
 Address: 
 
 [Röda Kvarn, Karlsgatan 7, 252 24 Helsingborg](https://share.google/01wnhQl2tUWUOeZ1Y)
+
+
 
 [T﻿he Encampments](https://gasebackfilmfestival.com/movies/the-encampments)
 
@@ -25,13 +27,13 @@ Address: 
 
 [](https://gasebackfilmfestival.com/movies/the-encampments)
 
-Friday August 29th 
+**Friday August 29th** 
 
 18:00 -20:00 
 
 [The Black Sea ](https://gasebackfilmfestival.com/movies/the-black-sea)
 
-Q&A with Crystal Moselle and Derrick B. Harden
+Q&A with Crystal Moselle & Derrick B. Harden
 
 Location:  [Röda Kvarn Cinemas](https://www.biorodakvarn.se/)
 
