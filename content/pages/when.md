@@ -13,9 +13,13 @@ isAnnounced: true
 
 [The Editorial Office ](https://gasebackfilmfestival.com/movies/the-editorial-office)
 
+
+
 [T﻿he Encampments](https://gasebackfilmfestival.com/movies/the-encampments)
 
 18:30- 20:30
+
+
 
 
 
@@ -34,6 +38,8 @@ Q&A with Crystal Moselle & Derrick B. Harden
 20:45 - 22:45
 
 [Familiar Touch](https://gasebackfilmfestival.com/movies/familiar-touch)
+
+
 
 
 
@@ -91,6 +97,8 @@ Q&A with filmmakers 
 21:00 - 23:00 
 
 [The Innocents ](https://gasebackfilmfestival.com/movies/the-innocents)
+
+
 
 
 
