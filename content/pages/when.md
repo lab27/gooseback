@@ -15,8 +15,6 @@ Address: 
 
 [Röda Kvarn, Karlsgatan 7, 252 24 Helsingborg](https://share.google/01wnhQl2tUWUOeZ1Y)
 
-
-
 [T﻿he Encampments](https://gasebackfilmfestival.com/movies/the-encampments)
 
 18:30- 20:30
@@ -41,9 +39,7 @@ Address: 
 
 [Röda Kvarn, Karlsgatan 7, 252 24 Helsingborg](https://share.google/01wnhQl2tUWUOeZ1Y)
 
-
-
-21:00- 23:00
+​20:45 - 22:45
 
 [Familiar Touch](https://gasebackfilmfestival.com/movies/familiar-touch)
 
@@ -52,8 +48,6 @@ Address: 
 Address: 
 
 [Röda Kvarn, Karlsgatan 7, 252 24 Helsingborg](https://share.google/01wnhQl2tUWUOeZ1Y)
-
-
 
 Saturday August 30th
 
@@ -121,8 +115,6 @@ Location:  [Röda Kvarn Cinemas](https://www.biorodakvarn.se/)
 Address: 
 
 [Röda Kvarn, Karlsgatan 7, 252 24 Helsingborg](https://share.google/01wnhQl2tUWUOeZ1Y)
-
-
 
 Sunday August 31st
 
