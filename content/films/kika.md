@@ -9,7 +9,7 @@ stills:
   - still: /public/img/film-stills/2_kika_alexe-poukine_2key_c-wrong-men-kidam-scaled.jpg
 country: France / Belgium
 language: French
-director: Alex Poukine
+director: Alexe Poukine
 producers:
   - producer: "Benoït Roland "
   - producer: "Alexandre Perrier "
