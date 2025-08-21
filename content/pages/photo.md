@@ -6,7 +6,7 @@ The art of the music video has often been the gateway mode for young filmmakers 
 
 The masterclass will be preceded by a workshop by Helsingborg artist, Julia Stranovska, who will deliver a fascinating look at the process and that goes into storyboard creation. This is a vital workshop for filmmakers, content creators and artists who work with moving image. 
 
-The storyboard workshop takes place from 11:00 am to 11:45 amon Saturday August 30th at [Fryshusset](https://fryshuset.se/plats/helsingborg) in Gåsebäck. 
+The storyboard workshop takes place from 11:00 am to 11:45 am on Saturday August 30th at [Fryshusset](https://fryshuset.se/plats/helsingborg) in Gåsebäck. 
 
 The music video masterclass with Salomé goes from 13:00 - 14:30.
 
