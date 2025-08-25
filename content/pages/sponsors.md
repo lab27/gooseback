@@ -9,6 +9,8 @@ logos:
     name: ABF
   - name: Contentor
     logo: /public/img/sponsor-logos/contentor_logotyp_green_rgb.png
+  - name: Boost
+    logo: /public/img/sponsor-logos/boosthbg_logo_black_rgb.svg
 ---
 Gåsebäck Film Festival is an independently funded film culture event. 
 
