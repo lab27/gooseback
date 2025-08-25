@@ -7,6 +7,8 @@ logos:
     logo: /public/img/sponsor-logos/film-i-skane_rgb_kvadrat_pos.svg
   - logo: /public/img/sponsor-logos/abf_logo_rund.png
     name: ABF
+  - name: Contentor
+    logo: /public/img/sponsor-logos/contentor_logotyp_green_rgb.png
 ---
 Gåsebäck Film Festival is an independently funded film culture event. 
 
