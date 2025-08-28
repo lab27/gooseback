@@ -64,7 +64,7 @@ Short film program by Helsingborg based filmmakers
 
 Q&A with filmmakers 
 
-15:00- 17:00 
+12:-14:00
 
 [The Architect](https://gasebackfilmfestival.com/movies/the-architect)
 
@@ -102,8 +102,6 @@ Q&A with the directors 
 
 Zoom Q&A with filmmaker
 
-
-
 \--
 
-**[hussain.studio](http://hussain.studio)**
+**[hussain.studio](http://hussain.studio/)**
