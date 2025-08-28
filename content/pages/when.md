@@ -33,7 +33,7 @@ Q&A with Crystal Moselle & Derrick B. Harden
 
 **Saturday August 30th**
 
-10:30 - 11:30am
+​1​1.00 - 12.00
 
 Storyboard workshop with artist, Julia Stranovska 
 
@@ -45,7 +45,7 @@ Address: 
 
 [Fryshuset Helsingborg, Kvarnstensgatan 8, 252 27 Helsingborg](https://share.google/JeBv6qHW0fIsFDNmD)
 
-11:45 - 12:45 
+​1​3:00 - 14:30
 
 Music Video masterclass with Salomé Elliot, moderated by Måns Thunberg\
 (session in Swedish)
