@@ -66,21 +66,25 @@ Short film program by Helsingborg based filmmakers
 
 Q&A with filmmakers 
 
-12:-14:00
+​1​5:00 - 17:00
 
 [The Architect](https://gasebackfilmfestival.com/movies/the-architect)
 
 [](https://gasebackfilmfestival.com/movies/the-architect)Q&A with director, Michael Emami, and actors Denise Trankalis and Max Hoffmann
 
-​1​5:00 - 17:00
+
 
 18:00-20:00
 
 [K﻿IKA](https://gasebackfilmfestival.com/movies/kika)
 
+
+
 21:00 - 23:00 
 
 [The Innocents ](https://gasebackfilmfestival.com/movies/the-innocents)
+
+
 
 **Sunday August 31st**
 
