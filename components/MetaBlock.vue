@@ -1,9 +1,9 @@
 <template lang="pug">
   .meta-block
     p.ornament &plus;
-    p Thursday August 28 —
-    p Sunday August 31
-    p 2025
+    p Friday August 28 —
+    p Sunday August 30
+    p 2026
     br
     p Gåsebäck
     p.ornament *
