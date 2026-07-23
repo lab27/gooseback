@@ -12,7 +12,7 @@ main.relative.min-h-screen.overflow-hidden
     h1.text-center.mb-2.title-g Gåsebäck
       br
       span.title-ff Film Festival
-    p.mobile-dates.text-center August 28 — August 31, 2025
+    p.mobile-dates.text-center August 28 — August 30, 2026
     p.mobile-location.text-center Gåsebäck, Helsingborg
 </template>
 
