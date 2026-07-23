@@ -1,0 +1,3 @@
+[build.environment]
+  # nitropack -> rollup-plugin-visualizer@7 requires node >=22
+  NODE_VERSION = "22"
