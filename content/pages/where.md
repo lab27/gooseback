@@ -7,4 +7,4 @@ Our film program will be shown at our partner cinema, [Röda Kvarn](https://www
 
 O﻿ur second venue is [G](https://gasebackkonstscen.se/)å[sebäck Konstscen](https://gasebackkonstscen.se/) - events held on-site will be announced soon.
 
-For any enquiries just email or message on Instagram!
+For any enquiries just [email](mailto:info@gasebackfilmfestival.com) or message on [Instagram](https://www.instagram.com/gasebackfilmfestival/)!
