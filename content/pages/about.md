@@ -5,14 +5,6 @@ staff:
     role: Festival Director
     email: hussain@mastermechanicfilms.com
     thumbnail: /public/img/staff-portraits/hussain_currimbhoy_bw.jpeg
-  - name: Loreta Gandofli
-    role: Program Advisor
-    email: programming@gasebackfilmfestival.com
-    thumbnail: /public/img/staff-portraits/loreta-pic-vienna.png
-  - name: Lucrezia De Biase
-    role: "P﻿roduction Manager/Head Chef Hel's Kitchen:"
-    email: info@gasebackfilmfestival.com
-    thumbnail: /public/img/staff-portraits/lucrezia-portrait-.jpg
 ---
 Gåsebäck Film Festival enters its 4th edition in 2026. 
 
