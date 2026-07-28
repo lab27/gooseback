@@ -2,6 +2,8 @@
 heading: Music Video Workshop
 photos: []
 ---
+**\*\*T﻿he music video workshop was part of last year's festival in 2025\*\***
+
 The art of the music video has often been the gateway mode for young filmmakers to find their voice and their style in filmmaking. This year, Gåsebäck Film Festival hosts a special masterclass on music video creation with [Salomé Elliot](https://salomeelliot.com/film/). Salomé will be in Gåsebäck to discuss her working method, and outline how she gets her projects from idea to screen. Salomé will take the stage with scriptwriter and producer, Måns Thunberg to talk about her work, share some samples and take questions from the audience. 
 
 The masterclass will be preceded by a workshop by Helsingborg artist, Julia Stranovska, who will deliver a fascinating look at the process and that goes into storyboard creation. This is a vital workshop for filmmakers, content creators and artists who work with moving image. 
