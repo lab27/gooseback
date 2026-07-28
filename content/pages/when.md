@@ -2,10 +2,6 @@
 heading: When
 isAnnounced: true
 ---
-**Heading:** When
-
-**Heading:** When
-
 **The full program for public audiences is below. Please check out individual film listings on our home page for more details. Tickets on sale now via [FilmFreeway](https://filmfreeway.com/GasebackFilmFestival) or Swish.**
 
 **All film screenings at [Röda Kvarn, Karlsgatan 7, 252 24 Helsingborg](https://share.google/01wnhQl2tUWUOeZ1Y)**
@@ -72,19 +68,13 @@ Q&A with filmmakers 
 
 [](https://gasebackfilmfestival.com/movies/the-architect)Q&A with director, Michael Emami, and actors Denise Trankalis and Max Hoffmann
 
-
-
 18:00-20:00
 
 [K﻿IKA](https://gasebackfilmfestival.com/movies/kika)
 
-
-
 21:00 - 23:00 
 
 [The Innocents ](https://gasebackfilmfestival.com/movies/the-innocents)
-
-
 
 **Sunday August 31st**
 
