@@ -2,7 +2,9 @@
 heading: When
 isAnnounced: true
 ---
-**The full program for public audiences is below. Please check out individual film listings on our home page for more details. Tickets on sale now via [FilmFreeway](https://filmfreeway.com/GasebackFilmFestival) or Swish.**
+**Please note, the following is the 2025 program. The 2026 program will be updated briefly.**
+
+**The full program for public audiences is below. Please check out individual film listings on our home page for more details. Tickets on sale now via [FilmFreeway](https://filmfreeway.com/GasebackFilmFestival) or Swish.** 
 
 **All film screenings at [Röda Kvarn, Karlsgatan 7, 252 24 Helsingborg](https://share.google/01wnhQl2tUWUOeZ1Y)**
 
