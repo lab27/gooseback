@@ -2,7 +2,7 @@
 heading: Live discussions + Q&As at the festival
 isAnnounced: true
 ---
-**\*﻿\*From the 2025 festival\*\* \*\*2026 program coming soon\*\***
+**\*﻿\*From the 2025 festival - 2026 program coming soon\*\***
 
 The magic of film festivals is the chance to meet with filmmakers in person and hear about their creative journeys, filmmaking practice and their work as writers, directors and actors. 
 
