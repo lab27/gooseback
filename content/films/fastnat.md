@@ -1,4 +1,5 @@
 ---
+year: 2025
 title: Fastnat
 type: Fiction
 program: helsingborg

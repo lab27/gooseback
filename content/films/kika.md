@@ -1,4 +1,5 @@
 ---
+year: 2025
 title: Kika
 type: Fiction
 program: features

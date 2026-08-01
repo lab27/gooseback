@@ -1,4 +1,5 @@
 ---
+year: 2025
 title: "Billy Preston: That's The Way God Planned It"
 type: Fiction
 program: music

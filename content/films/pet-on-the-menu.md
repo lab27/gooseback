@@ -1,4 +1,5 @@
 ---
+year: 2025
 title: Pet On The Menu
 type: Documentary
 program: shorts1

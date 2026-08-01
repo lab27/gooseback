@@ -1,4 +1,5 @@
 ---
+year: 2025
 title: The Encampments
 type: Documentary
 program: features

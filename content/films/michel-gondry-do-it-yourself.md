@@ -1,4 +1,5 @@
 ---
+year: 2025
 title: "Michel Gondry: Do it Yourself!"
 type: Documentary
 program: music

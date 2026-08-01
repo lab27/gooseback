@@ -1,4 +1,5 @@
 ---
+year: 2025
 title: Sunny Side Up
 type: Fiction
 program: helsingborg

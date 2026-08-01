@@ -1,4 +1,5 @@
 ---
+year: 2025
 title: The Architect
 type: Fiction
 program: features

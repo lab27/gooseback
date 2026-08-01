@@ -1,4 +1,5 @@
 ---
+year: 2025
 title: The Editorial Office
 type: Fiction
 program: features

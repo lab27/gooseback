@@ -1,4 +1,5 @@
 ---
+year: 2025
 title: Gold of the Plateau
 type: Documentary
 program: shorts1
