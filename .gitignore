@@ -146,3 +146,6 @@ dist-ssr
 # Generated files
 public/sw.js
 public/workbox-*.js
+
+# Superpowers SDD scratch workspace
+.superpowers/
