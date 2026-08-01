@@ -127,8 +127,9 @@ currentEdition: 2025
 ```
 
 Registered under the existing Site Settings CMS collection alongside `submissions.yml`. `/movies`
-renders this edition. The annual rollover is: create the new edition file, add its films, change
-this one value.
+renders this edition. Changing this one value moves the previous program into the archive — no
+files are moved or deleted. (Two `config.yml` lines also need bumping so the CMS's Films list
+follows along; see "Cost of this choice" under CMS changes.)
 
 ### Migration of existing page content
 
@@ -219,12 +220,38 @@ the script reports any such cases.
 
 ## CMS changes
 
-- **Films**: add a Year field; add `view_filters` on year and `sortable_fields` so the list stays
-  navigable at 53+ entries.
+The films list must not become one ever-growing list. Two collections point at the **same**
+`content/films` folder and present it differently — no second folder, no duplicated content, the
+`year` field does the splitting:
+
+- **Films** — `filter: {field: year, value: <current year>}`, `create: true`. Only the current
+  program, ~24 entries. This is where Hussain does essentially all his work.
+- **Archive** — same folder, no filter, `create: false`, `view_groups` by year and
+  `sortable_fields: ['year', 'title']`. All 53 films in collapsible per-year groups.
+
+The film field schema is defined once on the Films collection with a YAML anchor (`&film_fields`)
+and referenced by the Archive collection (`*film_fields`), so the two views cannot drift apart.
+Verified: the pinned CMS bundle is Netlify CMS 2.10.192, whose config parser is the `yaml` package
+with full anchor/alias support, and which reads `filter`, `view_groups`, `view_filters` and
+`sortable_fields`.
+
+Also:
+
 - **Editions**: new folder collection over `content/editions`, with a `sections` list widget
   (title, program select, description) mirroring the frontmatter above.
 - **Site Settings**: add `currentEdition`.
 - **Pages**: remove the "Movies Page" file entry, now superseded by Editions.
+
+### Cost of this choice
+
+The Films filter value and the Year field's `default` are static YAML, so the annual rollover is
+**one CMS edit plus two lines in `public/admin/config.yml`** — not the one-edit rollover the
+settings section describes. That is the accepted trade for keeping the working list short. Both
+lines are adjacent and called out in the rollout notes.
+
+Separately worth knowing: `netlify-cms@^2.0.0` is loaded from unpkg at runtime and is the
+unmaintained predecessor of Decap CMS. Not in scope here, but the `^2.0.0` range resolving live
+from a CDN is a standing risk worth revisiting.
 
 ## Error handling
 

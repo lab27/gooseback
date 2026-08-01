@@ -1778,29 +1778,62 @@ Insert after the Pages collection, before `- name: films`:
           - { label: 'Description', name: 'description', widget: 'text', required: false }
 ```
 
-- [ ] **Step 4: Add the Year field and filters to the Films collection**
+- [ ] **Step 4: Split the films list into a Films collection and an Archive collection**
 
-In the `films` collection, add `view_filters` and `sortable_fields` directly after `slug: '{{slug}}'`:
+Both point at the same `content/films` folder — no second folder, no duplicated content. The
+`year` field does the splitting. Verified against the pinned bundle (Netlify CMS 2.10.192):
+`filter`, `view_groups`, `view_filters` and `sortable_fields` are all read, and its config parser
+is the `yaml` package with full anchor/alias support.
+
+In the existing `films` collection, add `filter` and `sortable_fields` directly after
+`slug: '{{slug}}'`:
 
 ```yaml
+    filter: { field: year, value: 2025 }
+    sortable_fields: ['title', 'year']
+```
+
+Add the Year field as the first entry under `fields:`, before Title — **and anchor the whole
+fields list** so the Archive collection can reuse it. Change the line `    fields:` to
+`    fields: &film_fields` and insert Year as its first item:
+
+```yaml
+    fields: &film_fields
+      - { label: 'Year', name: 'year', widget: 'number', value_type: 'int', default: 2025, min: 2023, max: 2100, hint: 'Which festival edition this film belongs to.' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      # …the remaining film fields stay exactly as they are…
+```
+
+Then add the Archive collection immediately after the `films` collection, before `- name: talks`:
+
+```yaml
+  - name: films_archive
+    label: Archive
+    label_singular: Archived Film
+    folder: 'content/films'
+    format: 'frontmatter'
+    create: false
+    slug: '{{slug}}'
     sortable_fields: ['year', 'title']
+    summary: '{{year}} — {{title}}'
+    view_groups:
+      - label: Year
+        field: year
     view_filters:
-      - label: '2025'
+      - label: 'Current program only'
         field: year
         pattern: 2025
-      - label: '2024'
-        field: year
-        pattern: 2024
-      - label: '2023'
-        field: year
-        pattern: 2023
+    editor:
+      preview: false
+    fields: *film_fields
 ```
 
-And add the Year field as the first entry under `fields:`, before Title:
+`create: false` means new films can only be added through the Films collection, so nothing can be
+filed into the archive by accident. `fields: *film_fields` resolves to the same field list as
+Films, so the two views cannot drift apart. Editing an archived film still works normally.
 
-```yaml
-      - { label: 'Year', name: 'year', widget: 'number', value_type: 'int', default: 2025, min: 2023, max: 2100, hint: 'Which festival edition this film belongs to.' }
-```
+**Do not duplicate the field list.** If you find yourself pasting 25 fields a second time, you have
+missed the anchor.
 
 - [ ] **Step 5: Add currentEdition to Site Settings**
 
@@ -1826,12 +1859,19 @@ import('node:fs').then(async ({readFileSync}) => {
   const editions = cfg.collections.find(c => c.name === 'editions')
   const pages = cfg.collections.find(c => c.name === 'pages')
   const settings = cfg.collections.find(c => c.name === 'settings')
+  const archive = cfg.collections.find(c => c.name === 'films_archive')
   const check = (cond, msg) => { if (!cond) { console.error('FAIL:', msg); process.exit(1) } }
   check(names.includes('editions'), 'editions collection exists')
   check(films.fields.some(f => f.name === 'year'), 'films have a year field')
-  check(films.view_filters?.length === 3, 'films have year view filters')
+  check(films.filter?.field === 'year', 'films collection filters by year')
   check(!films.fields.some(f => f.name === 'exectProducers'), 'exectProducers typo gone')
   check(films.fields.some(f => f.name === 'execProducers'), 'execProducers present')
+  check(archive, 'archive collection exists')
+  check(archive.folder === films.folder, 'archive points at the same folder as films')
+  check(archive.create === false, 'archive does not allow creating films')
+  check(archive.view_groups?.[0]?.field === 'year', 'archive groups by year')
+  // the anchor must have resolved — same schema, not a hand-copied duplicate
+  check(JSON.stringify(archive.fields) === JSON.stringify(films.fields), 'archive shares the film field schema')
   check(editions.fields.some(f => f.name === 'sections'), 'editions have sections')
   check(!pages.files.some(f => f.file.includes('movies.md')), 'Movies Page entry removed')
   check(settings.files.some(f => f.file.includes('settings.yml')), 'currentEdition setting registered')
@@ -1839,7 +1879,7 @@ import('node:fs').then(async ({readFileSync}) => {
 })
 "
 ```
-Expected: `PASS`
+Expected: `PASS`. The `archive.fields === films.fields` assertion is the one that matters — it fails if the anchor was replaced with a hand-copied field list.
 
 - [ ] **Step 7: Verify the CMS loads against local content**
 
@@ -1848,7 +1888,12 @@ yarn dev &
 sleep 8
 curl -s -o /dev/null -w "%{http_code}\n" http://localhost:3000/admin/
 ```
-Expected: `200`. If Decap's local backend is running, open `http://localhost:3000/admin/` and confirm: Editions lists 2023/2024/2025, Films shows a Year column and year filters, and opening a 2024 film shows its Executive Producers populated.
+Expected: `200`. With the CMS's local backend running, open `http://localhost:3000/admin/` and confirm:
+- The sidebar shows **Films** and **Archive** as separate entries.
+- **Films** lists only the 24 films of the current edition.
+- **Archive** lists all 53, collapsible into 2025 / 2024 / 2023 groups, with no "New Film" button.
+- Opening a 2024 film from Archive shows the full edit form — same fields as Films — with its Executive Producers populated.
+- **Editions** lists 2023, 2024, 2025.
 
 - [ ] **Step 8: Commit**
 
@@ -1932,4 +1977,13 @@ If Steps 1–7 surfaced problems, fix them and commit with a `[fix]` prefix. If 
 
 `currentEdition` stays at `2025`, so `/movies` is unchanged for visitors. The archive is purely additive.
 
-**When the 2026 program is ready**, the process is now: create the 2026 edition in the CMS (Announced off, an `announcement` teaser if wanted), add the 2026 films with Year 2026, then flip Current Edition to 2026. The 2025 program moves into the archive by itself. **No films get deleted.**
+**When the 2026 program is ready**, the process is now:
+
+1. In the CMS: create the 2026 edition (Announced off, an `announcement` teaser if wanted), add the 2026 films with Year 2026, then flip **Site Settings → Current Edition** to 2026.
+2. In `public/admin/config.yml`, bump **two lines** so the CMS's Films list follows the site:
+   - the `films` collection's `filter: { field: year, value: 2025 }` → `2026`
+   - the Year field's `default: 2025` → `2026`
+
+The 2025 program moves into the archive by itself. **No films get deleted.**
+
+Those two lines are static YAML and cannot be driven from content, which is the accepted cost of keeping the CMS Films list short. If they are ever forgotten the site is still correct — only the CMS's Films view keeps showing the previous year, and everything remains reachable under Archive.
