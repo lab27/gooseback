@@ -101,9 +101,19 @@ const normalize = (data) => {
 }
 
 let recovered = 0
+let skipped = 0
 const missing = []
 
 for (const path of filmPaths) {
+  // The CMS recycled at least one file path across years (see docstring above). Never
+  // clobber content that already exists in the working tree — a collision means someone
+  // is about to lose restored content, so it must be loud, not silent.
+  if (existsSync(path)) {
+    console.log(`SKIP (already exists, not overwriting): ${path}`)
+    skipped++
+    continue
+  }
+
   const raw = gitText(['show', `${snapshot}:${path}`])
   const match = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/)
   if (!match) {
@@ -124,7 +134,7 @@ for (const path of filmPaths) {
   console.log(`restored ${path}`)
 }
 
-console.log(`\n${filmPaths.length} films, ${recovered} images recovered from history`)
+console.log(`\n${filmPaths.length} films, ${filmPaths.length - skipped} restored, ${skipped} skipped (already existed), ${recovered} images recovered from history`)
 if (missing.length) {
   console.log(`\n${missing.length} images unrecoverable (films will render without them):`)
   missing.forEach(m => console.log(`  ${m}`))

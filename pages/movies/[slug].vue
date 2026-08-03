@@ -177,7 +177,7 @@ const stills = computed(() => {
       stillsArray.push(still.still)
     })
   }
-  return stillsArray
+  return stillsArray.filter(Boolean)
 })
 
 const currentImage = computed(() => stills.value[currentImageIndex.value])
