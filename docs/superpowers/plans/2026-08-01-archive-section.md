@@ -1017,17 +1017,17 @@ Open `content/editions/2024.md`. The generated `shorts1` description currently e
       from Sweden, and Skåne in particular, and around this weird, wild, wide world.
   - title: "Shorts Program 2: Resistance"
     program: shorts2
-    description: Dedicated to the act of rebellion and the culture and people of
+    description: "Dedicated to the act of rebellion and the culture and people of
       Palestine, we have hand-picked this collection of unpredictable, highly crafted
       and emotional short films to build our thematic focus for 2024. The filmmakers
       come from Palestine, Iran, Europe: but they are all bound by the desire to shine
       a much needed light on the human price Palestinians must pay in order to survive
       under Occupation. Nonetheless, humor, family and dignity fuel this special brand
       of resilience. Catch the shorts that reflect one of the most important moments
-      in history.
+      in history."
 ```
 
-Note the quoted title — an unquoted YAML value containing `: ` is a parse error. Keep `features` as the first section, so the final order is features, shorts1, shorts2.
+**Both the title and the description must be double-quoted.** An unquoted YAML scalar containing `: ` is a parse error, and the description contains "Europe: but" mid-sentence — easy to miss because the colon is buried in prose rather than at the start of the value. Keep `features` as the first section, so the final order is features, shorts1, shorts2.
 
 Confirm the file parses and the copy survived:
 
