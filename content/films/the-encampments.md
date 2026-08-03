@@ -16,11 +16,11 @@ producers:
   - producer: "Munir Atalla "
   - producer: "Kei Pritsker "
   - producer: Michael T. Workman
-exectProducers:
-  - exectProducer: "Macklemore "
-  - exectProducer: "Hamza Ali "
-  - exectProducer: "Badie Ali "
-  - exectProducer: Ben Becker
+execProducers:
+  - execProducer: "Macklemore "
+  - execProducer: "Hamza Ali "
+  - execProducer: "Badie Ali "
+  - execProducer: Ben Becker
 music: NA
 cinematography: Kei Pritsker
 editor: "Michael T Workman & Mahdokht Mahmoudabadi "

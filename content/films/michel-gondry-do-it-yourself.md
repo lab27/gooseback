@@ -12,7 +12,7 @@ producers:
   - producer: "Robin Accard "
   - producer: "Olivier de Bannes "
   - producer: Philippe Savine
-exectProducers: []
+execProducers: []
 cast:
   - actor: Björk
   - actor: "Beck "

@@ -11,11 +11,11 @@ director: Derrick B. Harden and Crystal Moselle
 producers:
   - producer: Izabella Tzenkova
   - producer: Crystal Moselle
-exectProducers:
-  - exectProducer: Ted Hope
-  - exectProducer: "Cameron Brodie "
-  - exectProducer: "Jonas Carpignano "
-  - exectProducer: Chris K. Daniels
+execProducers:
+  - execProducer: Ted Hope
+  - execProducer: "Cameron Brodie "
+  - execProducer: "Jonas Carpignano "
+  - execProducer: Chris K. Daniels
 cast:
   - actor: Derrick B. Harden
   - actor: Irmena Chichikova

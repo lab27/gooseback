@@ -15,12 +15,12 @@ producers:
   - producer: Jeanne Elfant Festa
   - producer: Nigel Sinclair
   - producer: Cheo Hodari Coker
-exectProducers:
-  - exectProducer: Steve Cohen & Paula Froehle
-  - exectProducer: Nicholas Ferrall
-  - exectProducer: Cassidy Hartmann
-  - exectProducer: Olivia Harrison
-  - exectProducer: Jonathan Clyde
+execProducers:
+  - execProducer: Steve Cohen & Paula Froehle
+  - execProducer: Nicholas Ferrall
+  - execProducer: Cassidy Hartmann
+  - execProducer: Olivia Harrison
+  - execProducer: Jonathan Clyde
 cast:
   - actor: Ringo Starr
   - actor: Eric Clapton

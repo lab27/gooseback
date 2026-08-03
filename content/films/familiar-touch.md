@@ -11,10 +11,10 @@ director: Sarah Friedland
 producers:
   - producer: "Alexandra Byer "
   - producer: Matthew Thurm
-exectProducers:
-  - exectProducer: "Marni E.J. Grossman "
-  - exectProducer: Regina K. Scully
-  - exectProducer: Abby Sher
+execProducers:
+  - execProducer: "Marni E.J. Grossman "
+  - execProducer: Regina K. Scully
+  - execProducer: Abby Sher
 cast:
   - actor: "Kathleen Chalfant "
   - actor: Carolyn Michelle

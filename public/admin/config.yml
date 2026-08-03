@@ -146,13 +146,13 @@ collections:
         fields:
           - {label: Producer, name: producer, widget: string }
       - label: 'Executive Producers'
-        name: 'exectProducers'
+        name: 'execProducers'
         widget: 'list'
         allow_add: true
         label_singular: Executive Producer
         summary: '{{fields.execProducer}}'
         fields:
-          - {label: Executive Producer, name: exectProducer, widget: string }
+          - {label: Executive Producer, name: execProducer, widget: string }
       - label: 'Cast'
         name: 'cast'
         widget: 'list'
