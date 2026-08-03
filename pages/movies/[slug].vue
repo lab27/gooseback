@@ -1,6 +1,6 @@
 <template lang="pug">
   main.film-detail
-    NuxtLink(to="/movies").back-button &#8592; All Films
+    NuxtLink(:to="backLink.to").back-button &#8592; {{ backLink.label }}
     h1 {{ film?.title }}
     p.film-header-meta dir. {{ film?.director }} / {{ film?.type }} / {{ film?.durationInMinutes }} min / {{ film?.language }}
     .film-content
@@ -127,6 +127,7 @@ interface Screening {
 
 interface Film {
   title: string
+  year?: number
   director: string
   type: string
   durationInMinutes: number
@@ -155,6 +156,19 @@ const currentImageIndex = ref(0)
 const { data: film } = await useAsyncData('film', () =>
   queryContent<Film>('films', route.params.slug as string).findOne()
 )
+
+const { data: settings } = await useAsyncData('settings-film', () =>
+  queryContent<{ currentEdition: number }>('settings').findOne()
+)
+
+/** Archived films return to their edition; current-program films return to /movies. */
+const backLink = computed(() => {
+  const year = film.value?.year
+  const isCurrent = !year || year === settings.value?.currentEdition
+  return isCurrent
+    ? { to: '/movies', label: 'All Films' }
+    : { to: `/archive/${year}`, label: `${year} Films` }
+})
 
 useHead(() => ({
   title: film.value?.title || 'Film',

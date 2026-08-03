@@ -25,6 +25,8 @@
       li
         NuxtLink(to="/about") A Bit About
       li
+        NuxtLink(to="/archive") Archive
+      li
         NuxtLink(to="/tickets") Get Tix
 </template>
 
