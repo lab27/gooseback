@@ -92,10 +92,10 @@
       .film-screenings-list
         .film-screening(v-for="screening in film.screenings")
           //- pre {{ screening.dateTime }}
-          .film-screening-date {{ screening.dateTime }}
+          .film-screening-date {{ screeningDate(screening.dateTime) }}
           .film-screening-venue
             a(:href="getVenueMapLink(screening.venue)" target="_blank") {{ getVenueName(screening.venue) }}
-          .film-screening-tickets
+          .film-screening-tickets(v-if="!isArchived")
             span &#8599;
             a(href="https://filmfreeway.com/GasebackFilmFestival/tickets?welcome=true" target="_blank") Buy Tickets
 </template>
@@ -103,6 +103,7 @@
 <script setup lang="ts">
 import { format } from 'date-fns'
 import { useVenues } from '~/composables/useVenues'
+import { useFilmDate } from '~/composables/useFilmDate'
 
 interface Producer {
   producer: string
@@ -151,6 +152,7 @@ interface Film {
 const route = useRoute()
 const { staticRemover } = useStaticRemover()
 const { getVenueName, getVenueMapLink } = useVenues()
+const { formatScreeningDateLong } = useFilmDate()
 const currentImageIndex = ref(0)
 
 const { data: film } = await useAsyncData('film', () =>
@@ -161,13 +163,23 @@ const { data: settings } = await useAsyncData('settings-film', () =>
   queryContent<{ currentEdition: number }>('settings').findOne()
 )
 
+/**
+ * A film is archived when its year differs from the current edition; a film with
+ * no year at all is treated as current. This is the same rule the back button
+ * already uses — reused here to decide whether to show the year on screening
+ * dates and whether to render the ticket link.
+ */
+const isArchived = computed(() => {
+  const year = film.value?.year
+  return !!year && year !== settings.value?.currentEdition
+})
+
 /** Archived films return to their edition; current-program films return to /movies. */
 const backLink = computed(() => {
   const year = film.value?.year
-  const isCurrent = !year || year === settings.value?.currentEdition
-  return isCurrent
-    ? { to: '/movies', label: 'All Films' }
-    : { to: `/archive/${year}`, label: `${year} Films` }
+  return isArchived.value
+    ? { to: `/archive/${year}`, label: `${year} Films` }
+    : { to: '/movies', label: 'All Films' }
 })
 
 useHead(() => ({
@@ -203,6 +215,9 @@ const formattedDate = (isoDate: string) => {
   const date = new Date(isoDate)
   return format(date, 'EEEE, dd MMMM HH:mm')
 }
+
+const screeningDate = (dateTime: string) =>
+  formatScreeningDateLong(dateTime, film.value?.year, isArchived.value)
 
 const simplifyURL = (url: string) => {
   return url.replace(/^(?:https?:\/\/)?(?:www\.)?/i, '').split('/')[0]

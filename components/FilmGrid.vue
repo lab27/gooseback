@@ -36,12 +36,24 @@ const props = defineProps<{ films: Film[] }>()
 const { staticRemover } = useStaticRemover()
 const { formatScreeningDate } = useFilmDate()
 
+// Fetched here (rather than threaded through EditionProgram) to keep the parent
+// pages/components free of a prop they don't otherwise need. FilmGrid can render
+// multiple times per page (once per program section); useAsyncData dedupes by key,
+// so this only issues one fetch regardless of instance count.
+const { data: settings } = await useAsyncData('settings-grid', () =>
+  queryContent<{ currentEdition: number }>('settings').findOne()
+)
+
 const slugFor = (film: Film) =>
   film.slug || film._path.split('/').pop() || film._stem?.split('/').pop() || 'unknown'
 
+/** A film is archived when its year differs from the current edition; yearless films count as current. */
+const isArchived = (film: Film) =>
+  !!film.year && film.year !== settings.value?.currentEdition
+
 const dateFor = (film: Film) => {
   const dateTime = film.screenings?.[0]?.dateTime
-  return dateTime ? formatScreeningDate(dateTime, film.year) : 'TBA'
+  return dateTime ? formatScreeningDate(dateTime, film.year, isArchived(film)) : 'TBA'
 }
 </script>
 

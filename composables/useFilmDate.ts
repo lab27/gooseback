@@ -28,10 +28,28 @@ const toDate = (dateString: string, year?: number): Date | null => {
 }
 
 export const useFilmDate = () => {
-  const formatScreeningDate = (dateString: string, year?: number): string => {
+  /**
+   * Grid formatter: "30.08 18:00" for the current program. Archived films pass
+   * `includeYear` so visitors don't mistake a past screening for an upcoming one:
+   * "30.08.2024 18:00".
+   */
+  const formatScreeningDate = (dateString: string, year?: number, includeYear = false): string => {
     if (!dateString) return 'TBA'
     const date = toDate(dateString, year)
-    return date ? format(date, 'dd.MM HH:mm') : dateString
+    if (!date) return dateString
+    return format(date, includeYear ? 'dd.MM.yyyy HH:mm' : 'dd.MM HH:mm')
+  }
+
+  /**
+   * Detail-page formatter: reproduces the raw CMS shape "Saturday, August 30 18:00"
+   * so the current program's appearance is unchanged. Archived films pass `includeYear`
+   * to insert the edition year in place: "Saturday, August 30 2024 18:00".
+   */
+  const formatScreeningDateLong = (dateString: string, year?: number, includeYear = false): string => {
+    if (!dateString) return 'TBA'
+    const date = toDate(dateString, year)
+    if (!date) return dateString
+    return format(date, includeYear ? 'EEEE, MMMM d yyyy HH:mm' : 'EEEE, MMMM d HH:mm')
   }
 
   const parseScreeningDate = (dateString: string, year?: number): number => {
@@ -39,5 +57,5 @@ export const useFilmDate = () => {
     return date ? date.getTime() : 0
   }
 
-  return { formatScreeningDate, parseScreeningDate }
+  return { formatScreeningDate, formatScreeningDateLong, parseScreeningDate }
 }
