@@ -37,12 +37,28 @@ interface Edition {
   sections?: Section[]
 }
 
-const route = useRoute()
-const year = Number(route.params.year)
+definePageMeta({
+  // Without this, navigating /archive/2023 -> /archive/2024 reuses the same
+  // route-record component instance and setup() never re-runs, so `year`,
+  // both useAsyncData calls, and the useHead title/canonical would stay
+  // frozen at whichever year mounted first. Keying on the full path forces
+  // a remount on every param change.
+  key: route => route.fullPath
+})
 
-if (!Number.isInteger(year)) {
-  throw createError({ statusCode: 404, statusMessage: 'Edition not found', fatal: true })
+const route = useRoute()
+const rawYear = route.params.year as string
+
+// Require a strict 4-digit year (no zero-padding, no whitespace) so
+// /archive/02024 and /archive/2024 don't both resolve to the same page
+// under different, non-canonical URLs. This is distinct from the "no
+// matching edition" 404 below: a malformed param never reaches the
+// content lookup at all.
+if (!/^\d{4}$/.test(rawYear)) {
+  throw createError({ statusCode: 404, statusMessage: 'Invalid year format', fatal: true })
 }
+
+const year = Number(rawYear)
 
 const { data: edition } = await useAsyncData(`edition-${year}`, () =>
   queryContent<Edition>('editions').where({ year }).findOne()
