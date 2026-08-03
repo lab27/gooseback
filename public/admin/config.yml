@@ -12,18 +12,6 @@ collections:
     name: pages
     create: false
     files:
-      - label: "Movies Page"
-        name: "movies"
-        file: "/content/pages/movies.md"
-        fields:
-          - {label: Heading, name: heading, widget: string}
-          - {label: Body, name: body, widget: markdown}
-          - {label: Announced, name: isAnnounced, widget: boolean }
-          - {label: 'Features Description', name: featuresDescription, widget: string, required: false}
-          - {label: 'Shorts 1 Description', name: shorts1Description, widget: string, required: false}
-          - {label: 'Shorts 2 Description', name: shorts2Description, widget: string, required: false}
-          - {label: 'Helsingborg Program Description', name: helsingborgDescription, widget: string, required: false}
-          - {label: 'Music Program Description', name: musicDescription, widget: string, required: false}
       - label: "Music Video Workshop"
         name: "photo"
         file: "/content/pages/photo.md"
@@ -106,6 +94,43 @@ collections:
           - {label: Heading, name: heading, widget: string}
           - {label: Announced, name: isAnnounced, widget: boolean }
           - {label: Body, name: body, widget: markdown}
+  - name: editions
+    label: Editions
+    label_singular: Edition
+    folder: 'content/editions'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}'
+    identifier_field: year
+    summary: '{{year}} — {{dates}}'
+    sortable_fields: ['year']
+    editor:
+      preview: false
+    fields:
+      - { label: 'Year', name: 'year', widget: 'number', value_type: 'int', min: 2023, max: 2100 }
+      - { label: 'Heading', name: 'heading', widget: 'string', default: 'The Movies' }
+      - { label: 'Run Dates', name: 'dates', widget: 'string', hint: 'Shown on the archive index, e.g. "28–31 August 2025"' }
+      - { label: 'Announced', name: 'isAnnounced', widget: 'boolean', default: false }
+      - { label: 'Announcement', name: 'announcement', widget: 'string', required: false, hint: 'Shown on the Movies page only, never in the archive. Use for "next year revealed soon" notes.' }
+      - label: "Archive Image"
+        name: "featuredImage"
+        widget: "image"
+        required: false
+        media_folder: /public/img/film-stills
+        hint: 'Thumbnail for this year on the archive index. Falls back to the first film still.'
+      - { label: 'Intro', name: 'body', widget: 'markdown' }
+      - label: 'Program Sections'
+        name: 'sections'
+        label_singular: Section
+        widget: 'list'
+        required: false
+        allow_add: true
+        summary: '{{fields.title}}'
+        hint: 'Order here is the order on the page. A section with no films is hidden.'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Program', name: 'program', widget: 'select', options: ['features', 'helsingborg', 'music', 'shorts1', 'shorts2'] }
+          - { label: 'Description', name: 'description', widget: 'text', required: false }
   - name: films
     label: Films
     label_singular: Film
@@ -113,9 +138,12 @@ collections:
     format: 'frontmatter'
     create: true
     slug: '{{slug}}'
+    filter: { field: year, value: 2025 }
+    sortable_fields: ['title', 'year']
     editor:
       preview: false
-    fields:
+    fields: &film_fields
+      - { label: 'Year', name: 'year', widget: 'number', value_type: 'int', default: 2025, min: 2023, max: 2100, hint: 'Which festival edition this film belongs to.' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Type', name: 'type', widget: 'select', options: ['Documentary', 'Fiction'] }
       - { label: 'Program', name: 'program', widget: select, options: ['features', 'helsingborg', 'music', 'shorts1', 'shorts2'] }
@@ -176,6 +204,25 @@ collections:
         fields:
           - {label: Date/Time, name: dateTime, widget: datetime,  date_format: "dddd, MMMM DD", time_format: "HH:mm", format: "dddd, MMMM DD HH:mm"}
           - {label: Venue, name: venue, widget: select, options: ["roda-kvarn", "fryshusset", "vagnhall-16"]}
+  - name: films_archive
+    label: Archive
+    label_singular: Archived Film
+    folder: 'content/films'
+    format: 'frontmatter'
+    create: false
+    slug: '{{slug}}'
+    sortable_fields: ['year', 'title']
+    summary: '{{year}} — {{title}}'
+    view_groups:
+      - label: Year
+        field: year
+    view_filters:
+      - label: 'Current program only'
+        field: year
+        pattern: 2025
+    editor:
+      preview: false
+    fields: *film_fields
   - name: talks
     label: Talks
     label_singular: Talk
@@ -204,3 +251,8 @@ collections:
         file: "content/submissions.yml"
         fields:
           - {label: Accepting Submissions, name: acceptingSubmissions, widget: boolean}
+      - label: "Current Edition"
+        name: "current_edition"
+        file: "content/settings.yml"
+        fields:
+          - { label: 'Current Edition Year', name: 'currentEdition', widget: 'number', value_type: 'int', min: 2023, max: 2100, hint: 'Which edition the Movies page shows. Change this when a new program goes live — the previous year moves into the archive automatically.' }
