@@ -92,7 +92,9 @@
       .film-screenings-list
         .film-screening(v-for="screening in film.screenings")
           //- pre {{ screening.dateTime }}
-          .film-screening-date {{ screeningDate(screening.dateTime) }}
+          .film-screening-date
+            span {{ screeningDate(screening.dateTime) }}
+            span.screening-badge(v-if="isArchived") Past screening
           .film-screening-venue
             a(:href="getVenueMapLink(screening.venue)" target="_blank") {{ getVenueName(screening.venue) }}
           .film-screening-tickets(v-if="!isArchived")
@@ -235,3 +237,22 @@ const nextImage = () => {
   }
 }
 </script>
+
+<style scoped>
+.film-screening-date {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.screening-badge {
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: .15rem .6rem;
+  color: var(--color-sky-blue);
+}
+</style>
