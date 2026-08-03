@@ -67,3 +67,15 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+## Annual Rollover
+
+When a new festival year's program is ready to go live, the outgoing year needs to move into the archive and the CMS needs to start defaulting new films to the new year. There are five steps; the first four live in `public/admin/config.yml`, which also has a comment block above the `films` collection listing them for anyone editing that file directly.
+
+1. Add a new edition file at `content/editions/<year>.md` (year, heading, dates, isAnnounced, sections, body).
+2. In `public/admin/config.yml`, update the `films` collection's `filter: { field: year, value: 2025 }` to the new year, so the CMS Films list shows the new year's films by default.
+3. In the same `films` collection, update the Year field's `default: 2025` to the new year, so films created in the CMS are pre-filled correctly.
+4. In the `films_archive` collection, update the `view_filters` entry's `pattern: 2025` to the new year, so its "Current program only" filter still points at the right year.
+5. Update `content/settings.yml`'s `currentEdition` to the new year, either directly or via Site Settings > Current Edition in the CMS. This is the step that actually switches `/movies` to the new program and moves the previous year into `/archive/<year>`.
+
+If step 2 or 3 is missed, every film an editor creates afterwards silently gets the outgoing year's `year` value — it will appear on the wrong archive page and never on `/movies`.

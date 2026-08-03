@@ -5,6 +5,7 @@
       h2 {{ section.title }}
       p.lead-text(v-if="section.description") {{ section.description }}
       FilmGrid(:films="section.films")
+    FilmGrid(v-if="ungroupedFilms.length" :films="ungroupedFilms")
   FilmGrid(v-else :films="films")
 </template>
 
@@ -42,6 +43,15 @@ const populatedSections = computed(() =>
     }))
     .filter(section => section.films.length > 0)
 )
+
+/**
+ * A film whose program matches no defined section would otherwise vanish from the page
+ * while still sitting in the CMS. Render it here, ungrouped, so nothing silently disappears.
+ */
+const ungroupedFilms = computed(() => {
+  const programs = new Set((props.edition?.sections ?? []).map(section => section.program))
+  return props.films.filter(film => !programs.has(film.program))
+})
 </script>
 
 <style scoped>

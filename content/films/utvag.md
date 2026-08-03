@@ -4,8 +4,7 @@ title: Utväg / Way Out
 type: Fiction
 program: shorts1
 durationInMinutes: "16"
-stills:
-  - still: /static/img/film-stills/stills_1.24.1.png
+thumbnail: /static/img/film-stills/stills_1.24.1.png
 country: Sweden
 language: Swedish
 director: Fredrik Rönnqvist

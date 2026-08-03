@@ -126,11 +126,26 @@ collections:
         required: false
         allow_add: true
         summary: '{{fields.title}}'
-        hint: 'Order here is the order on the page. A section with no films is hidden.'
+        hint: 'Order here is the order on the page. A section with no films is hidden. A film whose Program does not match any section here will still appear on the page, ungrouped, at the end.'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Program', name: 'program', widget: 'select', options: ['features', 'helsingborg', 'music', 'shorts1', 'shorts2'] }
           - { label: 'Description', name: 'description', widget: 'text', required: false }
+  # Annual rollover procedure — when a new festival year's program goes live, do ALL of
+  # the following. Missing any of the first three means new films the editor creates in
+  # the CMS silently get the outgoing year, and they will not show up on /movies.
+  #   1. Create the new edition: add content/editions/<year>.md (year, heading, dates,
+  #      isAnnounced, sections, body).
+  #   2. Below, in this `films` collection, update the `filter: { field: year, value: 2025 }`
+  #      line to the new year, so the CMS Films list shows the new year's films by default.
+  #   3. Below, in this `films` collection's `fields` list, update the Year field's
+  #      `default: 2025` (in the line starting `{ label: 'Year', name: 'year', ... }`) to
+  #      the new year, so new films are pre-filled with the correct year.
+  #   4. In the `films_archive` collection further down, update the `view_filters` entry's
+  #      `pattern: 2025` to the new year, so its "Current program only" filter stays correct.
+  #   5. Update `content/settings.yml`'s `currentEdition` to the new year — this is what
+  #      actually moves the previous year's program into the archive and switches /movies
+  #      to the new one. (Editable from Site Settings > Current Edition in the CMS.)
   - name: films
     label: Films
     label_singular: Film
