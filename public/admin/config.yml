@@ -98,7 +98,7 @@ collections:
   # #/collections/editions URL that admin.css hooks for the sidebar icon. Only the
   # display labels change.
   - name: editions
-    label: Movie Pages
+    label: Movie Listing Pages
     label_singular: Movie Page
     folder: 'content/editions'
     format: 'frontmatter'
@@ -222,12 +222,18 @@ collections:
         summary: '{{fields.actor}}'
         fields:
           - {label: Actor, name: actor, widget: string }
-      - { label: 'Music', name: 'music', widget: 'string' }
-      - { label: 'Cinematography', name: 'cinematography', widget: 'string' }
-      - { label: 'Editor', name: 'editor', widget: 'string' }
-      - { label: 'Contact', name: 'contact', widget: 'string', hint: Must be in valid email address format, pattern: ['\b[\w\.-]+@[\w\.-]+\.\w{2,8}\b', 'Full email address format']}
-      - { label: 'Film Website', name: 'filmWebsite', widget: 'string', hint: Must be the full URL to the site ("http://mysite.com"), pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', 'Must be a full URL'] }
-      - { label: 'Film Trailer', name: 'filmTrailer', widget: 'string', hint: Must be the full URL to the site ("http://youtu.be/12345"), pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', 'Must be a full URL'] }
+      # These credits are optional because they genuinely do not exist for every film: a
+      # silent film has no composer, an archival print has no distributor contact, website
+      # or trailer. Requiring them produced filler instead of data — 22 of the 53 restored
+      # films carry a literal "NA" in Music, and the stray "Excutive Producer" that now
+      # renders publicly came from the same pressure. The film page guards each of these
+      # with v-if, so leaving one blank simply omits that credit line.
+      - { label: 'Music', name: 'music', widget: 'string', required: false }
+      - { label: 'Cinematography', name: 'cinematography', widget: 'string', required: false }
+      - { label: 'Editor', name: 'editor', widget: 'string', required: false }
+      - { label: 'Contact', name: 'contact', widget: 'string', required: false, hint: Must be in valid email address format, pattern: ['\b[\w\.-]+@[\w\.-]+\.\w{2,8}\b', 'Full email address format']}
+      - { label: 'Film Website', name: 'filmWebsite', widget: 'string', required: false, hint: Must be the full URL to the site ("http://mysite.com"), pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', 'Must be a full URL'] }
+      - { label: 'Film Trailer', name: 'filmTrailer', widget: 'string', required: false, hint: Must be the full URL to the site ("http://youtu.be/12345"), pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)', 'Must be a full URL'] }
       - label: Screenings
         name: screenings
         label_singular: screening
