@@ -1,6 +1,6 @@
 ---
 heading: Get Tix
-link: https://filmfreeway.com/GasebackFilmFestival/tickets
+link: https://www.nortic.se/ticket/organizer/4557
 ---
 **Tickets for screenings can be purchased on thorugh our Nortic ticketing platform account.**  
 
