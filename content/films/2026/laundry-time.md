@@ -1,7 +1,7 @@
 ---
 year: 2026
 title: LAUNDRY TIME
-type: Documentary
+type: Fiction
 program: shorts1
 durationInMinutes: "10"
 thumbnail: /public/img/film-stills/laundry-time-filson-ali-postertvätttid.jpg
