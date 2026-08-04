@@ -6,7 +6,7 @@ program: features
 durationInMinutes: "91"
 thumbnail: /public/img/film-stills/sugar_island_01_copyright_carlosrodriguez.jpg
 country: Dominican Republic, Spain
-language: Spanish
+language: Spanish with English subtitles
 director: Johanné Gómez Terrero
 cast: []
 cinematography: ""
