@@ -26,6 +26,11 @@ aside a[href="#/collections/pages"] span::before {
   content: "\e873";
 }
 
+/* editions = one entry per festival year; calendar_month (ebcc) */
+aside a[href="#/collections/editions"] span::before {
+  content: "\ebcc";
+}
+
 aside a[href="#/collections/talks"] span::before {
   content: "\e0bf";
 }
