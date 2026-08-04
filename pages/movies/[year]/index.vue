@@ -4,7 +4,7 @@
     header.films-header
       h1 {{ edition?.heading }} {{ edition?.year }}
       span.edition-dates(v-if="edition?.dates") {{ edition.dates }}
-    .sort-by.mb-8(v-if="edition?.isAnnounced")
+    .sort-by.mb-8(v-if="showProgram")
       label Sort by:
       select(v-model="sortBy")
         option(value="title") Title
@@ -12,7 +12,7 @@
     article
       p.announcement(v-if="isCurrent && edition?.announcement") {{ edition.announcement }}
       ContentRenderer(v-if="hasIntro" :value="edition")
-    EditionProgram(v-if="edition?.isAnnounced" :edition="edition" :films="sortedFilms")
+    EditionProgram(v-if="showProgram" :edition="edition" :films="sortedFilms")
 </template>
 
 <script setup lang="ts">
@@ -100,6 +100,20 @@ const { data: settings } = await useAsyncData('settings-year-page', () =>
 )
 
 const isCurrent = computed(() => settings.value?.currentEdition === year)
+
+/**
+ * An edition before the current one has already happened, so its programme is a matter of
+ * record — `isAnnounced` is a gate for an edition still being prepared and must not be
+ * able to blank a past one. Without this, toggling the flag on an archived edition hides
+ * every film on that year's page while the films sit untouched in the CMS.
+ *
+ * Same definition of "archived" the archive index uses: strictly before the current year.
+ */
+const isArchived = computed(() =>
+  !!settings.value?.currentEdition && year < settings.value.currentEdition
+)
+
+const showProgram = computed(() => isArchived.value || edition.value?.isAnnounced === true)
 
 /**
  * Guard on the body having actual nodes, not merely on the edition existing. Given an
