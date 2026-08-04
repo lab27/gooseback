@@ -1,18 +1,18 @@
 ---
 year: 2026
-title: Test Film
+title: Sugar Island
 type: Fiction
 program: features
-durationInMinutes: "71"
+durationInMinutes: "91"
 thumbnail: /public/img/film-stills/sugar_island_01_copyright_carlosrodriguez.jpg
-country: Japan
-language: Silent, no intertitles
-director: Teinosuke Kinugasa
-cast:
-  - actor: Masao Inoue (the custodian)
-  - actor: Yoshie Nakagawa (his wife)
-  - actor: Ayako Iijima (their daughter)
-cinematography: Kōhei Sugiyama
+country: Dominican Republic, Spain
+language: Spanish
+director: Johanné Gómez Terrero
+cast: []
+cinematography: ""
+filmWebsite: https://www.instagram.com/sugarislandfilm/
+filmTrailer: https://www.youtube.com/watch?v=QPWtdgE7Fbw
 screenings: []
 ---
-PLaceholder text. This is a test film for 2026.
+An unwanted pregnancy triggers the journey into adulthood for Makenya, a Dominican-Haitian teenager who lives in the Batey, a community surrounded by sugarcane fields.
+A strong drama commenting on colonialism and social injustice, depicting liberation that arises from political awakening and acceptance of ancestral spirituality.
