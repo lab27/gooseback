@@ -4,9 +4,9 @@ title: "Khoon, Kaatil aur Suraag "
 type: Fiction
 program: shorts1
 durationInMinutes: "10"
-thumbnail: /static/img/film-stills/khoon-kaatil-aur-suraag2.png
+thumbnail: /static/img/film-stills/khoon-kaatil-aur-suraag2.webp
 stills:
-  - still: /static/img/film-stills/khoon-kaatil-aur-suraag.png
+  - still: /static/img/film-stills/khoon-kaatil-aur-suraag.webp
 country: India
 language: Hindi
 director: Aditya Nair

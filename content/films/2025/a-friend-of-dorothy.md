@@ -4,10 +4,10 @@ title: A Friend of Dorothy
 type: Fiction
 program: shorts1
 durationInMinutes: "22"
-thumbnail: /public/img/film-stills/photo-4-a_friend_of_dorothy_-_dorothy_smiles_in_chair.jpg
+thumbnail: /public/img/film-stills/photo-4-a_friend_of_dorothy_-_dorothy_smiles_in_chair.webp
 stills:
-  - still: /public/img/film-stills/photo-5-a_friend_of_dorothy_-_dickie_smiles.jpg
-  - still: /public/img/film-stills/photo-7-a_friend_of_dorothy_-_jj_and_scott_in_boardroom.jpg
+  - still: /public/img/film-stills/photo-5-a_friend_of_dorothy_-_dickie_smiles.webp
+  - still: /public/img/film-stills/photo-7-a_friend_of_dorothy_-_jj_and_scott_in_boardroom.webp
 country: UK
 language: English
 director: Lee Knight (and writer)

@@ -4,9 +4,9 @@ title: Gold of the Plateau
 type: Documentary
 program: shorts1
 durationInMinutes: "10"
-thumbnail: /public/img/film-stills/foto-2025-08-04-09-02-29.jpg
+thumbnail: /public/img/film-stills/foto-2025-08-04-09-02-29.webp
 stills:
-  - still: /public/img/film-stills/foto-2025-08-04-09-02-29-3-.jpg
+  - still: /public/img/film-stills/foto-2025-08-04-09-02-29-3-.webp
 country: Sweden /China
 language: Mandorin
 director: Miriam Follin

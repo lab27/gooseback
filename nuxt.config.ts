@@ -150,8 +150,28 @@ export default defineNuxtConfig({
   },
 
   image: {
-    provider: 'ipx',
+    // On Netlify, images are optimized at the edge on request instead of being rendered
+    // during the build. The default `ipx` provider makes Nitro prerender every variant of
+    // every still through sharp/libvips — 1321 renders from 322MB of sources on the last
+    // count — and that repeatedly segfaulted the build (exit 139) on some deploys but not
+    // others, with identical content and toolchain. Nothing in the build was wrong; libvips
+    // was simply being run at the edge of the container's memory, and each new film adds
+    // ~8 more renders to the same run. netlifyImageCdn emits /.netlify/images?url=… URLs,
+    // so no image is decoded at build time at all and the crash cannot happen.
+    //
+    // Netlify sets NETLIFY=true in its build environment. Locally — `nuxt dev`, and
+    // `nuxt generate` for a local preview — that endpoint does not exist, so we stay on
+    // ipx. If NETLIFY is ever unset in CI the build simply reverts to today's behaviour
+    // rather than emitting URLs that 404.
+    provider: process.env.NETLIFY ? 'netlifyImageCdn' : 'ipx',
     dir: 'public',
+    // Density is set per image with `densities="x1"`, NOT here. The sources are capped at
+    // 1600px (scripts/convert-images.mjs), which is the widest slot any layout has, so a
+    // 2x request just makes the CDN upscale — double the bytes, no extra detail. Setting
+    // `densities: [1]` at this level does not work: Nuxt merges module options with defu,
+    // which CONCATENATES arrays, so [1] against the module's default [1, 2] resolves to
+    // [1, 1, 2] and the 2 survives. Verified by inspecting the baked build output.
+    // If the stills are ever remastered above 1600px, drop the props instead.
     // Optional: default image options
     screens: {
       xs: 320,

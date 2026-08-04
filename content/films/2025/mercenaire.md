@@ -4,9 +4,9 @@ title: Mercenaire
 type: Fiction
 program: shorts1
 durationInMinutes: "15"
-thumbnail: /public/img/film-stills/mercenaire-still-01-main.jpg
+thumbnail: /public/img/film-stills/mercenaire-still-01-main.webp
 stills:
-  - still: /public/img/film-stills/mercenaire-still-06.jpg
+  - still: /public/img/film-stills/mercenaire-still-06.webp
 country: Canada
 language: "French "
 director: Pier-Philippe Chevigny

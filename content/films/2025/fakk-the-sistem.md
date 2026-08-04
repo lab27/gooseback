@@ -4,10 +4,10 @@ title: Fakk The Sistem
 type: Documentary
 program: music
 durationInMinutes: "15"
-thumbnail: /public/img/film-stills/photo-1-ami_and_punks.jpg
+thumbnail: /public/img/film-stills/photo-1-ami_and_punks.webp
 stills:
-  - still: /public/img/film-stills/photo-3-out_duff.jpg
-  - still: /public/img/film-stills/photo-6-fstlogos.jpg
+  - still: /public/img/film-stills/photo-3-out_duff.webp
+  - still: /public/img/film-stills/photo-6-fstlogos.webp
 country: "Sweden / Indonesia "
 language: English, Indonesian, Swedish
 director: Anna Viola Hallberg & Ami Skånberg

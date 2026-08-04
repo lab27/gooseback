@@ -4,9 +4,9 @@ title: Pet On The Menu
 type: Documentary
 program: shorts1
 durationInMinutes: "12"
-thumbnail: /public/img/film-stills/potm_still3.jpg
+thumbnail: /public/img/film-stills/potm_still3.webp
 stills:
-  - still: /public/img/film-stills/potm_still1.jpg
+  - still: /public/img/film-stills/potm_still1.webp
 country: Finland
 language: "Finnish "
 director: " 8MIR"

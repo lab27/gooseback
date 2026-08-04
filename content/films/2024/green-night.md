@@ -4,7 +4,7 @@ title: GREEN NIGHT
 type: Fiction
 program: features
 durationInMinutes: "92"
-thumbnail: /static/img/film-stills/green-night_05_fan-bingbing-lee-joo-young-©-demei-holdings-limited-hong-kong-.jpg
+thumbnail: /static/img/film-stills/green-night_05_fan-bingbing-lee-joo-young-©-demei-holdings-limited-hong-kong-.webp
 country: Hong Kong
 language: Korean
 director: Han Shuai

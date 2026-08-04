@@ -4,7 +4,7 @@ title: "I Am The Land In A Body "
 type: Documentary
 program: shorts2
 durationInMinutes: "5"
-thumbnail: /static/img/film-stills/screenshot-2024-08-08-at-22.35.21.png
+thumbnail: /static/img/film-stills/screenshot-2024-08-08-at-22.35.21.webp
 country: Palestine
 language: Arabic
 director: Thaer Al-azzeh

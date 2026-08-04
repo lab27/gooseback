@@ -4,7 +4,7 @@ staff:
   - name: Hussain Currimbhoy
     role: Festival Director
     email: hussain@mastermechanicfilms.com
-    thumbnail: /public/img/staff-portraits/hussain_currimbhoy_bw.jpeg
+    thumbnail: /public/img/staff-portraits/hussain_currimbhoy_bw.webp
 ---
 **Gåsebäck Film Festival enters its 4th edition in 2026.** 
 

@@ -4,10 +4,10 @@ title: The Encampments
 type: Documentary
 program: features
 durationInMinutes: "81"
-thumbnail: /public/img/film-stills/the_encampments_still_01.jpg
+thumbnail: /public/img/film-stills/the_encampments_still_01.webp
 stills:
-  - still: /public/img/film-stills/the_encampments_still-_04.jpg
-  - still: /public/img/film-stills/the_encampments_still_07.jpg
+  - still: /public/img/film-stills/the_encampments_still-_04.webp
+  - still: /public/img/film-stills/the_encampments_still_07.webp
 country: USA/ Palestine
 language: English, Arabic, Hebrew
 director: Michael T Workman & Kei Pritsker

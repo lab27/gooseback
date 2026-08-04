@@ -99,7 +99,7 @@
             a(:href="getVenueMapLink(screening.venue)" target="_blank") {{ getVenueName(screening.venue) }}
           .film-screening-tickets(v-if="!isArchived")
             span &#8599;
-            a(href="https://filmfreeway.com/GasebackFilmFestival/tickets?welcome=true" target="_blank") Buy Tickets
+            a(href="https://www.nortic.se/ticket/organizer/4557" target="_blank") Buy Tickets
 </template>
 
 <script setup lang="ts">

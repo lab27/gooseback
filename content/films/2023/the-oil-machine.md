@@ -4,9 +4,9 @@ contact: alex.rowley@ar-pr.co.uk
 title: THE OIL MACHINE
 type: Documentary
 durationInMinutes: "82"
-thumbnail: /static/img/film-stills/theoilmachine_still_03_10022800_1.1.3.jpg
+thumbnail: /static/img/film-stills/theoilmachine_still_03_10022800_1.1.3.webp
 stills:
-  - still: /static/img/film-stills/theoilmachine_still_03_10022800_1.1.3.jpg
+  - still: /static/img/film-stills/theoilmachine_still_03_10022800_1.1.3.webp
 country: United Kingdom
 language: English
 director: Emma Davie

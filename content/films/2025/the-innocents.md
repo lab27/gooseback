@@ -4,10 +4,10 @@ title: The Innocents
 type: Fiction
 program: features
 durationInMinutes: "90"
-thumbnail: /public/img/film-stills/11.png
+thumbnail: /public/img/film-stills/11.webp
 stills:
-  - still: /public/img/film-stills/9.png
-  - still: /public/img/film-stills/15.png
+  - still: /public/img/film-stills/9.webp
+  - still: /public/img/film-stills/15.webp
 country: Mexico / Peru
 language: "Spanish "
 director: Germán Tejada

@@ -4,10 +4,10 @@ title: Kika
 type: Fiction
 program: features
 durationInMinutes: "110 "
-thumbnail: /public/img/film-stills/58-e1744624308306.jpg
+thumbnail: /public/img/film-stills/58-e1744624308306.webp
 stills:
-  - still: /public/img/film-stills/3_kika_alexe-poukine_3_c-wrong-men-kidam-scaled.jpg
-  - still: /public/img/film-stills/2_kika_alexe-poukine_2key_c-wrong-men-kidam-scaled.jpg
+  - still: /public/img/film-stills/3_kika_alexe-poukine_3_c-wrong-men-kidam-scaled.webp
+  - still: /public/img/film-stills/2_kika_alexe-poukine_2key_c-wrong-men-kidam-scaled.webp
 country: France / Belgium
 language: French
 director: Alexe Poukine

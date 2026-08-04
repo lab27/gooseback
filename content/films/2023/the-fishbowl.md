@@ -4,9 +4,9 @@ contact: info@visitfilms.com / Visit Films
 title: THE FISHBOWL (LA PECEARA)
 type: Fiction
 durationInMinutes: "92"
-thumbnail: /static/img/film-stills/lapecera-main.jpg
+thumbnail: /static/img/film-stills/lapecera-main.webp
 stills:
-  - still: /static/img/film-stills/lapecera-2.jpg
+  - still: /static/img/film-stills/lapecera-2.webp
 country: USA/Spain
 language: Spanish
 director: Glorimar Marrero Sánchez

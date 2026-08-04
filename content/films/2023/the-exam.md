@@ -4,12 +4,12 @@ contact: festivals@arthoodentertainment.com
 title: THE EXAM
 type: Fiction
 durationInMinutes: "89"
-thumbnail: /static/img/film-stills/02_the_exam_300_dpi_©_mitosfilm.jpg
+thumbnail: /static/img/film-stills/02_the_exam_300_dpi_©_mitosfilm.webp
 stills:
-  - still: /static/img/film-stills/10_the_exam_300_dpi_©_mitosfilm.jpg
-  - still: /static/img/film-stills/05_the_exam_300_dpi_©_mitosfilm.jpg
-  - still: /static/img/film-stills/03_the_exam_300_dpi_©_mitosfilm.jpg
-  - still: /static/img/film-stills/01_the_exam_©_300dpi_mitosfilm.jpg
+  - still: /static/img/film-stills/10_the_exam_300_dpi_©_mitosfilm.webp
+  - still: /static/img/film-stills/05_the_exam_300_dpi_©_mitosfilm.webp
+  - still: /static/img/film-stills/03_the_exam_300_dpi_©_mitosfilm.webp
+  - still: /static/img/film-stills/01_the_exam_©_300dpi_mitosfilm.webp
 country: Iraq
 language: Arabic
 director: Shawkat Amin Korki

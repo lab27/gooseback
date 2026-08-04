@@ -4,10 +4,10 @@ title: TOMORROW'S FREEDOM
 type: Documentary
 program: features
 durationInMinutes: "97"
-thumbnail: /static/img/film-stills/untitled-19.jpg
+thumbnail: /static/img/film-stills/untitled-19.webp
 stills:
-  - still: /static/img/film-stills/untitled-3.jpg
-  - still: /static/img/film-stills/untitled-36.jpg
+  - still: /static/img/film-stills/untitled-3.webp
+  - still: /static/img/film-stills/untitled-36.webp
 country: United Kingdom
 language: "Arabic, English, "
 director: Georgia Scott & Sophia Scott

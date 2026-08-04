@@ -4,7 +4,7 @@ title: The Editorial Office
 type: Fiction
 program: features
 durationInMinutes: "126"
-thumbnail: /public/img/film-stills/teo_still_main.jpg
+thumbnail: /public/img/film-stills/teo_still_main.webp
 country: Ukraine
 language: "Ukraine, Germany, Slovakia, Czech Republic "
 director: Roman Bondarchuk

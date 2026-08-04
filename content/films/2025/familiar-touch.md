@@ -4,7 +4,7 @@ title: Familiar Touch
 type: Fiction
 program: features
 durationInMinutes: "90"
-thumbnail: /public/img/film-stills/familiar-touch_img1_300dpi-1200x675.jpg
+thumbnail: /public/img/film-stills/familiar-touch_img1_300dpi-1200x675.webp
 country: USA
 language: English
 director: Sarah Friedland

@@ -4,9 +4,9 @@ title: Till Mia
 type: Fiction
 program: helsingborg
 durationInMinutes: "9 "
-thumbnail: /public/img/film-stills/e57bb113-45be-4e99-9b47-611497af769a.jpeg
+thumbnail: /public/img/film-stills/e57bb113-45be-4e99-9b47-611497af769a.webp
 stills:
-  - still: /public/img/film-stills/6459fe15-785b-4814-8dec-05762ee66523.jpeg
+  - still: /public/img/film-stills/6459fe15-785b-4814-8dec-05762ee66523.webp
 country: Sweden
 language: Swedish
 director: Alexandar Miodrag

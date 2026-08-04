@@ -4,12 +4,12 @@ title: Basri & Salma in a Never-ending Comedy
 type: Fiction
 program: shorts1
 durationInMinutes: "15"
-thumbnail: /static/img/film-stills/basri-salma2.jpg
+thumbnail: /static/img/film-stills/basri-salma2.webp
 stills:
-  - still: /static/img/film-stills/basri-salma3.jpg
-  - still: /static/img/film-stills/basri-salma7.jpg
-  - still: /static/img/film-stills/basri-salma9.jpg
-  - still: /static/img/film-stills/basri-salma6-1-.jpg
+  - still: /static/img/film-stills/basri-salma3.webp
+  - still: /static/img/film-stills/basri-salma7.webp
+  - still: /static/img/film-stills/basri-salma9.webp
+  - still: /static/img/film-stills/basri-salma6-1-.webp
 country: Indonesia
 language: Makassarese, Indonesian
 director: Khozy Rizal

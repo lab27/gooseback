@@ -4,7 +4,7 @@ title: A Simple Soldier
 type: Documentary
 program: features
 durationInMinutes: "96"
-thumbnail: /public/img/film-stills/a_simple_soldier-20250526-aprroved-shefeild-proxy-clean-uhd_1.jpg
+thumbnail: /public/img/film-stills/a_simple_soldier-20250526-aprroved-shefeild-proxy-clean-uhd_1.webp
 country: Ukraine and Colombia
 language: Ukrainian
 director: Juan Camilo Cruz & Artem Ryzhykov

@@ -4,9 +4,9 @@ title: Letter to my unborn child
 type: Fiction
 program: shorts1
 durationInMinutes: "3"
-thumbnail: /static/img/film-stills/affären_2.png
+thumbnail: /static/img/film-stills/affären_2.webp
 stills:
-  - still: /static/img/film-stills/topshot_2.png
+  - still: /static/img/film-stills/topshot_2.webp
 country: Sweden
 language: Swedish
 director: Ida Åkesson
