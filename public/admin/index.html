@@ -12,7 +12,16 @@
     <link rel="stylesheet" href="/admin/admin.css">
   </head>
   <body>
-    <!-- Include the script that builds the page and powers Netlify CMS -->
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+    <!--
+      Decap CMS — the maintained successor to Netlify CMS, which was last released in 2022.
+      We moved off netlify-cms@2.10.192 because its nested-collection support (beta in 2.x)
+      would not render the Films > Year > Film tree, and because the local proxy used for
+      development is decap-server 3.x, so client and proxy were a generation apart.
+
+      Pinned to an exact version deliberately. This is the only tool the festival uses to
+      edit the site; a floating range resolved live from a CDN means a third-party release
+      can change or break it without anything in this repo changing.
+    -->
+    <script src="https://unpkg.com/decap-cms@3.15.1/dist/decap-cms.js"></script>
   </body>
 </html>
