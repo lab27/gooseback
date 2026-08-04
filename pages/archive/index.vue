@@ -3,7 +3,7 @@
     h1 The Archive
     ul.archive-list
       li.archive-row(v-for="edition in editions" :key="edition.year")
-        NuxtLink(:to="`/archive/${edition.year}`")
+        NuxtLink(:to="`/movies/${edition.year}`")
           .archive-thumbnail
             .thumbnail-gauze
             NuxtImg(v-if="edition.image" :src="staticRemover(edition.image)" :alt="`${edition.year} festival`" :placeholder="[160, 90, 10]" format="webp" fit="cover" width="800" height="450" sizes="sm:40vw md:30vw lg:240px").thumbnail-image

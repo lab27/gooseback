@@ -75,6 +75,18 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2025-03-13',
 
+  // Editions used to live at /archive/<year>; they now live at /movies/<year>, which is
+  // the canonical URL for a program. Declared here rather than in a hand-written
+  // _redirects file so the rules apply in local dev too — Nitro's Netlify preset compiles
+  // them into _redirects at build time. Permanent, because a given year's page will never
+  // move again. (Legacy flat film URLs are handled dynamically in pages/movies/[year]/index.vue,
+  // since resolving those from content keeps them from going stale.)
+  routeRules: {
+    '/archive/2023': { redirect: { to: '/movies/2023', statusCode: 301 } },
+    '/archive/2024': { redirect: { to: '/movies/2024', statusCode: 301 } },
+    '/archive/2025': { redirect: { to: '/movies/2025', statusCode: 301 } }
+  },
+
   nitro: {
     prerender: {
       failOnError: false // Temporarily add this to debug image issues

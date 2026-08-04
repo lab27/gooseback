@@ -1,7 +1,7 @@
 <template lang="pug">
 ul.film-grid
   li(v-for="film in films" :key="film._path")
-    NuxtLink(:to="`/movies/${slugFor(film)}`")
+    NuxtLink(:to="`/movies/${film.year}/${slugFor(film)}`")
       .film-thumbnail-wrapper
         .thumbnail-arrow-wrapper
           Arrow

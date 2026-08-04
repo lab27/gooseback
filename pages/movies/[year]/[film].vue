@@ -24,7 +24,7 @@
           img(src="/img/arrowhead.svg")
       .film-info.mb-12
         .film-synopsis
-          ContentDoc(:path="`/films/${route.params.slug}`")
+          ContentDoc(:path="`/films/${year}/${slug}`")
         .film-credits
           .film-credits-line(v-if="film?.country")
             span.film-credits-label Country
@@ -151,15 +151,31 @@ interface Film {
   screenings: Screening[]
 }
 
+definePageMeta({
+  // Film pages link to each other through the grid, and those navigations match this
+  // same route record. Without a key Vue reuses the component instance and setup()
+  // never re-runs, leaving the previous film's content under the new URL.
+  key: route => route.fullPath
+})
+
 const route = useRoute()
 const { staticRemover } = useStaticRemover()
 const { getVenueName, getVenueMapLink } = useVenues()
 const { formatScreeningDateLong } = useFilmDate()
 const currentImageIndex = ref(0)
 
-const { data: film } = await useAsyncData('film', () =>
-  queryContent<Film>('films', route.params.slug as string).findOne()
+const year = route.params.year as string
+const slug = route.params.film as string
+
+// Films live at content/films/<year>/<slug>.md, so the lookup is scoped by year —
+// a slug only resolves under the edition it actually belongs to.
+const { data: film } = await useAsyncData(`film-${year}-${slug}`, () =>
+  queryContent<Film>('films', year, slug).findOne()
 )
+
+if (!film.value) {
+  throw createError({ statusCode: 404, statusMessage: 'Film not found', fatal: true })
+}
 
 const { data: settings } = await useAsyncData('settings-film', () =>
   queryContent<{ currentEdition: number }>('settings').findOne()
@@ -172,17 +188,16 @@ const { data: settings } = await useAsyncData('settings-film', () =>
  * dates and whether to render the ticket link.
  */
 const isArchived = computed(() => {
-  const year = film.value?.year
-  return !!year && year !== settings.value?.currentEdition
+  const filmYear = film.value?.year
+  return !!filmYear && filmYear !== settings.value?.currentEdition
 })
 
-/** Archived films return to their edition; current-program films return to /movies. */
-const backLink = computed(() => {
-  const year = film.value?.year
-  return isArchived.value
-    ? { to: `/archive/${year}`, label: `${year} Films` }
-    : { to: '/movies', label: 'All Films' }
-})
+/**
+ * Every film now sits under its edition, so the back link is always that edition's
+ * program page. Built from the route param rather than the film's field so it stays
+ * correct even for a film with no year.
+ */
+const backLink = computed(() => ({ to: `/movies/${year}`, label: `${year} Films` }))
 
 useHead(() => ({
   title: film.value?.title || 'Film',
