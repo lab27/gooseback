@@ -11,7 +11,7 @@
         option(value="dateTime") Screening Date
     article
       p.announcement(v-if="isCurrent && edition?.announcement") {{ edition.announcement }}
-      ContentRenderer(v-if="edition" :value="edition")
+      ContentRenderer(v-if="hasIntro" :value="edition")
     EditionProgram(v-if="edition?.isAnnounced" :edition="edition" :films="sortedFilms")
 </template>
 
@@ -100,6 +100,15 @@ const { data: settings } = await useAsyncData('settings-year-page', () =>
 )
 
 const isCurrent = computed(() => settings.value?.currentEdition === year)
+
+/**
+ * Guard on the body having actual nodes, not merely on the edition existing. Given an
+ * empty document and no default slot, ContentRenderer falls back to dumping the whole
+ * document object onto the page along with "You should use slots with <ContentRenderer>".
+ * A new edition created in the CMS starts with an empty Intro, so this is the normal
+ * state of next year's page, not an edge case.
+ */
+const hasIntro = computed(() => (edition.value?.body?.children?.length ?? 0) > 0)
 
 const { parseScreeningDate } = useFilmDate()
 const sortBy = ref('title')
