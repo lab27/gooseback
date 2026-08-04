@@ -13,9 +13,12 @@ const assert = (cond, msg) => { if (!cond) { console.error('FAIL:', msg); proces
 // Films live at content/films/<year>/<slug>.md — allFilms() recurses the year folders.
 const films = allFilms().map(f => ({ file: f.file, fm: f.data }))
 
+// 2023, 2024 and 2025 are closed editions restored from git history — their counts are
+// historical facts and must not drift. The overall total is deliberately NOT asserted:
+// new editions get films added through the CMS, so a hardcoded total would fail on every
+// legitimate addition.
 const y2023 = films.filter(f => f.fm.year === 2023)
 assert(y2023.length === 8, `8 films for 2023, got ${y2023.length}`)
-assert(films.length === 53, `53 films total, got ${films.length}`)
 assert(films.filter(f => f.fm.year === 2024).length === 21, '2024 intact')
 assert(films.filter(f => f.fm.year === 2025).length === 24, '2025 intact')
 
