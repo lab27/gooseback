@@ -4,7 +4,7 @@ title: Party Animal
 type: Fiction
 program: shorts1
 durationInMinutes: "12"
-thumbnail: https://static.fabrik.io/1k5l/2b8feb3995ee78f7.jpg?lossless=1&w=3840&h=5120&fit=max&s=c7e952d68f40d2c49aa2077873af6d31
+thumbnail: /public/img/film-stills/short-film-gff26-party-animal.jpeg
 country: United Kingdom
 language: English
 director: Ali Gill
