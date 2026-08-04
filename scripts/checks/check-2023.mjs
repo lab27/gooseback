@@ -1,5 +1,6 @@
 import { readFileSync, readdirSync, existsSync, statSync, openSync, readSync, closeSync } from 'node:fs'
 import { parse } from 'yaml'
+import { allFilms } from './_films.mjs'
 
 const frontmatter = (path) => {
   const raw = readFileSync(path, 'utf8')
@@ -9,9 +10,8 @@ const frontmatter = (path) => {
 }
 const assert = (cond, msg) => { if (!cond) { console.error('FAIL:', msg); process.exit(1) } }
 
-const films = readdirSync('content/films')
-  .filter(f => f.endsWith('.md'))
-  .map(f => ({ file: f, fm: frontmatter(`content/films/${f}`) }))
+// Films live at content/films/<year>/<slug>.md — allFilms() recurses the year folders.
+const films = allFilms().map(f => ({ file: f.file, fm: f.data }))
 
 const y2023 = films.filter(f => f.fm.year === 2023)
 assert(y2023.length === 8, `8 films for 2023, got ${y2023.length}`)

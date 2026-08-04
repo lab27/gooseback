@@ -1,5 +1,6 @@
 import { readFileSync, readdirSync } from 'node:fs'
 import { parse } from 'yaml'
+import { allFilms, assertFolderMatchesYear } from './_films.mjs'
 
 const frontmatter = (path) => {
   const raw = readFileSync(path, 'utf8')
@@ -23,11 +24,18 @@ ed.sections.forEach(s => assert(s.title && s.description, `section ${s.program} 
 
 // Filtered by year, not a bare directory count, so this check stays valid
 // after Tasks 5 and 6 add the 2024 and 2023 films to the same folder.
-const films = readdirSync('content/films')
-  .filter(f => f.endsWith('.md'))
-  .map(f => ({ file: f, fm: frontmatter(`content/films/${f}`) }))
+// Films live at content/films/<year>/<slug>.md — allFilms() recurses the year folders.
+const films = allFilms().map(f => ({ file: f.file, fm: f.data }))
 
 assert(films.every(f => Number.isInteger(f.fm.year)), 'every film has an integer year')
 const y2025 = films.filter(f => f.fm.year === 2025)
 assert(y2025.length === 24, `24 films for 2025, got ${y2025.length}`)
+
+// The folder and the `year` field must agree. The CMS writes the path from
+// `path: '{{year}}/{{slug}}'`, so changing a film's year should move the file — if it ever
+// fails to, the site keeps rendering from the field while the tree says otherwise.
+const drift = []
+assertFolderMatchesYear(drift)
+if (drift.length) { console.error('FOLDER/YEAR DRIFT:\n' + drift.map(d => '  - ' + d).join('\n')); process.exit(1) }
+
 console.log('PASS')
