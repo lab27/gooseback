@@ -68,6 +68,10 @@ check(!archive, 'films_archive must not exist — films are a single nested coll
 check(films?.path === '{{year}}/{{slug}}', "films.path must be '{{year}}/{{slug}}' so new films file under their year")
 check(films?.nested?.depth === 2, 'films.nested.depth must be 2 (content/films/<year>/<slug>.md)')
 
+// Without subfolders:false the year folders render titled after their first film,
+// because Decap otherwise assumes each folder is a page with an index entry.
+check(films?.nested?.subfolders === false, 'films.nested.subfolders must be false so year folders show the year, not their first film')
+
 // A year filter would defeat the tree and reintroduce an annual config edit.
 check(!films?.filter, 'films must not declare a filter — the nested tree replaces it')
 

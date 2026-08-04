@@ -149,6 +149,12 @@ collections:
     path: '{{year}}/{{slug}}'
     nested:
       depth: 2
+      # subfolders defaults to true, which is Decap's "every folder is a page with an
+      # index.md" model: a directory node then borrows the title of its first child
+      # entry, so the year folders rendered as "AGRA", "ENYS MEN" etc. instead of the
+      # years. Our year folders are pure grouping and have no index file, so false is
+      # correct — directory nodes use the folder name.
+      subfolders: false
     format: 'frontmatter'
     create: true
     slug: '{{slug}}'
