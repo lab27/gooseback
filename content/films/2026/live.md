@@ -1,6 +1,6 @@
 ---
 year: 2026
-title: LIVE
+title: Live
 type: Fiction
 program: shorts1
 durationInMinutes: "12"
