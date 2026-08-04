@@ -59,25 +59,12 @@ const route = useRoute()
 const param = route.params.year as string
 
 /**
- * This route serves two shapes. A strict 4-digit param is an edition. Anything else is
- * treated as a legacy flat film slug (/movies/kika) left over from before films moved to
- * /movies/<year>/<slug>, and is redirected permanently to its year-scoped home.
- *
- * Resolving the target from content rather than a generated redirect list means the
- * redirect cannot go stale if a film is renamed or moved to a different year.
+ * A strict 4-digit year. Legacy flat film URLs (/movies/kika) are handled by static
+ * redirect rules in nuxt.config, not here — this is a static build, so a redirect
+ * implemented as a page would never run.
  */
 if (!/^\d{4}$/.test(param)) {
-  const { data: legacy } = await useAsyncData(`legacy-slug-${param}`, () =>
-    queryContent<Film>('films').only(['_path', 'year']).find()
-  )
-
-  const match = (legacy.value ?? []).find(film => film._path?.split('/').pop() === param)
-
-  if (match?.year) {
-    await navigateTo(`/movies/${match.year}/${param}`, { redirectCode: 301, replace: true })
-  } else {
-    throw createError({ statusCode: 404, statusMessage: 'Not found', fatal: true })
-  }
+  throw createError({ statusCode: 404, statusMessage: 'Not found', fatal: true })
 }
 
 const year = Number(param)
