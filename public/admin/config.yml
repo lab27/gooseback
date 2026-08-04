@@ -94,9 +94,12 @@ collections:
           - {label: Heading, name: heading, widget: string}
           - {label: Announced, name: isAnnounced, widget: boolean }
           - {label: Body, name: body, widget: markdown}
+  # `name` stays `editions` deliberately — it is the collection's identity, used in the
+  # #/collections/editions URL that admin.css hooks for the sidebar icon. Only the
+  # display labels change.
   - name: editions
-    label: Editions
-    label_singular: Edition
+    label: Movie Pages
+    label_singular: Movie Page
     folder: 'content/editions'
     format: 'frontmatter'
     create: true
