@@ -4,10 +4,10 @@ title: TEDIOUS DAYS AND NIGHTS
 type: Documentary
 program: features
 durationInMinutes: "110"
-thumbnail: /static/img/film-stills/still3.png
+thumbnail: /static/img/film-stills/still3.webp
 stills:
-  - still: /static/img/film-stills/still4.jpeg
-  - still: /static/img/film-stills/still2.jpeg
+  - still: /static/img/film-stills/still4.webp
+  - still: /static/img/film-stills/still2.webp
 country: China
 language: Chinese
 director: Guo Zhenming

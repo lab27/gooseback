@@ -4,10 +4,10 @@ title: Message
 type: Documentary
 program: shorts2
 durationInMinutes: "9"
-thumbnail: /static/img/film-stills/poster-0726c746f7-poster.jpg
+thumbnail: /static/img/film-stills/poster-0726c746f7-poster.webp
 stills:
-  - still: /static/img/film-stills/photo-2-05.jpg
-  - still: /static/img/film-stills/photo-3-02.jpg
+  - still: /static/img/film-stills/photo-2-05.webp
+  - still: /static/img/film-stills/photo-3-02.webp
 country: Iran
 language: Arabic
 director: Saeed Moltaji

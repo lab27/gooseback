@@ -4,10 +4,10 @@ title: Palestine 87
 type: Fiction
 program: shorts2
 durationInMinutes: "12"
-thumbnail: /static/img/film-stills/2-copy.jpg
+thumbnail: /static/img/film-stills/2-copy.webp
 stills:
-  - still: /static/img/film-stills/1.jpg
-  - still: /static/img/film-stills/4.jpg
+  - still: /static/img/film-stills/1.webp
+  - still: /static/img/film-stills/4.webp
 country: Palestine
 language: Arabic, Hebrew
 director: "Bilal Alkhatib "

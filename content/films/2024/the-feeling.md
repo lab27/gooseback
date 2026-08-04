@@ -4,9 +4,9 @@ title: THE FEELING THAT THE TIME FOR DOING SOMETHING HAS PASSED
 type: Fiction
 program: features
 durationInMinutes: 87mins
-thumbnail: /static/img/film-stills/still-1.jpg
+thumbnail: /static/img/film-stills/still-1.webp
 stills:
-  - still: /static/img/film-stills/still-2.jpg
+  - still: /static/img/film-stills/still-2.webp
 country: USA
 language: English
 director: Joanna Arnow

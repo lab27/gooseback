@@ -4,11 +4,11 @@ contact: e.riedin@le-pacte.com
 title: THE MOUNTAIN
 type: Fiction
 durationInMinutes: "115"
-thumbnail: /static/img/film-stills/louise-resto-soir-cchristmas-in-july.jpeg
+thumbnail: /static/img/film-stills/louise-resto-soir-cchristmas-in-july.webp
 stills:
-  - still: /static/img/film-stills/coucher_soleil_col_midi-ļchristmas-in-july.jpg
-  - still: /static/img/film-stills/le_bras_lumineux-ёchristmas-in-july.jpg
-  - still: /static/img/film-stills/tente_sous_la_neige-ļchristmas-in-july.jpg
+  - still: /static/img/film-stills/coucher_soleil_col_midi-ļchristmas-in-july.webp
+  - still: /static/img/film-stills/le_bras_lumineux-ёchristmas-in-july.webp
+  - still: /static/img/film-stills/tente_sous_la_neige-ļchristmas-in-july.webp
 country: France
 language: French
 director: Thomas Salvador

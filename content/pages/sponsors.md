@@ -2,13 +2,13 @@
 heading: Sponsors
 logos:
   - name: Helsingborg
-    logo: /public/img/sponsor-logos/logo_helsingborg.png
+    logo: /public/img/sponsor-logos/logo_helsingborg.webp
   - name: Film i Skåne
     logo: /public/img/sponsor-logos/film-i-skane_rgb_kvadrat_pos.svg
-  - logo: /public/img/sponsor-logos/abf_logo_rund.png
+  - logo: /public/img/sponsor-logos/abf_logo_rund.webp
     name: ABF
   - name: Contentor
-    logo: /public/img/sponsor-logos/contentor_logotyp_green_rgb.png
+    logo: /public/img/sponsor-logos/contentor_logotyp_green_rgb.webp
   - name: Boost
     logo: /public/img/sponsor-logos/boosthbg_logo_black_rgb.svg
 ---

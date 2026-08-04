@@ -4,11 +4,11 @@ title: "Mariupol: A Hundred Nights"
 type: Documentary
 program: shorts1
 durationInMinutes: "8"
-thumbnail: /static/img/film-stills/mariupol-still_01.jpg
+thumbnail: /static/img/film-stills/mariupol-still_01.webp
 stills:
-  - still: /static/img/film-stills/mariupol-still_02.jpg
-  - still: /static/img/film-stills/mariupol-still_03.jpg
-  - still: /static/img/film-stills/mariupol-still_04.jpg
+  - still: /static/img/film-stills/mariupol-still_02.webp
+  - still: /static/img/film-stills/mariupol-still_03.webp
+  - still: /static/img/film-stills/mariupol-still_04.webp
 country: Ukraine
 language: Ukrainian
 director: Sofiia Melnyk

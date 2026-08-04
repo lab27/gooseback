@@ -4,11 +4,11 @@ title: Sunny Side Up
 type: Fiction
 program: helsingborg
 durationInMinutes: "39"
-thumbnail: /public/img/film-stills/img_5399.jpeg
+thumbnail: /public/img/film-stills/img_5399.webp
 stills:
-  - still: /public/img/film-stills/img_2689.jpeg
-  - still: /public/img/film-stills/img_2688.jpeg
-  - still: /public/img/film-stills/img_2686.jpeg
+  - still: /public/img/film-stills/img_2689.webp
+  - still: /public/img/film-stills/img_2688.webp
+  - still: /public/img/film-stills/img_2686.webp
 country: Sweden
 language: Sweden
 director: Jan Nielsen

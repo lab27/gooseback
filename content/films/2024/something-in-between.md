@@ -4,10 +4,10 @@ title: "Something In Between "
 type: Fiction
 program: shorts1
 durationInMinutes: "15"
-thumbnail: /static/img/film-stills/sib_still01.jpg
+thumbnail: /static/img/film-stills/sib_still01.webp
 stills:
-  - still: /static/img/film-stills/sib_still05.jpg
-  - still: /static/img/film-stills/sib_still02.jpg
+  - still: /static/img/film-stills/sib_still05.webp
+  - still: /static/img/film-stills/sib_still02.webp
 country: France/Egypt/ Lebanon
 language: Arabic
 director: Dahlia Nemlich

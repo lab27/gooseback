@@ -4,10 +4,10 @@ title: "Se Mig Ikväll "
 type: Fiction
 program: shorts1
 durationInMinutes: "25"
-thumbnail: /static/img/film-stills/image8.jpeg
+thumbnail: /static/img/film-stills/image8.webp
 stills:
-  - still: /static/img/film-stills/image9.jpeg
-  - still: /static/img/film-stills/image14.jpeg
+  - still: /static/img/film-stills/image9.webp
+  - still: /static/img/film-stills/image14.webp
 country: Sweden
 language: Swedish
 director: Jonna Carlberg and Paul Raphael D'Indy

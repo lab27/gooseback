@@ -3,9 +3,9 @@ year: 2023
 title: ENYS MEN
 type: Fiction
 durationInMinutes: "91"
-thumbnail: /static/img/film-stills/003-enys-men-the-volunteer-mary-woodvine-bosena-©-2022-_1.19.1.jpg
+thumbnail: /static/img/film-stills/003-enys-men-the-volunteer-mary-woodvine-bosena-©-2022-_1.19.1.webp
 stills:
-  - still: /static/img/film-stills/001-enys-men-the-volunteer-mary-woodvine-bosena-©-2022-_1.555.1.jpg
+  - still: /static/img/film-stills/001-enys-men-the-volunteer-mary-woodvine-bosena-©-2022-_1.555.1.webp
 country: United Kingdom
 language: English
 director: Mark Jenkins

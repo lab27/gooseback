@@ -4,9 +4,9 @@ title: On The Way
 type: Fiction
 program: shorts1
 durationInMinutes: "15"
-thumbnail: /public/img/film-stills/still_rruges-4.jpg
+thumbnail: /public/img/film-stills/still_rruges-4.webp
 stills:
-  - still: /public/img/film-stills/still_rruges-17.jpg
+  - still: /public/img/film-stills/still_rruges-17.webp
 country: Kosovo
 language: Albanian
 director: Samir Karahoda

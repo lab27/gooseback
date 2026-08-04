@@ -4,9 +4,9 @@ title: LIV
 type: Fiction
 program: shorts1
 durationInMinutes: "14"
-thumbnail: /static/img/film-stills/logo-full-black.png
+thumbnail: /static/img/film-stills/logo-full-black.webp
 stills:
-  - still: /static/img/film-stills/logo-full-black.png
+  - still: /static/img/film-stills/logo-full-black.webp
 country: "Sweden "
 language: "Swedish "
 director: Hillevi Gustafson

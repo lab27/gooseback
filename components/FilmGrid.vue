@@ -6,7 +6,7 @@ ul.film-grid
         .thumbnail-arrow-wrapper
           Arrow
         .thumbnail-gauze
-        NuxtImg(v-if="film.thumbnail" :src="staticRemover(film.thumbnail)" :alt="film.title" :placeholder="[160, 90, 10]" format="webp" fit="cover" width="1600" height="900" sizes="sm:100vw md:50vw lg:400px xl:800px" preload).thumbnail-image
+        NuxtImg(densities="x1" v-if="film.thumbnail" :src="staticRemover(film.thumbnail)" :alt="film.title" :placeholder="[160, 90, 10]" format="webp" fit="cover" width="1600" height="900" sizes="sm:100vw md:50vw lg:400px xl:800px" preload).thumbnail-image
       .film-details-wrapper
         span.film-title {{ film.title }}
         span.film-date {{ dateFor(film) }}

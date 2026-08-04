@@ -4,9 +4,9 @@ title: Fastnat
 type: Fiction
 program: helsingborg
 durationInMinutes: "15"
-thumbnail: /public/img/film-stills/whatsapp-image-2025-03-21-at-23.18.15-3-.jpeg
+thumbnail: /public/img/film-stills/whatsapp-image-2025-03-21-at-23.18.15-3-.webp
 stills:
-  - still: /public/img/film-stills/whatsapp-image-2025-03-21-at-23.18.15.jpeg
+  - still: /public/img/film-stills/whatsapp-image-2025-03-21-at-23.18.15.webp
 country: Swedish
 language: Swedish
 director: Manhal Ahmed

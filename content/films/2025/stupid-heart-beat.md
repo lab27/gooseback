@@ -4,10 +4,10 @@ title: Stupid Heart Beat
 type: Fiction
 program: shorts1
 durationInMinutes: "15"
-thumbnail: /public/img/film-stills/photo-1-edith_p_bnk.jpg
+thumbnail: /public/img/film-stills/photo-1-edith_p_bnk.webp
 stills:
-  - still: /public/img/film-stills/photo-4-edith_o_elvira.jpg
-  - still: /public/img/film-stills/photo-5-edith_samtal.jpg
+  - still: /public/img/film-stills/photo-4-edith_o_elvira.webp
+  - still: /public/img/film-stills/photo-5-edith_samtal.webp
 country: Sweden
 language: Swedish
 director: Felicia Sjöberg Nehlin

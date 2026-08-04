@@ -4,11 +4,11 @@ title: We Are Champions
 type: Fiction
 program: helsingborg
 durationInMinutes: "10"
-thumbnail: /public/img/film-stills/photo-1-48f2ff61-7b09-4246-bc94-2589e65f2ca2.jpg
+thumbnail: /public/img/film-stills/photo-1-48f2ff61-7b09-4246-bc94-2589e65f2ca2.webp
 stills:
-  - still: /public/img/film-stills/photo-3-36529b7c-4f56-467e-acd8-8e28c9a2f3f7.jpg
-  - still: /public/img/film-stills/original-085fef1d-1013-4e6e-969c-2bc409a95efc.jpeg
-  - still: /public/img/film-stills/original-a8499fed-25ea-4ae8-a75c-bd446a2d01b6.jpeg
+  - still: /public/img/film-stills/photo-3-36529b7c-4f56-467e-acd8-8e28c9a2f3f7.webp
+  - still: /public/img/film-stills/original-085fef1d-1013-4e6e-969c-2bc409a95efc.webp
+  - still: /public/img/film-stills/original-a8499fed-25ea-4ae8-a75c-bd446a2d01b6.webp
 country: Sweden
 language: Bosnian, Croatian, Serbian
 director: Danjin Malinovic, Rex Brådhe & Michaela Hennig

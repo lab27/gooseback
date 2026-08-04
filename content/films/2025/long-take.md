@@ -4,9 +4,9 @@ title: Long Take
 type: Fiction
 program: shorts1
 durationInMinutes: "4"
-thumbnail: /public/img/film-stills/still-01.jpg
+thumbnail: /public/img/film-stills/still-01.webp
 stills:
-  - still: /public/img/film-stills/still-03.jpg
+  - still: /public/img/film-stills/still-03.webp
 country: Sweden/Syria
 language: Arabic
 director: Rima Alhamedd

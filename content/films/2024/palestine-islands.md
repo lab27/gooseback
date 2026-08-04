@@ -4,10 +4,10 @@ title: "Palestine Islands "
 type: Fiction
 program: shorts2
 durationInMinutes: "22"
-thumbnail: /static/img/film-stills/palestine-islands_2480x3721_230714.jpg
+thumbnail: /static/img/film-stills/palestine-islands_2480x3721_230714.webp
 stills:
-  - still: /static/img/film-stills/palestine-island_still_04_tiff-16bits_00096038.jpeg
-  - still: /static/img/film-stills/palestine-island_still_05_tiff-16bits_00097270.jpeg
+  - still: /static/img/film-stills/palestine-island_still_04_tiff-16bits_00096038.webp
+  - still: /static/img/film-stills/palestine-island_still_05_tiff-16bits_00097270.webp
 country: France/Palestine
 language: Arabic
 director: Nour Ben Salem, Julien Menanteau

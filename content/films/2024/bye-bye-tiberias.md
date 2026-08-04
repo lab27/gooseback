@@ -4,10 +4,10 @@ title: "BYE BYE TIBERIAS "
 type: Documentary
 program: features
 durationInMinutes: "82"
-thumbnail: /static/img/film-stills/1.-hiam_lina_deir-hanna-night_credit_frida-marzouk_beall-productions.jpg
+thumbnail: /static/img/film-stills/1.-hiam_lina_deir-hanna-night_credit_frida-marzouk_beall-productions.webp
 stills:
-  - still: /static/img/film-stills/5.-hiam-lina-collage-paris_credit_thomas-brémond_beall-productions.jpg
-  - still: /static/img/film-stills/4.-wedding-80s-deir-hanna_collection-lina-soualem.jpg
+  - still: /static/img/film-stills/5.-hiam-lina-collage-paris_credit_thomas-brémond_beall-productions.webp
+  - still: /static/img/film-stills/4.-wedding-80s-deir-hanna_collection-lina-soualem.webp
 country: "France/Palestine/Belgium/Qatar "
 language: Arabic
 director: Lina Soualem

@@ -3,7 +3,7 @@ year: 2023
 title: Glömska
 type: Fiction
 durationInMinutes: "10"
-thumbnail: /static/img/film-stills/glömska-2.jpg
+thumbnail: /static/img/film-stills/glömska-2.webp
 country: Sweden
 language: Swedish
 director: Vivien Yue

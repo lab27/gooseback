@@ -4,11 +4,11 @@ title: An Orange from Jaffa
 type: Fiction
 program: shorts2
 durationInMinutes: 25 mins
-thumbnail: /static/img/film-stills/an-orange-from-jaffa_1.1.4.jpg
+thumbnail: /static/img/film-stills/an-orange-from-jaffa_1.1.4.webp
 stills:
-  - still: /static/img/film-stills/an-orange-from-jaffa_1.1.51.jpg
-  - still: /static/img/film-stills/an-orange-from-jaffa_1.1.43.jpg
-  - still: /static/img/film-stills/an-orange-from-jaffa_1.1.58.jpg
+  - still: /static/img/film-stills/an-orange-from-jaffa_1.1.51.webp
+  - still: /static/img/film-stills/an-orange-from-jaffa_1.1.43.webp
+  - still: /static/img/film-stills/an-orange-from-jaffa_1.1.58.webp
 country: Palestine/France
 language: English/Arabic
 director: Mohammed Almughanni

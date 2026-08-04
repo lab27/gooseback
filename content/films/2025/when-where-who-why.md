@@ -4,9 +4,9 @@ title: When,Where,Who,Why...
 type: Fiction
 program: shorts1
 durationInMinutes: "15"
-thumbnail: /public/img/film-stills/iran-film.jpg
+thumbnail: /public/img/film-stills/iran-film.webp
 stills:
-  - still: /public/img/film-stills/5902183937390790409.jpg
+  - still: /public/img/film-stills/5902183937390790409.webp
 country: "Iran "
 language: Persian
 director: Roozbeh Hesari

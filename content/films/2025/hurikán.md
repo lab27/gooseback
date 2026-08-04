@@ -4,9 +4,9 @@ title: Hurikán
 type: Fiction
 program: shorts1
 durationInMinutes: "14"
-thumbnail: /public/img/film-stills/hurikan_still_01.png
+thumbnail: /public/img/film-stills/hurikan_still_01.webp
 stills:
-  - still: /public/img/film-stills/hurikan_still_02.png
+  - still: /public/img/film-stills/hurikan_still_02.webp
 country: Czech Republic, France, Slovakia, Bosnia and Herzegovina
 language: Czech
 director: Jan Saska

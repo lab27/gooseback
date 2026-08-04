@@ -4,11 +4,11 @@ title: The Architect
 type: Fiction
 program: features
 durationInMinutes: "88"
-thumbnail: /public/img/film-stills/photo-7-img_6516.jpg
+thumbnail: /public/img/film-stills/photo-7-img_6516.webp
 stills:
-  - still: /public/img/film-stills/photo-5-img_6524.jpg
-  - still: /public/img/film-stills/photo-4-img_6525.jpg
-  - still: /public/img/film-stills/photo-9-img_6558.jpg
+  - still: /public/img/film-stills/photo-5-img_6524.webp
+  - still: /public/img/film-stills/photo-4-img_6525.webp
+  - still: /public/img/film-stills/photo-9-img_6558.webp
 country: Sweden
 language: "Swedish (English subtitles) "
 director: Michael Emami

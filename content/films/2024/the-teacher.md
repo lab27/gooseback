@@ -4,7 +4,7 @@ title: THE TEACHER
 type: Fiction
 program: features
 durationInMinutes: "115"
-thumbnail: /static/img/film-stills/the-teacher-still-1.jpg
+thumbnail: /static/img/film-stills/the-teacher-still-1.webp
 country: United Kingdom, Palestine
 language: Arabic, English
 director: Farah Nabulsi

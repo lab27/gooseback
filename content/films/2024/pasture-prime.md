@@ -4,12 +4,12 @@ title: PASTURE PRIME
 type: Fiction
 program: shorts1
 durationInMinutes: "10"
-thumbnail: /static/img/film-stills/pp_final-0-03-14-23-.png
+thumbnail: /static/img/film-stills/pp_final-0-03-14-23-.webp
 stills:
-  - still: /static/img/film-stills/pp_final-0-03-26-15-.png
-  - still: /static/img/film-stills/pp_final-0-07-43-20-.png
-  - still: /static/img/film-stills/pp_final-0-01-51-09-.png
-  - still: /static/img/film-stills/pp_final-0-08-26-14-.png
+  - still: /static/img/film-stills/pp_final-0-03-26-15-.webp
+  - still: /static/img/film-stills/pp_final-0-07-43-20-.webp
+  - still: /static/img/film-stills/pp_final-0-01-51-09-.webp
+  - still: /static/img/film-stills/pp_final-0-08-26-14-.webp
 country: USA
 language: English
 director: Diffan Sina Norman

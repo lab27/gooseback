@@ -4,9 +4,9 @@ title: AGRA
 type: Fiction
 program: features
 durationInMinutes: 132 minutes
-thumbnail: /static/img/film-stills/screenshot-2024-08-13-at-14.35.24.png
+thumbnail: /static/img/film-stills/screenshot-2024-08-13-at-14.35.24.webp
 stills:
-  - still: /static/img/film-stills/e1a2111-3-160x114.jpg
+  - still: /static/img/film-stills/e1a2111-3-160x114.webp
 country: India
 language: Hindi
 director: Kanu Behl

@@ -4,9 +4,9 @@ title: Home
 type: Fiction
 program: helsingborg
 durationInMinutes: "6"
-thumbnail: /public/img/film-stills/screenshot-2025-08-03-at-21.49.24.png
+thumbnail: /public/img/film-stills/screenshot-2025-08-03-at-21.49.24.webp
 stills:
-  - still: /public/img/film-stills/672cd178fe9edb0e5e876988_672cd0fe9fb579cb690aa7fa_belong.png
+  - still: /public/img/film-stills/672cd178fe9edb0e5e876988_672cd0fe9fb579cb690aa7fa_belong.webp
 country: Sweden
 language: "Swedish "
 director: Sara Khayat

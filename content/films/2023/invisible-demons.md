@@ -4,10 +4,10 @@ contact: "intlfest@mk2.com Anaëlle JOUANNARD "
 title: INVISBLE DEMONS
 type: Fiction
 durationInMinutes: "71"
-thumbnail: /static/img/film-stills/invisible_demons_still_-c-toinen-katse-oy-ma.ja.de.-filmproduktions-gmbh-2021-2.jpg
+thumbnail: /static/img/film-stills/invisible_demons_still_-c-toinen-katse-oy-ma.ja.de.-filmproduktions-gmbh-2021-2.webp
 stills:
-  - still: /static/img/film-stills/wfm-locations.jpg
-  - still: /static/img/film-stills/coyote-leaping.jpeg
+  - still: /static/img/film-stills/wfm-locations.webp
+  - still: /static/img/film-stills/coyote-leaping.webp
 country: India
 language: English/Hindi
 director: Rahul Jain

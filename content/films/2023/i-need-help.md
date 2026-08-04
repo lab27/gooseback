@@ -4,7 +4,7 @@ contact: manhalahmedvh@gmail.com
 title: I NEED HELP
 type: Fiction
 durationInMinutes: "5"
-thumbnail: /static/img/film-stills/i-need-help.jpg
+thumbnail: /static/img/film-stills/i-need-help.webp
 country: Sweden
 language: Swedish
 director: Manhal Ahmed
