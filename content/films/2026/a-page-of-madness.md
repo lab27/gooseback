@@ -4,7 +4,7 @@ title: Test Film
 type: Fiction
 program: features
 durationInMinutes: "71"
-thumbnail: /public/img/film-stills/madness-still.jpg
+thumbnail: /public/img/film-stills/sugar_island_01_copyright_carlosrodriguez.jpg
 country: Japan
 language: Silent, no intertitles
 director: Teinosuke Kinugasa
