@@ -131,32 +131,33 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Program', name: 'program', widget: 'select', options: ['features', 'helsingborg', 'music', 'shorts1', 'shorts2'] }
           - { label: 'Description', name: 'description', widget: 'text', required: false }
-  # Annual rollover procedure — when a new festival year's program goes live, do ALL of
-  # the following. Missing either of the two edits in this file means new films the editor
-  # creates in the CMS silently get the outgoing year, and they will not show up on /movies.
+  # Annual rollover procedure — when a new festival year's program goes live:
   #   1. Create the new edition: add content/editions/<year>.md (year, heading, dates,
-  #      isAnnounced, sections, body).
-  #   2. Below, in this `films` collection, update the `filter: { field: year, value: 2025 }`
-  #      line to the new year, so the CMS Films list shows the new year's films by default.
-  #   3. Below, in this `films` collection's `fields` list, update the Year field's
-  #      `default: 2025` (in the line starting `{ label: 'Year', name: 'year', ... }`) to
-  #      the new year, so new films are pre-filled with the correct year.
-  #   4. Update `content/settings.yml`'s `currentEdition` to the new year — this is what
-  #      actually moves the previous year's program into the archive and switches /movies
-  #      to the new one. (Editable from Site Settings > Current Edition in the CMS.)
+  #      isAnnounced, sections, body) via the Editions collection.
+  #   2. Update Site Settings > Current Edition (content/settings.yml `currentEdition`).
+  #      That single value switches /movies to the new program and moves the previous
+  #      year into the archive. No films are ever deleted.
+  # Nothing in this file needs editing — films file themselves under their Year via the
+  # `path` template below, so a new year's folder appears on its own.
   - name: films
     label: Films
     label_singular: Film
     folder: 'content/films'
+    # Films are stored at content/films/<year>/<slug>.md. `path` files new entries under
+    # their Year field, and `nested` renders the folders as a Films > Year > Film tree in
+    # the sidebar instead of one flat list that grows every festival.
+    path: '{{year}}/{{slug}}'
+    nested:
+      depth: 2
     format: 'frontmatter'
     create: true
     slug: '{{slug}}'
-    filter: { field: year, value: 2025 }
-    sortable_fields: ['title', 'year']
+    sortable_fields: ['year', 'title']
+    summary: '{{title}}'
     editor:
       preview: false
-    fields: &film_fields
-      - { label: 'Year', name: 'year', widget: 'number', value_type: 'int', default: 2025, min: 2023, max: 2100, hint: 'Which festival edition this film belongs to.' }
+    fields:
+      - { label: 'Year', name: 'year', widget: 'number', value_type: 'int', min: 2023, max: 2100, hint: 'Which festival edition this film belongs to. Determines the folder it is stored in and the URL it appears at, so set it before saving.' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Type', name: 'type', widget: 'select', options: ['Documentary', 'Fiction'] }
       - { label: 'Program', name: 'program', widget: select, options: ['features', 'helsingborg', 'music', 'shorts1', 'shorts2'] }
@@ -217,27 +218,6 @@ collections:
         fields:
           - {label: Date/Time, name: dateTime, widget: datetime,  date_format: "dddd, MMMM DD", time_format: "HH:mm", format: "dddd, MMMM DD HH:mm"}
           - {label: Venue, name: venue, widget: select, options: ["roda-kvarn", "fryshusset", "vagnhall-16"]}
-  - name: films_archive
-    label: Archive
-    label_singular: Archived Film
-    folder: 'content/films'
-    format: 'frontmatter'
-    create: false
-    slug: '{{slug}}'
-    sortable_fields: ['year', 'title']
-    summary: '{{year}} — {{title}}'
-    # Grouped by year rather than filtered. A `view_filters` entry was tried here and
-    # removed: its `pattern` must be a string or boolean per the CMS config schema, but
-    # `year` is a number, so the filter would either fail config validation (as a bare
-    # number) or risk silently matching nothing (as a quoted string). Grouping needs no
-    # pattern, and a "current program only" filter would be redundant anyway — the `films`
-    # collection above already shows exactly the current program.
-    view_groups:
-      - label: Year
-        field: year
-    editor:
-      preview: false
-    fields: *film_fields
   - name: talks
     label: Talks
     label_singular: Talk

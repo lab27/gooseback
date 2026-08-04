@@ -57,20 +57,19 @@ cfg.collections.forEach(col => {
 
 // --- Site-specific invariants -----------------------------------------------
 check(!!editions, 'the editions collection must exist')
-check(!!films && !!archive, 'both the films and films_archive collections must exist')
-check(archive?.folder === films?.folder, 'films_archive must point at the same folder as films')
-check(archive?.create === false, 'films_archive must not allow creating films')
-check(archive?.view_groups?.[0]?.field === 'year', 'films_archive must group by year')
-check(films?.filter?.field === 'year', 'films must filter by year')
-check(Number.isInteger(films?.filter?.value), 'films.filter.value must be the current edition year')
+check(!!films, 'the films collection must exist')
 
-// The two collections must SHARE one field schema via a YAML anchor, not two copies.
-check(
-  JSON.stringify(archive?.fields) === JSON.stringify(films?.fields),
-  'films_archive.fields must be the same schema as films.fields (use the &film_fields anchor, not a copy)'
-)
-check((raw.match(/&film_fields/g) ?? []).length === 1, 'expected exactly one &film_fields anchor definition')
-check((raw.match(/\*film_fields/g) ?? []).length === 1, 'expected exactly one *film_fields alias')
+// One collection presenting a Films > Year > Film tree, not two collections over the
+// same folder. The separate films_archive collection was removed when films moved into
+// per-year folders — if it comes back, the current year appears in two places again.
+check(!archive, 'films_archive must not exist — films are a single nested collection now')
+
+// The tree comes from the folder structure, which comes from these two settings.
+check(films?.path === '{{year}}/{{slug}}', "films.path must be '{{year}}/{{slug}}' so new films file under their year")
+check(films?.nested?.depth === 2, 'films.nested.depth must be 2 (content/films/<year>/<slug>.md)')
+
+// A year filter would defeat the tree and reintroduce an annual config edit.
+check(!films?.filter, 'films must not declare a filter — the nested tree replaces it')
 
 // The typo that hid executive-producer credits for years must not come back.
 check(!raw.includes('exectProducer'), 'the exectProducers typo must not reappear')
