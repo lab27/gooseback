@@ -100,9 +100,14 @@ collections:
     folder: 'content/editions'
     format: 'frontmatter'
     create: true
-    slug: '{{year}}'
+    # {{fields.year}}, not {{year}}. Decap has a built-in {{year}} replacement that means
+    # the entry DATE's year, so a field genuinely named `year` is shadowed by it — the
+    # `fields.` prefix is the documented way to force the field. Getting this wrong here
+    # would name a new edition file after the current calendar year instead of the year
+    # being edited.
+    slug: '{{fields.year}}'
     identifier_field: year
-    summary: '{{year}} — {{dates}}'
+    summary: '{{fields.year}}'
     sortable_fields: ['year']
     editor:
       preview: false
@@ -146,7 +151,12 @@ collections:
     # Films are stored at content/films/<year>/<slug>.md. `path` files new entries under
     # their Year field, and `nested` renders the folders as a Films > Year > Film tree in
     # the sidebar instead of one flat list that grows every festival.
-    path: '{{year}}/{{slug}}'
+    # {{fields.year}}, not {{year}}: Decap's built-in {{year}} is the entry DATE's year,
+    # which would file a film by the calendar year it was entered rather than the festival
+    # year it belongs to. Those coincide today, which is exactly what makes it dangerous —
+    # adding a 2027 film during 2026 would silently land it in content/films/2026/.
+    # {{slug}} below is the built-in entry slug and is correct as-is.
+    path: '{{fields.year}}/{{slug}}'
     nested:
       depth: 2
       # subfolders defaults to true, which is Decap's "every folder is a page with an

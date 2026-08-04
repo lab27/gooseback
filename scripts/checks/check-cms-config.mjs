@@ -65,7 +65,24 @@ check(!!films, 'the films collection must exist')
 check(!archive, 'films_archive must not exist — films are a single nested collection now')
 
 // The tree comes from the folder structure, which comes from these two settings.
-check(films?.path === '{{year}}/{{slug}}', "films.path must be '{{year}}/{{slug}}' so new films file under their year")
+// Must be {{fields.year}}, never bare {{year}}: Decap's built-in {{year}} is the entry
+// DATE's year, so a film added for a future edition would be filed under the calendar
+// year it was entered. The two coincide most of the time, which is what makes the bare
+// form dangerous rather than obviously broken.
+check(
+  films?.path === '{{fields.year}}/{{slug}}',
+  `films.path must be '{{fields.year}}/{{slug}}' (bare {{year}} resolves to the entry date's year), got ${films?.path}`
+)
+// Comments legitimately mention {{year}} to explain this very pitfall, so strip them
+// before scanning; only actual template values matter.
+const withoutComments = raw
+  .split('\n')
+  .filter(line => !line.trim().startsWith('#'))
+  .join('\n')
+check(
+  !/\{\{year\}\}/.test(withoutComments),
+  'config uses a bare {{year}} template in a value — use {{fields.year}} to reference the year field'
+)
 check(films?.nested?.depth === 2, 'films.nested.depth must be 2 (content/films/<year>/<slug>.md)')
 
 // Without subfolders:false the year folders render titled after their first film,

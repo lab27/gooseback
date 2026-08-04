@@ -52,8 +52,16 @@ const { data: settings } = await useAsyncData('settings-archive', () =>
   queryContent<{ currentEdition: number }>('settings').findOne()
 )
 
+/**
+ * Only editions up to and including the current one are public. A future edition is a
+ * draft being prepared in the CMS — its page exists and is reachable by direct link for
+ * previewing, but it must not be advertised here until `currentEdition` is moved forward.
+ * That keeps the gate on the same single setting that drives everything else, rather than
+ * introducing a second notion of "published".
+ */
 const editions = computed(() =>
   [...(editionDocs.value ?? [])]
+    .filter(edition => !settings.value?.currentEdition || edition.year <= settings.value.currentEdition)
     .sort((a, b) => b.year - a.year)
     .map(edition => {
       const yearFilms = (films.value ?? []).filter(film => film.year === edition.year)
