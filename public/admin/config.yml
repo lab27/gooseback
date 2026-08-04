@@ -151,15 +151,9 @@ collections:
     label: Films
     label_singular: Film
     folder: 'content/films'
-    # Films are stored at content/films/<year>/<slug>.md. `path` files new entries under
-    # their Year field, and `nested` renders the folders as a Films > Year > Film tree in
-    # the sidebar instead of one flat list that grows every festival.
-    # {{fields.year}}, not {{year}}: Decap's built-in {{year}} is the entry DATE's year,
-    # which would file a film by the calendar year it was entered rather than the festival
-    # year it belongs to. Those coincide today, which is exactly what makes it dangerous —
-    # adding a 2027 film during 2026 would silently land it in content/films/2026/.
-    # {{slug}} below is the built-in entry slug and is correct as-is.
-    path: '{{fields.year}}/{{slug}}'
+    # Films are stored at content/films/<year>/<slug>.md. The year segment comes from the
+    # `slug` template below, and `nested` renders the folders as a Films > Year > Film tree
+    # in the sidebar instead of one flat list that grows every festival.
     nested:
       depth: 2
       # subfolders defaults to true, which is Decap's "every folder is a page with an
@@ -170,7 +164,22 @@ collections:
       subfolders: false
     format: 'frontmatter'
     create: true
-    slug: '{{slug}}'
+    # The year segment lives here, in `slug`, and NOT in Decap's `path` option — even
+    # though `path` is what the docs point at for filing entries into subfolders. Decap
+    # runs the `path` template, and only that one, through prepareSlug(), which replaces
+    # every period with a dash: `path: '{{fields.year}}/{{slug}}'` is rewritten to
+    # `{{fields-year}}/{{slug}}`, an unknown key that compiles to an empty string. New
+    # films then get the path content/films//<slug>.md and GitHub rejects the commit with
+    # "tree.path contains a malformed path component". Nothing else breaks — editing an
+    # existing film reuses its stored path — so the CMS looks healthy until someone tries
+    # to add a film. The `slug` template is not passed through prepareSlug, so the same
+    # {{fields.year}} works here.
+    # {{fields.year}}, not {{year}}: Decap's built-in {{year}} is the entry DATE's year,
+    # which would file a film by the calendar year it was entered rather than the festival
+    # year it belongs to. Those coincide today, which is exactly what makes it dangerous —
+    # adding a 2027 film during 2026 would silently land it in content/films/2026/.
+    # {{slug}} is the built-in entry slug (the sanitised Title) and is correct as-is.
+    slug: '{{fields.year}}/{{slug}}'
     sortable_fields: ['year', 'title']
     summary: '{{title}}'
     editor:

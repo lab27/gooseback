@@ -70,9 +70,22 @@ check(!archive, 'films_archive must not exist — films are a single nested coll
 // year it was entered. The two coincide most of the time, which is what makes the bare
 // form dangerous rather than obviously broken.
 check(
-  films?.path === '{{fields.year}}/{{slug}}',
-  `films.path must be '{{fields.year}}/{{slug}}' (bare {{year}} resolves to the entry date's year), got ${films?.path}`
+  films?.slug === '{{fields.year}}/{{slug}}',
+  `films.slug must be '{{fields.year}}/{{slug}}' (bare {{year}} resolves to the entry date's year), got ${films?.slug}`
 )
+
+// The year segment must come from `slug`, never from Decap's `path` option. Decap passes
+// the `path` template — and only that one — through prepareSlug(), which replaces periods
+// with dashes, so `{{fields.year}}` becomes the unknown key `{{fields-year}}` and compiles
+// to an empty string. The entry is then committed as content/films//<slug>.md and GitHub
+// rejects the tree with "tree.path contains a malformed path component". It only affects
+// creating entries, so the CMS looks fine right up until someone adds a film.
+cfg.collections.forEach(col => {
+  check(
+    !/\{\{[^}]*\.[^}]*\}\}/.test(col.path ?? ''),
+    `${col.name}.path uses a dotted template (${col.path}) — Decap rewrites the dot to a dash, the segment resolves to empty, and the commit fails with "malformed path component". Put the template in \`slug\` instead.`
+  )
+})
 // Comments legitimately mention {{year}} to explain this very pitfall, so strip them
 // before scanning; only actual template values matter.
 const withoutComments = raw
