@@ -3,7 +3,6 @@
     NuxtLink(v-if="!isCurrent" to="/archive").back-button &#8592; The Archive
     header.films-header
       h1 {{ edition?.heading }} {{ edition?.year }}
-      span.edition-dates(v-if="edition?.dates") {{ edition.dates }}
     .sort-by.mb-8(v-if="showProgram")
       label Sort by:
       select(v-model="sortBy")
