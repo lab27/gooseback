@@ -5,6 +5,10 @@ type: Fiction
 program: shorts1
 durationInMinutes: "15"
 thumbnail: /public/img/film-stills/dickflip-3-large.jpeg
+stills:
+  - still: /public/img/film-stills/dickflip-1-large.jpeg
+  - still: /public/img/film-stills/dickflip-1-large.jpeg
+  - still: /public/img/film-stills/dickflip-2-large.jpeg
 country: Poland
 language: Polish with English subtitles
 director: Dominik Hadziewicz
