@@ -1,6 +1,6 @@
 ---
 heading: When
-isAnnounced: true
+isAnnounced: false
 ---
 **Please note, the following is the 2025 program. The 2026 program will be updated briefly.**
 
