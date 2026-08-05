@@ -6,9 +6,7 @@ program: shorts1
 durationInMinutes: "15"
 thumbnail: /public/img/film-stills/dickflip-3-large.jpeg
 stills:
-  - still: /public/img/film-stills/dickflip-1-large.jpeg
-  - still: /public/img/film-stills/dickflip-4-large.jpeg
-  - still: /public/img/film-stills/dickflip-2-large.jpeg
+  - still: /public/img/film-stills/dickflip-hi-res-still-2026-03-17-192040_1.39.1.png
 country: Poland
 language: Polish with English subtitles
 director: Dominik Hadziewicz
