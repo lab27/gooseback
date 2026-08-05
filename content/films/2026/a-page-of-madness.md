@@ -4,7 +4,10 @@ title: Sugar Island
 type: Fiction
 program: features
 durationInMinutes: "91"
-thumbnail: /public/img/film-stills/sugar_island_01_copyright_carlosrodriguez.webp
+thumbnail: /public/img/film-stills/sugar_island_08_copyright_carlosrodriguez.jpg
+stills:
+  - still: /public/img/film-stills/sugar_island_04_copyright_carlosrodriguez.jpg
+  - still: /public/img/film-stills/sugar_island_01_copyright_carlosrodriguez.jpg
 country: Dominican Republic, Spain
 language: Spanish with English subtitles
 director: Johanné Gómez Terrero
