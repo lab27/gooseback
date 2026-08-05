@@ -1,16 +1,15 @@
 ---
 year: 2026
-title: Party Animal
+title: "DICKFLIP "
 type: Fiction
 program: shorts1
-durationInMinutes: "12"
-thumbnail: /public/img/film-stills/short-film-gff26-party-animal.jpeg
-country: United Kingdom
-language: English
-director: Ali Gill
-cast:
-  - actor: Nabhaan Rizwan
+durationInMinutes: "15"
+thumbnail: /public/img/film-stills/dickflip-3-large.jpeg
+country: Poland
+language: Polish with English subtitles
+director: Dominik Hadziewicz
+cast: []
 contact: ""
-filmWebsite: https://ali-gill.com/portfolio/party-animal
+filmWebsite: ""
 ---
-A dispirited barber is tormented by the discovery that a beloved local Politician is turning into a donkey. Enchanted by the Politician’s charm, who will believe him?
+Sambor, a transgender man, tries to win over a group of skaters.
