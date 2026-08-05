@@ -7,6 +7,7 @@ durationInMinutes: "15"
 thumbnail: /public/img/film-stills/dickflip-skate-hi-res-still-2026-03-17-192321_1.18.1.png
 stills:
   - still: /public/img/film-stills/dickflip-hi-res-still-2026-03-17-192040_1.39.1.png
+  - still: /public/img/film-stills/dickflip-hi-res-4.png
 country: Poland
 language: Polish with English subtitles
 director: Dominik Hadziewicz
