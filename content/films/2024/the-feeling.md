@@ -28,7 +28,7 @@ contact: international@loco-films.com
 filmWebsite: https://www.imdb.com/title/tt27722061/
 filmTrailer: https://www.youtube.com/watch?v=KVacS6T7jxs
 screenings:
-  - dateTime: Saturday, August 31 18:45
+  - dateTime: 2024-08-31 18:45
     venue: venue1
 execProducers:
   - execProducer: Sean Baker

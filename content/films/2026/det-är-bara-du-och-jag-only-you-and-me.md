@@ -4,7 +4,7 @@ title: " Det är bara du och jag (Only You and Me)"
 type: Fiction
 program: shorts1
 durationInMinutes: "7"
-thumbnail: /public/img/film-stills/det-är-bara-du-och-jag_4.png
+thumbnail: /public/img/film-stills/det-aer-bara-du-och-jag_4.png
 country: Sweden
 language: Swedish with English subtitles
 director: Diego Monsiváis García

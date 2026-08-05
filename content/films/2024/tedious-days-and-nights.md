@@ -20,7 +20,7 @@ contact: programming@gasebackfilmfestival.com
 filmWebsite: https://gasebackfilmfestival.com/
 filmTrailer: https://www.youtube.com/watch?v=E2Wb0-NTQrs&t=1s
 screenings:
-  - dateTime: Friday, August 30 21:00
+  - dateTime: 2024-08-30 21:00
     venue: venue1
 ---
 

@@ -19,7 +19,7 @@ contact: kasimir@8mir.fi
 filmWebsite: https://riimucreative.com/contact/kasimir-hognas/
 filmTrailer: https://riimucreative.com/contact/kasimir-hognas/
 screenings:
-  - dateTime: Sunday, August 31 11:00
+  - dateTime: 2025-08-31 11:00
     venue: roda-kvarn
 ---
 A family that raises meat rabbits invites viewers to follow the journey of a litter of bunnies from nest to pot.As summer turns to winter, it's time for the rabbits to become food—the meat harvest begins. Would you have the guts to kill in order to eat meat?

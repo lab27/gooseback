@@ -23,7 +23,7 @@ contact: thisheatsmeup@radiatorsales.eu
 filmWebsite: https://filmfreeway.com/OnTheWay933
 filmTrailer: https://vimeo.com/942096892
 screenings:
-  - dateTime: Sunday, August 31 11:00
+  - dateTime: 2025-08-31 11:00
     venue: roda-kvarn
 ---
 Based on true events, filmmaker and he's son (Miron 13), collaborate on a script that weaves their personal experiences and autobiographical elements with broader concerns about their country.

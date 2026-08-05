@@ -22,7 +22,7 @@ contact: saeedmmartist@gmail.com
 filmWebsite: https://m.imdb.com/title/tt33049477/
 filmTrailer: https://m.imdb.com/title/tt33049477/
 screenings:
-  - dateTime: Sunday, September 01 12:00
+  - dateTime: 2024-09-01 12:00
     venue: venue1
 execProducers:
   - execProducer: Excutive Producer

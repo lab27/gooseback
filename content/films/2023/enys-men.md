@@ -32,7 +32,7 @@ execProducers:
   - execProducer: Denzil Monk
 filmWebsite: https://www.enysmen.co.uk/
 screenings:
-  - dateTime: Saturday, April 01 21:00
+  - dateTime: 2023-04-01 21:00
     venue: venue1
 ---
 

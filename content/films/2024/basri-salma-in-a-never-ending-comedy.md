@@ -35,7 +35,7 @@ contact: lightson@lightsonfilm.org
 filmWebsite: https://www.lightsonfilm.com/basriandsalma.html
 filmTrailer: https://youtu.be/sblnh_nJzts?si=sIzmQwOP-PJeDSoa
 screenings:
-  - dateTime: Saturday, August 31 12:00
+  - dateTime: 2024-08-31 12:00
     venue: venue1
 execProducers:
   - execProducer: Michael Y. Chow

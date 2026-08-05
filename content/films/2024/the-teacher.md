@@ -30,7 +30,7 @@ contact: edevos@goodfellas.film
 filmWebsite: https://theteacher.film/
 filmTrailer: https://www.youtube.com/watch?v=obNeQELnLWY&t=1s
 screenings:
-  - dateTime: Friday, August 30 18:00
+  - dateTime: 2024-08-30 18:00
     venue: venue1
 ---
 

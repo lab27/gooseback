@@ -22,7 +22,7 @@ contact: cca.dakh@gmail.com
 filmWebsite: https://mariupol100nights.com/
 filmTrailer: https://www.youtube.com/watch?v=7YlUT11Vh8E
 screenings:
-  - dateTime: Saturday, August 31 12:00
+  - dateTime: 2024-08-31 12:00
     venue: venue1
 ---
 

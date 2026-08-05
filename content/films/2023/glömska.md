@@ -23,7 +23,7 @@ contact: vaecklen@hotmail.com
 filmWebsite: http://tbc.com
 filmTrailer: " https://youtu.be/o9b2AsYLMZQ"
 screenings:
-  - dateTime: Saturday, April 01 14:00
+  - dateTime: 2023-04-01 14:00
     venue: venue1
 ---
 

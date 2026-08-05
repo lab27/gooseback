@@ -17,7 +17,7 @@ contact: programming@gasebackfilmfestival.com
 filmWebsite: https://gasebackfilmfestival.com/
 filmTrailer: https://gasebackfilmfestival.com/
 screenings:
-  - dateTime: Sunday, September 01 12:00
+  - dateTime: 2024-09-01 12:00
     venue: venue1
 ---
 

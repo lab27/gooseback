@@ -28,7 +28,7 @@ editor: Mathilde Muyard
 filmTrailer: https://vimeo.com/781858827?embedded=true&source=vimeo_logo&owner=11931828
 filmWebsite: https://le-pacte.com/international/film/the-mountain
 screenings:
-  - dateTime: Saturday, April 01 18:00
+  - dateTime: 2023-04-01 18:00
     venue: venue1
 producers:
   - producer: Julie Salvador

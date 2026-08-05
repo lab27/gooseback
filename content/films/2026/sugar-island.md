@@ -16,7 +16,7 @@ cinematography: ""
 filmWebsite: https://www.instagram.com/sugarislandfilm/
 filmTrailer: https://www.youtube.com/watch?v=QPWtdgE7Fbw
 screenings:
-  - dateTime: Tuesday, August 28 18:00
+  - dateTime: 2026-08-28 18:00
     venue: roda-kvarn
 ---
 An unwanted pregnancy triggers the journey into adulthood for Makenya, a Dominican-Haitian teenager who lives in the Batey, a community surrounded by sugarcane fields.

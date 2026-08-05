@@ -17,7 +17,7 @@ editor: Manhal Ahmed
 filmTrailer: https://www.svt.se/nyheter/lokalt/helsingborg/unga-pa-dalhem-har-gjort-film-den-kan-verka-forebyggande
 filmWebsite: https://www.svt.se/nyheter/lokalt/helsingborg/unga-pa-dalhem-har-gjort-film-den-kan-verka-forebyggande
 screenings:
-  - dateTime: Saturday, April 01 14:00
+  - dateTime: 2023-04-01 14:00
     venue: venue1
 producers:
   - producer: Hussain Currimbhoy, Noor Habib

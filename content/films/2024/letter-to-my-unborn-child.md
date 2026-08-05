@@ -22,7 +22,7 @@ contact: caroline@bcdfilm.se  ida@denisedanger.com
 filmWebsite: https://vimeo.com/858574703/af40dc09b5?share=copy
 filmTrailer: https://vimeo.com/858574703/af40dc09b5?share=copy
 screenings:
-  - dateTime: Saturday, August 31 12:00
+  - dateTime: 2024-08-31 12:00
     venue: venue1
 ---
 

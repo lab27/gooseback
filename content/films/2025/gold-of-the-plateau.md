@@ -19,7 +19,7 @@ contact: miriam.follin@hotmail.com
 filmWebsite: https://www.youtube.com/c/MiriamInChina/community
 filmTrailer: https://www.youtube.com/c/MiriamInChina/community
 screenings:
-  - dateTime: Sunday, August 31 11:00
+  - dateTime: 2025-08-31 11:00
     venue: roda-kvarn
 ---
 Gold of the plateau follows Zhuoma as she sets out on a search for the most expensive parasite in the world. The mountains reach altitudes of over 4000 meters above sea level, and her crawling search in the blazing sun is slow and difficult.

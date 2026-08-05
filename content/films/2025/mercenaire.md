@@ -25,7 +25,7 @@ contact: info@lefoyer4ilms.ca / presse.lefoyer4ilms@gmail.com
 filmWebsite: https://www.h264distribution.com/en/catalog/mercenaire/
 filmTrailer: https://www.h264distribution.com/en/catalog/mercenaire/
 screenings:
-  - dateTime: Sunday, August 31 11:00
+  - dateTime: 2025-08-31 11:00
     venue: roda-kvarn
 ---
 Recently released from prison for a murder committed in unclear circumstances, David (Marc-André Grondin) struggles to adapt to his new-found freedom. Reluctantly hired at a pig slaughterhouse thanks to a social reinsertion program, he desperately tries to find another job while struggling to adapt to his new work environment. When he witnesses the cruelty of his new colleagues, he must fight to repress the violence that boils within him.

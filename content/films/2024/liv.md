@@ -23,7 +23,7 @@ contact: hillevi@moxieandmayhem.se
 filmWebsite: https://www.hillevigustafson.com/
 filmTrailer: https://www.hillevigustafson.com/
 screenings:
-  - dateTime: Saturday, August 31 12:00
+  - dateTime: 2024-08-31 12:00
     venue: venue1
 ---
 

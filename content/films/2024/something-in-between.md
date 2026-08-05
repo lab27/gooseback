@@ -27,7 +27,7 @@ contact: dahlia.nemlich@gmail.com
 filmWebsite: https://www.legroupeouest.com/en/les-auteures/dahlia-nemlich/
 filmTrailer: https://www.legroupeouest.com/en/les-auteures/dahlia-nemlich/
 screenings:
-  - dateTime: Saturday, August 31 12:00
+  - dateTime: 2024-08-31 12:00
     venue: venue1
 ---
 

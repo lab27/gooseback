@@ -25,7 +25,7 @@ editor: Clara Martínez Malagelada
 filmTrailer: https://vimeo.com/807408384
 filmWebsite: https://visitfilms.com/
 screenings:
-  - dateTime: Friday, March 31 18:00
+  - dateTime: 2023-03-31 18:00
     venue: venue1
 producers:
   - producer: José Esteban Alenda, Amaya Izquierdo, and Glorimar Marrero-Sánchez

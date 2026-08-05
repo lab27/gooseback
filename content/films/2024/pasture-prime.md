@@ -28,7 +28,7 @@ contact: diffan@gmail.com/ carolynpurnel@gmail.com
 filmWebsite: https://rangkapictures.com/
 filmTrailer: https://rangkapictures.com/
 screenings:
-  - dateTime: Saturday, August 31 12:00
+  - dateTime: 2024-08-31 12:00
     venue: venue1
 ---
 

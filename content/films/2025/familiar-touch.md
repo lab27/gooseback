@@ -28,7 +28,7 @@ contact: info@edgeentertainment.se
 filmWebsite: https://familiartouchfilm.com/
 filmTrailer: https://www.imdb.com/video/vi1655687193/?playlistId=tt32928666&ref_=tt_ov_pr_ov_vi
 screenings:
-  - dateTime: Friday, August 29 21:00
+  - dateTime: 2025-08-29 21:00
     venue: roda-kvarn
 ---
 ### A sensitive coming-of-old-age film that follows an older woman's transition into assisted living as she navigates her relationship with herself, her caregivers, and her family amidst her shifting memories and desires.

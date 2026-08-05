@@ -20,7 +20,7 @@ contact: bojana@lightdox.com
 filmWebsite: https://lightdox.com/
 filmTrailer: https://www.youtube.com/watch?v=iQYo2pk1iAk&t=1s
 screenings:
-  - dateTime: Sunday, September 01 18:00
+  - dateTime: 2024-09-01 18:00
     venue: venue1
 ---
 

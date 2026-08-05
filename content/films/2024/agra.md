@@ -34,7 +34,7 @@ execProducers:
   - execProducer: Denzil Monk
 filmWebsite: https://www.pascaleramonda.com/agra/
 screenings:
-  - dateTime: Saturday, August 31 21:00
+  - dateTime: 2024-08-31 21:00
     venue: venue1
 ---
 

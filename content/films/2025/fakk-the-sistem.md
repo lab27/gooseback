@@ -36,7 +36,7 @@ contact: amimaisha@gmail.com
 filmWebsite: https://studiobuji.com/2024/05/15/fakk-the-sistem/
 filmTrailer: https://studiobuji.com/2024/05/15/fakk-the-sistem/
 screenings:
-  - dateTime: Sunday, August 31 11:00
+  - dateTime: 2025-08-31 11:00
     venue: roda-kvarn
 ---
 **\

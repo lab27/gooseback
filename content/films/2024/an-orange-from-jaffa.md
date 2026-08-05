@@ -23,7 +23,7 @@ contact: mohamugha@gmail.com
 filmWebsite: https://www.almughanni.com/
 filmTrailer: https://www.youtube.com/watch?v=KhfcKo1Mgt4
 screenings:
-  - dateTime: Sunday, September 01 12:00
+  - dateTime: 2024-09-01 12:00
     venue: venue1
 ---
 

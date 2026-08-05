@@ -21,7 +21,7 @@ contact: bookings@journeyman.tv
 filmWebsite: https://www.tomorrowsfreedom.com/
 filmTrailer: https://www.youtube.com/watch?v=H69rkZLI9bw
 screenings:
-  - dateTime: Sunday, September 01 15:00
+  - dateTime: 2024-09-01 15:00
     venue: venue1
 execProducers:
   - execProducer: Brian Eno

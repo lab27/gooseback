@@ -28,7 +28,7 @@ contact: Pluto.k.films@gmail.com
 filmWebsite: https://www.imdb.com/title/tt30309913/
 filmTrailer: https://www.imdb.com/video/vi1453377817/?playlistId=tt30309913&ref_=tt_ov_pr_ov_vi
 screenings:
-  - dateTime: Friday, August 29 18:00
+  - dateTime: 2025-08-29 18:00
     venue: roda-kvarn
 ---
 After answering a strange online ad, Derrick, a young American artist leaves behind the chaos of New York City for a remote coastal town on the edge of Eastern Europe. As the only African American man for miles, he is met with a mix of curiosity and quiet reserve. A temporary escape slowly unfolds into something more complex — a delicate negotiation between solitude and connection, displacement and belonging. A fresh and surprising investigation into redisovering yourself, Derrick is the embodiment of a the philosophy that insists: If you can not find community, create it.

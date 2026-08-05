@@ -26,7 +26,7 @@ editor: Martin Kayser Landwehr
 filmTrailer: https://www.youtube.com/watch?v=6JfArIOGC-A
 filmWebsite: https://www.theoilmachine.org
 screenings:
-  - dateTime: Sunday, April 02 14:00
+  - dateTime: 2023-04-02 14:00
     venue: venue1
 producers:
   - producer: Sonja Henrici

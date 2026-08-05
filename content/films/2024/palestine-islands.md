@@ -35,7 +35,7 @@ contact: programming@gasebackfilmfestival.com
 filmWebsite: https://gasebackfilmfestival.com/
 filmTrailer: https://watch.eventive.org/fr/aanmfilmfest24/play/6635224127d0a0006786977a/66429f2246db680732fc38ab
 screenings:
-  - dateTime: Sunday, September 01 12:00
+  - dateTime: 2024-09-01 12:00
     venue: venue1
 ---
 

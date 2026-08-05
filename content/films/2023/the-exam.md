@@ -25,7 +25,7 @@ editor: Ebrahim Saeedi
 filmTrailer: https://vimeo.com/584806586?embedded=true&source=vimeo_logo&owner=94714380
 filmWebsite: https://www.arthoodentertainment.com/eng/
 screenings:
-  - dateTime: Saturday, April 01 14:00
+  - dateTime: 2023-04-01 14:00
     venue: venue1
 producers:
   - producer: Mehmet Aktaş

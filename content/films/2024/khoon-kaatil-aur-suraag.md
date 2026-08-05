@@ -26,7 +26,7 @@ contact: aditnair@gmail.com
 filmWebsite: https://www.youtube.com/watch?v=7r0kzgcxEUA
 filmTrailer: https://www.youtube.com/watch?v=7r0kzgcxEUA
 screenings:
-  - dateTime: Saturday, August 31 12:00
+  - dateTime: 2024-08-31 12:00
     venue: venue1
 ---
 

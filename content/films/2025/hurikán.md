@@ -26,7 +26,7 @@ contact: festival@miyu.fr
 filmWebsite: https://hurikanfilm.com/
 filmTrailer: https://www.youtube.com/watch?v=U9wQTVyesgY
 screenings:
-  - dateTime: Sunday, August 31 11:00
+  - dateTime: 2025-08-31 11:00
     venue: roda-kvarn
 ---
 **Hurikán rushes out to save his favourite beer stand from closure by fetching a new keg to impress the bartender he has a crush on. In a wild Prague district, he faces robbers, cops, and his own thirst.**

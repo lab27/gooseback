@@ -19,7 +19,7 @@ contact: ManhalAhmed@temporary.com
 filmWebsite: https://www.instagram.com/malle00__/?hl=fr
 filmTrailer: https://www.instagram.com/malle00__/?hl=fr
 screenings:
-  - dateTime: Saturday, August 30 12:00
+  - dateTime: 2025-08-30 12:00
     venue: roda-kvarn
 ---
 A﻿ Helsingbor-set mini crime comedy that brings a fresh take on the underworld.

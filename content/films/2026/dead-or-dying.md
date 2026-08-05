@@ -13,7 +13,7 @@ cinematography: ""
 filmWebsite: https://jpurcell.org/dead-or-dying
 filmTrailer: https://www.youtube.com/watch?v=neD1zSXwc00
 screenings:
-  - dateTime: Tuesday, August 29 18:00
+  - dateTime: 2026-08-29 18:00
     venue: roda-kvarn
 ---
 In a near-future Los Angeles, people are dying in droves—and most of society has learned to live with it. Dead or Dying is a darkly funny ensemble comedy following a web of characters navigating a world where mortality has become background noise.

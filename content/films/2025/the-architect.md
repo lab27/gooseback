@@ -24,7 +24,7 @@ contact: emami.michael@yahoo.com
 filmWebsite: https://gasebackfilmfestival.com/movies/
 filmTrailer: https://gasebackfilmfestival.com/movies/
 screenings:
-  - dateTime: Saturday, August 30 15:00
+  - dateTime: 2025-08-30 15:00
     venue: roda-kvarn
 ---
 Fredrik is a world-famous Swedish architect who's spent his life designing big, beautiful buildings. But now, as he waits for test results that could change everything, he starts to wonder: what has his life really meant? With the help of an unexpected new friend, Fredrik begins to look beyond the blueprints and awards, realizing that sometimes it’s the little things—quiet moments, kind words, and real connections—that truly shape a life.

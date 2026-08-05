@@ -105,6 +105,30 @@ check(films?.nested?.subfolders === false, 'films.nested.subfolders must be fals
 // A year filter would defeat the tree and reintroduce an annual config edit.
 check(!films?.filter, 'films must not declare a filter — the nested tree replaces it')
 
+// Every datetime widget must store a year.
+//
+// `format` is what Decap writes to the file. With "dddd, MMMM DD HH:mm" the year the
+// editor picked was thrown away on save, and on reload Decap 3 parsed the yearless value
+// with its default year of 2001 — so the year field sat stuck at 2001 and the weekday
+// written to the file was 2001's. Three 2026 films were stored as the wrong day of the
+// week before this was caught. `date_format` and `time_format` only affect the picker UI;
+// only `format` decides what survives to disk.
+const checkDateFields = (fields, path) => {
+  ;(fields ?? []).forEach((f, i) => {
+    if (f.widget === 'datetime') {
+      check(
+        typeof f.format === 'string' && f.format.includes('YYYY'),
+        `${path}[${i}] (${f.name}) is a datetime widget whose format (${f.format}) has no YYYY — the year will not be saved and the picker will stick at 2001`
+      )
+    }
+    if (f.fields) checkDateFields(f.fields, `${path}[${i}].fields`)
+  })
+}
+cfg.collections.forEach(col => {
+  if (col.fields) checkDateFields(col.fields, `${col.name}.fields`)
+  ;(col.files ?? []).forEach((file, i) => checkDateFields(file.fields, `${col.name}.files[${i}].fields`))
+})
+
 // The typo that hid executive-producer credits for years must not come back.
 check(!raw.includes('exectProducer'), 'the exectProducers typo must not reappear')
 

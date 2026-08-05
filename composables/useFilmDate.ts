@@ -1,5 +1,9 @@
 import { format } from 'date-fns'
 
+/** "2026-08-28 18:00" — what the CMS writes now, year included. */
+const ISO_PATTERN = /^(\d{4})-(\d{2})-(\d{2})[ T](\d{1,2}):(\d{2})/
+
+/** "Saturday, August 30 18:00" — the yearless shape the CMS wrote before. */
 const SCREENING_PATTERN = /(\w+),?\s+(\w+)\s+(\d{1,2})\s+(\d{1,2}):(\d{2})/
 
 /**
@@ -13,6 +17,20 @@ const SCREENING_PATTERN = /(\w+),?\s+(\w+)\s+(\d{1,2})\s+(\d{1,2}):(\d{2})/
  */
 const toDate = (dateString: string, year?: number): Date | null => {
   if (!dateString || typeof dateString !== 'string') return null
+
+  /**
+   * A value that carries its own year is authoritative — the `year` argument exists only to
+   * supply what the old format omitted, and must not override an explicit date. Built from
+   * parts rather than handed to `new Date(string)` so it is unambiguously local time: V8
+   * reads "2026-08-28 18:00" as local but the ISO-with-T spelling as UTC, which would shift
+   * an 18:00 screening by an hour or two depending on the spelling.
+   */
+  const iso = dateString.match(ISO_PATTERN)
+  if (iso) {
+    const [, y, month, day, hour, minute] = iso
+    const parsed = new Date(Number(y), Number(month) - 1, Number(day), Number(hour), Number(minute))
+    if (!isNaN(parsed.getTime())) return parsed
+  }
 
   const parts = dateString.match(SCREENING_PATTERN)
   if (parts) {

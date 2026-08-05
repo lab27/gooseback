@@ -28,7 +28,7 @@ contact: hello@totem-films.com
 filmWebsite: https://www.totem-films.com/films/kika/
 filmTrailer: https://www.totem-films.com/films/kika/
 screenings:
-  - dateTime: Saturday, August 30 18:00
+  - dateTime: 2025-08-30 18:00
     venue: roda-kvarn
 ---
 While pregnant with her second child, Kika faces the sudden death of her partner. Totally heartbroken, and broke, she sets her priorities straight : 1.⁠ ⁠make money fast 2.⁠ ⁠stay strong. Dirty underwear, dildos and neurotic parents will unexpectedly help. As a social worker, Kika is used to helping others. But now she could use some help herself: 

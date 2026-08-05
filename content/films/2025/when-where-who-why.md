@@ -24,7 +24,7 @@ contact: leila@whitedreamspictures.com
 filmWebsite: https://whitedreamspictures.com/
 filmTrailer: https://whitedreamspictures.com/
 screenings:
-  - dateTime: Sunday, August 31 11:00
+  - dateTime: 2025-08-31 11:00
     venue: roda-kvarn
 ---
 A young female artist intend to travel to Europe to participate in a painting symposium. Alongside showcasing her work, she hopes to accompany her best friend, Aban, who has been her constant companion throughout her life.

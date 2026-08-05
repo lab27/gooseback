@@ -9,7 +9,7 @@ country: Ukraine and Colombia
 language: Ukrainian
 director: Juan Camilo Cruz & Artem Ryzhykov
 screenings:
-  - dateTime: Sunday, August 30 12:00
+  - dateTime: 2026-08-30 12:00
     venue: roda-kvarn
 ---
 When Russia invades Ukraine on February 24, 2022, Ukrainian filmmaker Artem Ryzhykov is thrust into a new reality. Leaving behind his new love, Ira, he joins the Territorial Defense Forces, despite the fear of becoming a soldier. Under the call sign Canon, he uses his camera to document the war from within, capturing the stories of his fellow soldiers—Marta, Fantom, Medic, and Serhiy—as they face the chaos, heartache, and brutal realities of modern warfare. A Simple Soldier is an intimate, deeply human story about love, duty, friendship, and the cost of war, revealing both its devastation and moments of resilience.

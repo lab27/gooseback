@@ -23,7 +23,7 @@ contact: dorian@cercamon.biz
 filmWebsite: https://www.cercamon.biz/
 filmTrailer: https://youtu.be/zu_u8l-v018?si=Ge7IO6okvrjXe38_
 screenings:
-  - dateTime: Thursday, August 01 16:30
+  - dateTime: 2024-08-01 16:30
     venue: venue1
 ---
 

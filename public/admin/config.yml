@@ -248,9 +248,21 @@ collections:
         label_singular: screening
         allow_add: true
         widget: list
-        summary: "{{dateTime | date('dddd, MMMM DD HH:mm')}}"
+        summary: "{{dateTime | date('dddd, MMMM DD YYYY HH:mm')}}"
         fields:
-          - {label: Date/Time, name: dateTime, widget: datetime,  date_format: "dddd, MMMM DD", time_format: "HH:mm", format: "dddd, MMMM DD HH:mm"}
+          # `format` is what gets WRITTEN to the file, and it must carry YYYY. It used to be
+          # "dddd, MMMM DD HH:mm" — no year — so the year the editor picked was discarded on
+          # save, and on reload Decap 3 parsed the yearless string with its default year of
+          # 2001. That is why the year field sat stuck at 2001 and would not move, and why
+          # the weekday it wrote was 2001's: sugar-island stored "Tuesday, August 28" because
+          # 28 August 2001 was a Tuesday, where in 2026 it is a Friday. Netlify CMS 2.x
+          # defaulted the missing year to the current year, so this only started after the
+          # move to Decap 3 (85e17f4) and only affected films entered since.
+          #
+          # ISO here rather than a prose date because nothing displays this value raw — the
+          # site parses it in composables/useFilmDate.ts and re-renders the weekday itself.
+          # `date_format` carries the year too so the editor can see which year they set.
+          - {label: Date/Time, name: dateTime, widget: datetime, date_format: "dddd, MMMM DD YYYY", time_format: "HH:mm", format: "YYYY-MM-DD HH:mm"}
           - {label: Venue, name: venue, widget: select, options: ["roda-kvarn", "fryshusset", "vagnhall-16"]}
   - name: talks
     label: Talks
@@ -269,7 +281,12 @@ collections:
         media_folder: /public/img/talk-stills
       - { label: 'Synopsis', name: 'body', widget: 'markdown' }
       # - { label: 'Location', name: 'location', widget: 'string' }
-      - { label: Date/Time, name: dateTime, widget: datetime,  date_format: "dddd, MMMM DD", time_format: "HH:mm", format: "dddd, MMMM DD HH:mm"}
+      # Same yearless-format bug as the film screenings above — see the comment there. The
+      # format differs on purpose: pages/discussions/index.vue prints this value RAW
+      # ({{ talk.dateTime }}), with no parsing or reformatting, so it has to read as prose
+      # rather than ISO. Talks have no year field to fall back on either, which makes
+      # carrying YYYY in the stored value the only way a talk date is ever unambiguous.
+      - { label: Date/Time, name: dateTime, widget: datetime, date_format: "dddd, MMMM DD YYYY", time_format: "HH:mm", format: "dddd, MMMM DD YYYY HH:mm"}
       - { label: Venue, name: venue, widget: select, options: ["roda-kvarn", "fryshusset", "vagnhall-16"]}
       - { label: Ticket Page, name: 'ticketsLink', widget: 'string' }
   - label: "Site Settings"

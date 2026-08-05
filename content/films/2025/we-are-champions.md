@@ -23,7 +23,7 @@ contact: vararmitthem@live.se
 filmWebsite: https://gasebackfilmfestival.com/movies/
 filmTrailer: https://gasebackfilmfestival.com/movies/
 screenings:
-  - dateTime: Saturday, August 30 12:00
+  - dateTime: 2025-08-30 12:00
     venue: roda-kvarn
 ---
 Balkans, two friends meet up every day by the fence. They talk and play basketball and have been doing so for 25 years. The war had started and they still meet up. A film about friendship and what war does to people.

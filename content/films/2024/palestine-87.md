@@ -26,7 +26,7 @@ contact: matarbilal45@gmail.com
 filmWebsite: https://www.imdb.com/title/tt30414910/?ref_=ttfc_fc_tt
 filmTrailer: https://www.imdb.com/title/tt30414910/?ref_=ttfc_fc_tt
 screenings:
-  - dateTime: Sunday, September 01 12:00
+  - dateTime: 2024-09-01 12:00
     venue: venue1
 ---
 

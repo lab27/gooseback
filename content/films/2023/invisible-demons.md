@@ -18,7 +18,7 @@ editor: Yael Bitton
 filmTrailer: https://www.youtube.com/watch?v=AkJ_yO0OouU
 filmWebsite: https://mk2films.com/en/film/invisible-demons/
 screenings:
-  - dateTime: Sunday, April 02 18:00
+  - dateTime: 2023-04-02 18:00
     venue: venue1
 producers:
   - producer: Iikka Vehkalahti, Heino Deckert
