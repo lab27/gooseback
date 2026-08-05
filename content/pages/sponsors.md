@@ -5,8 +5,6 @@ logos:
     logo: /public/img/sponsor-logos/logo_helsingborg.webp
   - name: Film i Skåne
     logo: /public/img/sponsor-logos/film-i-skane_rgb_kvadrat_pos.svg
-  - name: Boost
-    logo: /public/img/sponsor-logos/boosthbg_logo_black_rgb.svg
 ---
 Gåsebäck Film Festival is an independently funded film culture event. 
 
