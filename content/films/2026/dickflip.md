@@ -11,6 +11,7 @@ stills:
 country: Poland
 language: Polish with English subtitles
 director: Dominik Hadziewicz
+cinematography: Damian Trojan
 editor: Emilia Ładak
 contact: k.brzezowski@filmschool.lodz.pl
 filmWebsite: https://www.instagram.com/dominozglupiommina/
