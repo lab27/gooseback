@@ -2,7 +2,7 @@
 year: 2026
 title: Live
 type: Fiction
-program: shorts1
+program: helsingborg
 durationInMinutes: "12"
 thumbnail: /public/img/film-stills/live-still-2026-05-31-013432_6.2.1.jpg
 country: Sweden
