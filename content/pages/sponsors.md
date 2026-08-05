@@ -5,16 +5,12 @@ logos:
     logo: /public/img/sponsor-logos/logo_helsingborg.webp
   - name: Film i Skåne
     logo: /public/img/sponsor-logos/film-i-skane_rgb_kvadrat_pos.svg
-  - logo: /public/img/sponsor-logos/abf_logo_rund.webp
-    name: ABF
-  - name: Contentor
-    logo: /public/img/sponsor-logos/contentor_logotyp_green_rgb.webp
   - name: Boost
     logo: /public/img/sponsor-logos/boosthbg_logo_black_rgb.svg
 ---
 Gåsebäck Film Festival is an independently funded film culture event. 
 
-The festival is made possible due to the generous support of [Helsingborg Stad](https://helsingborg.se/), [Boost](https://boosthbg.se/), [Film I Skåne](https://filmiskane.se/sv/), [Contenor](https://contentor.se/) [Master Mechanic Films AB](http://mastermechanicfilms.com/) and [ABF](https://www.abf.se/)
+The festival is made possible due to the generous support of [Helsingborg Stad](https://helsingborg.se/), [Film I Skåne](https://filmiskane.se/sv/), [Gåsebäck Konstscen,](https://gasebackkonstscen.se/) [Cafe Ray](https://cafe-ray.se/) and [Master Mechanic Films AB.](http://mastermechanicfilms.com/)
 
 If you would like to support the festival or become a sponsor please email us: info@gasebackfilmfestival.com
 
