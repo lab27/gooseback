@@ -11,7 +11,7 @@ director: Malin von Euler-Hogan and John Purcell
 cast: []
 cinematography: ""
 filmWebsite: https://jpurcell.org/dead-or-dying
-filmTrailer: ""
+filmTrailer: https://www.youtube.com/watch?v=neD1zSXwc00
 screenings:
   - dateTime: Tuesday, August 28 18:00
     venue: roda-kvarn
