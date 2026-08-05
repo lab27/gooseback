@@ -13,6 +13,7 @@ country: Poland
 language: Polish with English subtitles
 director: Dominik Hadziewicz
 editor: Emilia Ładak
+contact: k.brzezowski@filmschool.lodz.pl
 filmWebsite: https://www.instagram.com/szkolafilmowawlodzi/
 ---
 Transgender Sambor is trying to win the favor of a group of skaters.
