@@ -4,7 +4,7 @@ title: DICKFLIP
 type: Fiction
 program: shorts1
 durationInMinutes: "15"
-thumbnail: /public/img/film-stills/dickflip-3-large.jpeg
+thumbnail: /public/img/film-stills/dickflip-skate-hi-res-still-2026-03-17-192321_1.18.1.png
 stills:
   - still: /public/img/film-stills/dickflip-hi-res-still-2026-03-17-192040_1.39.1.png
 country: Poland
