@@ -11,6 +11,9 @@ director: David Wilson Ekroth
 cast: []
 contact: ""
 filmWebsite: https://snostormfilm.se/live/
+screenings:
+  - dateTime: 2026-08-29 15:30
+    venue: roda-kvarn
 ---
 Thirteen-year-old Saga goes live on social media after staying home from school, but a sudden confrontation with her mother brings the family's dark secrets to light.
 
