@@ -10,5 +10,8 @@ language: Swedish with English subtitles
 director: Carl Olsson
 filmWebsite: https://www.svenskfilmdatabas.se/en/item/?type=film&itemid=725380#crew
 filmTrailer: ""
+screenings:
+  - dateTime: 2026-08-29 12:30
+    venue: roda-kvarn
 ---
 Tunnelbana är en hommage till folket och det folkliga. Från en tunnelbanevagn djupt under jord ger filmen oss möjlighet att reflektera över hur vi skiljer oss åt men hur vi samtidigt och trots allt hör ihop.
