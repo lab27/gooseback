@@ -16,7 +16,7 @@ editor: Emilia Ładak
 contact: k.brzezowski@filmschool.lodz.pl
 filmWebsite: https://www.instagram.com/dominozglupiommina/
 screenings:
-  - dateTime: 2026-08-20 12:30
+  - dateTime: 2026-08-29 12:30
     venue: roda-kvarn
 ---
 Transgender Sambor is trying to win the favor of a group of skaters.
