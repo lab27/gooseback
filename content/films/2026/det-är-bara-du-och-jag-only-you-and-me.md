@@ -14,5 +14,8 @@ cast:
   - actor: "BORIS JELIC "
 contact: ""
 filmWebsite: https://coyotefilms.se/det-r-bara-du-och-jag
+screenings:
+  - dateTime: 2026-08-29 12:30
+    venue: roda-kvarn
 ---
 Liam and Frances have been together for several years. The relationship feels safe and stable. So stable that they now choose to push the boundaries of their sexuality. They have established regular sexual contact with Dario, a slightly younger guy. However, the practice becomes a bit more complicated than the theory, when the longing for tenderness and connection seems stronger than sex itself.
