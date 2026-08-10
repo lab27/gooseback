@@ -17,4 +17,4 @@ screenings:
 ---
 Thirteen-year-old Saga goes live on social media after staying home from school, but a sudden confrontation with her mother brings the family's dark secrets to light.
 
-Director statement: "The idea for my latest short film LIVE came from the ongoing debate in Sweden about whether thirteen-year-olds should be sentenced to prison for extreme crimes. I want to test the audience's ethics with my film and see if they really believe that all cases of extreme crime are unforgivable, even if they come from an early age, or if it is its nature that should really be discussed – before we tend to judge anyone."
+**Director statement: "**The idea for my latest short film LIVE came from the ongoing debate in Sweden about whether thirteen-year-olds should be sentenced to prison for extreme crimes. I want to test the audience's ethics with my film and see if they really believe that all cases of extreme crime are unforgivable, even if they come from an early age, or if it is its nature that should really be discussed – before we tend to judge anyone."
