@@ -8,5 +8,8 @@ thumbnail: /public/img/film-stills/resan-till-södern-hgb-kotfilm-1977-whatsapp-
 country: Sweden
 language: Swedish
 director: Håkan Sjölin
+screenings:
+  - dateTime: 2026-08-29 15:30
+    venue: roda-kvarn
 ---
 Synopsis: *tba*
