@@ -8,6 +8,7 @@ thumbnail: /public/img/film-stills/a_simple_soldier-20250526-aprroved-shefeild-p
 country: Ukraine and Colombia
 language: Ukrainian
 director: Juan Camilo Cruz & Artem Ryzhykov
+filmWebsite: https://juancamilocruz.com/a-simple-soldier/
 screenings:
   - dateTime: 2026-08-30 12:00
     venue: roda-kvarn
