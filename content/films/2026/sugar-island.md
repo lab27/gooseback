@@ -19,6 +19,8 @@ screenings:
   - dateTime: 2026-08-28 18:00
     venue: roda-kvarn
 ---
+**Our opening film: Sugar Island**
+
 **Event in collaboration with *[Latinamerika i fokus](https://www.instagram.com/latinamerikaifokus/)* kultur- och film festival, Malmö.**
 
 Synopsis: An unwanted pregnancy triggers the journey into adulthood for Makenya, a Dominican-Haitian teenager who lives in the Batey, a community surrounded by sugarcane fields.
