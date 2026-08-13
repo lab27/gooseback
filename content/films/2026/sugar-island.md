@@ -28,7 +28,7 @@ screenings:
   - dateTime: 2026-08-28 18:00
     venue: roda-kvarn
 ---
-**Our opening film: Sugar Island**
+**Our opening film: Sugar Island (2024)**
 
 **Event in collaboration with *[Latinamerika i fokus](https://www.instagram.com/latinamerikaifokus/)* kultur- och film festival, Malmö.**
 
