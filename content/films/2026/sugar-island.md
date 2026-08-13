@@ -11,8 +11,17 @@ stills:
 country: Dominican Republic, Spain
 language: Spanish with English subtitles
 director: Johanné Gómez Terrero
-cast: []
+producers:
+  - producer: Guasábara Cine
+  - producer: Tinglado Films
+cast:
+  - actor: Yelidá Díaz
+  - actor: Juan María Almonte
+  - actor: Ruth Emeterio
+  - actor: Génesis Piñeyro
+  - actor: Diógenes Medina
 cinematography: ""
+contact: yenika@imagenes.se
 filmWebsite: https://www.instagram.com/sugarislandfilm/
 filmTrailer: https://www.youtube.com/watch?v=QPWtdgE7Fbw
 screenings:
