@@ -6,8 +6,10 @@ program: features
 durationInMinutes: "96"
 thumbnail: /public/img/film-stills/a_simple_soldier-20250526-aprroved-shefeild-proxy-clean-uhd_1.webp
 country: Ukraine and Colombia
-language: Ukrainian
+language: Ukrainian with English subtitles
 director: Juan Camilo Cruz & Artem Ryzhykov
+producers:
+  - producer: Propagate, Ventureland, Erzya Films, Demolition Films
 filmWebsite: https://juancamilocruz.com/a-simple-soldier/
 filmTrailer: https://youtu.be/Zo2szj8rnOo?si=tULLwe9EMkYo3nOR
 screenings:
