@@ -8,7 +8,11 @@ thumbnail: /public/img/film-stills/dead-or-dying-still-4.jpg
 country: USA
 language: English with English subtitles
 director: Malin von Euler-Hogan and John Purcell
-cast: []
+cast:
+  - actor: Alyssa Limperis
+  - actor: Malin von Euler-Hogan
+  - actor: Juliet Prather
+  - actor: George Kareman
 cinematography: ""
 filmWebsite: https://jpurcell.org/dead-or-dying
 filmTrailer: https://www.youtube.com/watch?v=neD1zSXwc00
