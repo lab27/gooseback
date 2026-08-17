@@ -4,7 +4,11 @@ title: Dead or Dying
 type: Fiction
 program: features
 durationInMinutes: "95"
-thumbnail: /public/img/film-stills/dead-or-dying-still-4.jpg
+thumbnail: /public/img/film-stills/dead-or-dying-still-1.jpg
+stills:
+  - still: /public/img/film-stills/dead-or-dying-still-2.jpg
+  - still: /public/img/film-stills/dead-or-dying-still-5.jpg
+  - still: /public/img/film-stills/dead-or-dying-still-3.jpg
 country: USA
 language: English with English subtitles
 director: Malin von Euler-Hogan and John Purcell
