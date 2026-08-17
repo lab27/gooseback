@@ -1,6 +1,6 @@
 ---
 year: 2026
-title: Dead or Dying
+title: Dead or Dying (2026)
 type: Fiction
 program: features
 durationInMinutes: "95"
