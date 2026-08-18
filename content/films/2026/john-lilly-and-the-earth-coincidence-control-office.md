@@ -8,6 +8,14 @@ thumbnail: /public/img/film-stills/john-lilly-and-the-earth-coincidence-control-
 country: USA
 language: English
 director: Michael Almereyda and Courtney Stephens
+producers:
+  - producer: Taylor Hess
+  - producer: Jesse Miller
+  - producer: Michael Almereyda
+  - producer: Courtney Stephens
+music: Brian McOmber
+filmWebsite: https://johnlilly.oscilloscope.net/
+filmTrailer: https://www.youtube.com/watch?v=8UV4ifEOGHI
 screenings:
   - dateTime: 2026-08-30 18:00
     venue: roda-kvarn
