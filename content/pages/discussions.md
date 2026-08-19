@@ -4,6 +4,8 @@ isAnnounced: false
 ---
 **Film & Music Masterclass:** *What’s the Score? Creative collaborations in filmmaking*
 
+![](/img/gff26-program-ig-11-.png)
+
 Panel discussion with Malin von Euler-Hogan and James Craft about creative  collaboration in musical work in film. 
 
 When: August 29, 11:00 - 12:00
