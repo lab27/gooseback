@@ -2,10 +2,6 @@
 heading: Live discussions + Q&As at the festival
 isAnnounced: false
 ---
-Guests and events for our 2026 festival:
-
-
-
 **Film & Music Masterclass:** *What’s the Score? Creative collaborations in filmmaking*
 
 Panel discussion with Malin von Euler-Hogan and James Craft about creative  collaboration in musical work in film. 
