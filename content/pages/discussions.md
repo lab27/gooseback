@@ -14,9 +14,7 @@ When: August 29, 11:00 - 12:00
 
 Where: [Gåsebäck Konstscen](https://gasebackkonstscen.se/)
 
-Free admission - sign up via the form below:
-
-**https://forms.gle/q4QuXGZFb6MNwzS76**
+Free admission - sign up via the form: **https://forms.gle/q4QuXGZFb6MNwzS76**
 
 
 
