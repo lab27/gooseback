@@ -22,9 +22,9 @@ Free admission - sign up via the form: **https://forms.gle/q4QuXGZFb6MNwzS76**
 
 is a filmmaker and actor based in Dublin, Ireland. Originally from North Carolina, she co-wrote and starred in the Vimeo Staff Pick short film *I Am In Control*, in addition to performing for over a decade on house teams at the Upright Citizens Brigade Theatre in New York and Los Angeles. *[Dead or Dying](https://gasebackfilmfestival.com/movies/2026/dead-or-dying/)*, co-directed and co-written with John Purcell, is her first feature film.
 
-**James Craft**
+**James Springer Craft**
 
-is James Springer Craft is a French-born composer and songwriter based in Los Angeles. He earned his master's at the San Francisco Conservatory of Music and completed USC's Scoring for Motion Pictures and Television program—classical rigor paired with film scoring craft. Songwriting and band life with La Strada shaped his voice early; today he is especially at home in documentaries, while also writing for feature film, series, and artist-driven work when the narrative fits. He is a Heartland Emmy® winner for Musical Composition/Arrangement on Mountain Roots: The Adventure Home, which also earned a Heartland Emmy® for Best Director; Afar and Below won for Best Cinematography. He works story-first with filmmakers, then leads orchestrators, orchestra, and additional music when the score demands it.
+is a French-born composer and songwriter based in Los Angeles. He earned his master's at the San Francisco Conservatory of Music and completed USC's Scoring for Motion Pictures and Television program—classical rigor paired with film scoring craft. Songwriting and band life with La Strada shaped his voice early; today he is especially at home in documentaries, while also writing for feature film, series, and artist-driven work when the narrative fits. He is a Heartland Emmy® winner for Musical Composition/Arrangement on Mountain Roots: The Adventure Home, which also earned a Heartland Emmy® for Best Director; Afar and Below won for Best Cinematography. He works story-first with filmmakers, then leads orchestrators, orchestra, and additional music when the score demands it.
 
 \- - - 
 
