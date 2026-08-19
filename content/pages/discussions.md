@@ -28,7 +28,7 @@ is a French-born composer and songwriter based in Los Angeles. He earned his mas
 
 \- - - 
 
-Q&A with Malin von Euler-Hogan
+**Q&A with Malin von Euler-Hogan**
 
 After the screening of dark comedy Dead or Dying, director-actress Malin von Euler-Hogan
 
