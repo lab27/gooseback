@@ -21,15 +21,15 @@ Free admission - sign up via the form: **https://forms.gle/q4QuXGZFb6MNwzS76**
 
 
 
-**Film screening + Q&A with Malin von Euler-Hogan**
+**Post-screening Q&A with Malin von Euler-Hogan**
 
-After the screening of dark comedy Dead or Dying, director-actress Malin von Euler-Hogan
+After the screening of dark comedy *Dead or Dying*, director-actress Malin von Euler-Hogan will be on stage for a Q&A. Bring your questions!
 
 When: Saturday, August 29, 18:00-20:30
 
 Where: Röda Kvarn bio
 
-Ticket: <https://www.nortic.se/ticket/event/85292>
+Tickets: <https://www.nortic.se/ticket/event/85292>
 
 
 
