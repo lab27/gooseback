@@ -33,3 +33,15 @@ When: August 29, 18:00
 Where: Röda Kvarn bio
 
 Ticket: <https://www.nortic.se/ticket/event/85292>
+
+
+
+**Solo Guitar Performance by James Craft** 
+
+A guitar and vocal performance by Emmy-winning composer James Springer Craft at Cafe Ray.
+
+When: Saturday, August, 29, 18:45 - 19:15
+
+Where: Cafe Ray, Södra Storgatan 39A, Helsingborg
+
+Cost: free admisison - just pop in!
