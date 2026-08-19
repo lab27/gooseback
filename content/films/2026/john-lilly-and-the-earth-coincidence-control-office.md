@@ -5,6 +5,10 @@ type: Documentary
 program: features
 durationInMinutes: "89"
 thumbnail: /public/img/film-stills/john-lilly-and-the-earth-coincidence-control-office-02.jpeg
+stills:
+  - still: /public/img/film-stills/lilly-still-2-lab.tif
+  - still: /public/img/film-stills/lilly-tiff-dolphin-microphone.tif
+  - still: /public/img/film-stills/lillly-still-brains.tif
 country: USA
 language: English
 director: Michael Almereyda and Courtney Stephens
