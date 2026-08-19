@@ -10,8 +10,14 @@ Guests and events for our 2026 festival:
 
 * Q&A session after Dead or Dying screening, Saturday, August 29, 18:00
 
+**Film & Music Masterclass** 
 
+discussion with Malin von Euler-Hogan and James Craft aboutcreative  collaboration in musical work in film. 
 
-**Film Masterclass: August 29 at** Gåsebäck Konstscen
+When: August 29, 11:00 - 12:00
 
-* *details coming soon*
+Where: [Gåsebäck Konstscen](https://gasebackkonstscen.se/)
+
+Free admission - sign up via the form below:
+
+**https://forms.gle/q4QuXGZFb6MNwzS76**
