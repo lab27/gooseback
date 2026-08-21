@@ -1,6 +1,6 @@
 ---
 year: 2026
-title: Dead or Dying (2026)
+title: Dead or Dying (2026) + Q&A
 type: Fiction
 program: features
 durationInMinutes: "95"
@@ -10,7 +10,7 @@ stills:
   - still: /public/img/film-stills/dead-or-dying-still-5.jpg
   - still: /public/img/film-stills/dead-or-dying-still-3.jpg
 country: USA
-language: English with English subtitles
+language: English
 director: Malin von Euler-Hogan and John Purcell
 execProducers:
   - execProducer: John Purcell
@@ -28,6 +28,8 @@ screenings:
   - dateTime: 2026-08-29 18:00
     venue: roda-kvarn
 ---
+**Special: Q&A with director-actress Malin von Euler-Hogan.**
+
 In a near-future Los Angeles, people are dying in droves—and most of society has learned to live with it. Dead or Dying is a darkly funny ensemble comedy following a web of characters navigating a world where mortality has become background noise.
 
 Phoebe is the personal assistant to Sam, a flailing TV star desperate for a comeback after unspecified allegations derailed her career. When Phoebe experiences a shocking event in the middle of a workday, she struggles to maintain the relentless optimism and availability Sam demands, putting her job at risk.
