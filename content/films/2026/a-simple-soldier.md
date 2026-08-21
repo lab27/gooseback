@@ -1,6 +1,6 @@
 ---
 year: 2026
-title: A Simple Soldier
+title: A Simple Soldier + Q&A
 type: Documentary
 program: features
 durationInMinutes: "96"
