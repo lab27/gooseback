@@ -9,7 +9,11 @@ country: Ukraine and Colombia
 language: Ukrainian with English subtitles
 director: Juan Camilo Cruz & Artem Ryzhykov
 producers:
-  - producer: Propagate, Ventureland, Erzya Films, Demolition Films
+  - producer: Juan Camilo Cruz
+  - producer: Artem Ryzhykov
+  - producer: Howard T. Owens
+  - producer: Ben Silverman
+music: Úlfur Hansson
 filmWebsite: https://juancamilocruz.com/a-simple-soldier/
 filmTrailer: https://youtu.be/Zo2szj8rnOo?si=tULLwe9EMkYo3nOR
 screenings:
