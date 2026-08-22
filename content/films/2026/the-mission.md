@@ -1,6 +1,6 @@
 ---
 year: 2026
-title: The Mission
+title: The Mission + Q&A
 type: Documentary
 program: features
 durationInMinutes: "88"
@@ -22,4 +22,6 @@ screenings:
   - dateTime: 2026-08-30 15:00
     venue: roda-kvarn
 ---
+**Special: Q&A with award-winning and Oscar-nominated producer Mike Lerner.**
+
 In the darkest days of the ongoing Palestinian genocide, acclaimed British-Iraqi nerve surgeon Dr. Mohammad Tahir embarks on his third humanitarian mission to Gaza. Amid waves of casualties flooding overwhelmed hospitals, he fights tirelessly alongside his colleagues to save innocent lives. Filmed by two members of his medical team, The Mission captures the raw, brutal reality of Gaza's operating rooms in real time. This urgent and unflinching documentary stands as a historic testament to human compassion amid profound catastrophe.
