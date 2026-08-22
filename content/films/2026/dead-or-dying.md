@@ -1,6 +1,6 @@
 ---
 year: 2026
-title: Dead or Dying (2026) + Q&A
+title: Dead or Dying + Q&A
 type: Fiction
 program: features
 durationInMinutes: "95"
@@ -37,3 +37,7 @@ Phoebe is the personal assistant to Sam, a flailing TV star desperate for a come
 Across the city, on the eve of a pitch for an app that he believes will change the world, Lennon is sent spiraling as his favorite billionaire dies in humiliating circumstances. Elsewhere, therapist Terry—fresh off a session with a client who refuses to listen—takes to social media to propose a radical solution for avoiding uncomfortable thoughts altogether.
 
 As these stories intersect, the film introduces a cross-section of Angelenos: a venture capitalist obsessed with her new downtown loft, a woman who keeps stumbling upon dead bodies, a couple on the verge of a breakup before a road trip, a lonely man convinced he’s about to die, and a grieving delivery worker who still has to finish his shift, despite it all.
+
+
+
+Year: 2026
