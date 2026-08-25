@@ -11,9 +11,9 @@ The full program for public audiences is below. Please check out individual film
 \
 **Friday August 28**
 
-17:00: opening mingle Röda Kvarn
+17:30: opening mingle at [Röda Kvarn cinema](https://maps.app.goo.gl/EFhGrmoxF3EAiWGA6)
 
-18:00: festival opening by Hussain and intro to film by chair of Lateinamerika i Fokus - Alejandra
+18:00: festival opening by Hussain and intro to film by chair of Lateinamerika i Fokus - Alejandra Pizarro
 
 18:05-19:40: Sugar Island screening 
 
