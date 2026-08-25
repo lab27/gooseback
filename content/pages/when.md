@@ -13,11 +13,13 @@ The full program for public audiences is below. Please check out individual film
 
 17:30: Opening mingle at [Röda Kvarn cinema](https://maps.app.goo.gl/EFhGrmoxF3EAiWGA6)
 
-18:00: Festival opening by Hussain and intro to film by chair of Lateinamerika i Fokus - Alejandra Pizarro + Sugar Island screening 
+18:00: Festival opening by Hussain and intro to film by chair of Latinamerika i Fokus - Alejandra Pizarro + Sugar Island screening 
 
 **Day 2: Saturday August 29**
 
 11:00-12:00: [Film & Music Masterclass](https://forms.gle/AD6YNLSEEzG3GKZG8) at Gåsebäck Konstscen with James Craft and Malin Von Euler-Hogan
+
+
 12:30-14:30: International Shorts + Q&A with Diego Monsiváis 
 15:30-17:15: Helsingborg Shorts + Q&A with Mats Blixt, Lars Hansare, David
 18:00-20:00: Dead or Dying + Q&A with Malin Von Euler-Hogan
