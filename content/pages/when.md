@@ -1,6 +1,6 @@
 ---
 heading: When
-isAnnounced: false
+isAnnounced: true
 ---
 **Please note, the following is the 2025 program. The 2026 program will be updated briefly.**
 
@@ -9,99 +9,26 @@ The full program for public audiences is below. Please check out individual film
 **All film screenings at [Röda Kvarn, Karlsgatan 7, 252 24 Helsingborg](https://share.google/01wnhQl2tUWUOeZ1Y)**
 
 \
-**Thursday August 28th 18:00-20:30, Opening Night**
+**Friday August 28**
 
-[The Editorial Office ](https://gasebackfilmfestival.com/movies/the-editorial-office)
+17:00: opening mingle Röda Kvarn
 
-[T﻿he Encampments](https://gasebackfilmfestival.com/movies/the-encampments)
+18:00: festival opening by Hussain and intro to film by chair of Lateinamerika i Fokus - Alejandra
 
-18:30- 20:30
+18:05-19:40: Sugar Island screening 
 
-[](https://gasebackfilmfestival.com/movies/the-encampments)
 
-**Friday August 29th** 
+**Saturday August 29:**
 
-18:00 -20:00 
+11:00-12:00: Film & Music Masterclass at Gåsebäck Konstscen with James Craft and Malin Von Euler-Hogan
+12:30-14:30: International Shorts + Q&A with Diego Monsiváis 
+15:30-17:15: Helsingborg Shorts + Q&A with Mats Blixt, Lars Hansare, David
+18:00-20:00: Dead or Dying + Q&A with Malin Von Euler-Hogan
+18:30-19:00: Live performance by James Craft at Cafe Ray
 
-[The Black Sea ](https://gasebackfilmfestival.com/movies/the-black-sea)
 
-Q&A with Crystal Moselle & Derrick B. Harden
+**Sunday August 30:**
 
-20:45 - 22:45
-
-[Familiar Touch](https://gasebackfilmfestival.com/movies/familiar-touch)
-
-**Saturday August 30th**
-
-​1​1.00 - 12.00
-
-Storyboard workshop with artist, Julia Stranovska 
-
-(session in Swedish)
-
-Location: [Fryshuset](https://fryshuset.se/plats/helsingborg)
-
-Address: 
-
-[Fryshuset Helsingborg, Kvarnstensgatan 8, 252 27 Helsingborg](https://share.google/JeBv6qHW0fIsFDNmD)
-
-​1​3:00 - 14:30
-
-Music Video masterclass with Salomé Elliot, moderated by Måns Thunberg\
-(session in Swedish)
-
-Location: [Fryshuset](https://fryshuset.se/plats/helsingborg)
-
-Address: 
-
-[Fryshuset Helsingborg, Kvarnstensgatan 8, 252 27 Helsingborg](https://share.google/JeBv6qHW0fIsFDNmD)
-
-12:00 - 14:00
-
-[Helsingborg Special](https://gasebackfilmfestival.com/movies)
-
-Short film program by Helsingborg based filmmakers
-
-Q&A with filmmakers 
-
-​1​5:00 - 17:00
-
-[The Architect](https://gasebackfilmfestival.com/movies/the-architect)
-
-[](https://gasebackfilmfestival.com/movies/the-architect)Q&A with director, Michael Emami, and actors Denise Trankalis and Max Hoffmann
-
-18:00-20:00
-
-[K﻿IKA](https://gasebackfilmfestival.com/movies/kika)
-
-21:00 - 23:00 
-
-[The Innocents ](https://gasebackfilmfestival.com/movies/the-innocents)
-
-**Sunday August 31st**
-
-11.00 - 14:00
-
-[Short Film Program 1 & 2](https://gasebackfilmfestival.com/movies)
-
-Q&A with the directors 
-
-​1​1:00 - 1​4:00 
-
-​(including short intermission)
-
-[Billy Preston: That’s The Way God Planned It](https://gasebackfilmfestival.com/movies/billy-preston-thats-the-way-god-planned-it)
-
-[](https://gasebackfilmfestival.com/movies/billy-preston-thats-the-way-god-planned-it)Q&A with executive producer Steve Cohen
-
-​1​5:00 - ​1​7:00
-
-[Do It Yourself: Michel Gondry](https://gasebackfilmfestival.com/movies/michel-gondry-do-it-yourself)
-
-​18:00 - 20:00
-
-Zoom Q&A with filmmaker
-
-\--
-
-**[hussain.studio](http://hussain.studio/)**
+12:00-14:00:  A Simple Soldier documentary+ Q&A with Jesper Osmund
+15:00-17:00: The Mission documentary + Q&A with Mike Lerner
+18:00-19:45: John Lilly and the Earth Coincidence Control Office documentary at *Cafe Ray*
