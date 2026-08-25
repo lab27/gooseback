@@ -23,7 +23,7 @@ The full program for public audiences is below. Please check out individual film
 12:30-14:30: International Shorts + Q&A with Diego Monsiváis 
 
 
-15:30-17:15: Helsingborg Shorts + Q&A with Mats Blixt, Lars Hansare, David
+15:30-17:15: Helsingborg Shorts + Q&A with Mats Blixt, Lars Hansare, David Wilson Ekroth and DENNY
 
 
 18:00-20:00: Dead or Dying + Q&A with Malin Von Euler-Hogan
