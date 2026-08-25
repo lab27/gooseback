@@ -25,8 +25,12 @@ The full program for public audiences is below. Please check out individual film
 18:00-20:00: Dead or Dying + Q&A with Malin Von Euler-Hogan
 18:30-19:00: [Live performance](https://helsingborg.se/event/james-craft-solo-performance-at-cafe-ray-x-gaseback-film-festival-2026/?startDate=2026-08-29_18:30) by James Craft at Cafe Ray
 
-**Sunday August 30:**
+**Day 3: Sunday August 30**
 
 12:00-14:00: [A Simple Soldier](https://gasebackfilmfestival.com/movies/2026/a-simple-soldier) documentary+ Q&A with Jesper Osmund
+
+
 15:00-17:00: [The Mission](https://gasebackfilmfestival.com/movies/2026/the-mission) documentary + Q&A with Mike Lerner
+
+
 18:00-19:45: John Lilly and the Earth Coincidence Control Office documentary at *Cafe Ray*
