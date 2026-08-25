@@ -13,7 +13,7 @@ The full program for public audiences is below. Please check out individual film
 
 17:30: Opening mingle at [Röda Kvarn cinema](https://maps.app.goo.gl/EFhGrmoxF3EAiWGA6)
 
-18:00: Festival opening by Hussain and intro to film by chair of Latinamerika i Fokus - Alejandra Pizarro + Sugar Island screening 
+18:00: Festival opening by Hussain and intro to film by chair of Latinamerika i Fokus - Alejandra Pizarro + [Sugar Island](https://gasebackfilmfestival.com/movies/2026/sugar-island) screening 
 
 **Day 2: Saturday August 29**
 
