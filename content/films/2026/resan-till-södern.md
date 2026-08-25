@@ -10,8 +10,14 @@ language: Swedish
 director: Håkan Sjölin
 producers:
   - producer: Hans Alfredson
+execProducers:
+  - execProducer: "Lars Hansare (technical producer) "
 screenings:
   - dateTime: 2026-08-29 15:30
     venue: roda-kvarn
 ---
 Synopsis: A young couple is going on a vacation to the south of Europe, but they have to stop in Helsingborg when their car breaks down. And then they stay there.
+
+
+
+**Special: Technical director Lars Hansare will be on-site for a discussion after the screening.**
