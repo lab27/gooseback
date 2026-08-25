@@ -26,7 +26,7 @@ The full program for public audiences is below. Please check out individual film
 15:30-17:15: Helsingborg Shorts + Q&A with Mats Blixt, Lars Hansare, David Wilson Ekroth and DENNY
 
 
-18:00-20:00: Dead or Dying + Q&A with Malin Von Euler-Hogan
+18:00-20:00: [Dead or Dying](https://gasebackfilmfestival.com/movies/2026/dead-or-dying/) + Q&A with Malin Von Euler-Hogan
 
 
 18:30-19:00: [Live performance](https://helsingborg.se/event/james-craft-solo-performance-at-cafe-ray-x-gaseback-film-festival-2026/?startDate=2026-08-29_18:30) by James Craft at Cafe Ray
