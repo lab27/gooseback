@@ -4,7 +4,7 @@ isAnnounced: true
 ---
 The full program for public audiences is below. Please check out individual film listings on our home page for more details. Tickets on sale now via [Nortic](https://www.nortic.se/ticket/organizer/4557). 
 
-**All film screenings, *except for Sunday night's screening,* at [Röda Kvarn, Karlsgatan 7, 252 24 Helsingborg](https://share.google/01wnhQl2tUWUOeZ1Y)**
+**All film screenings, except for Sunday night's screening, at [Röda Kvarn, Karlsgatan 7, 252 24 Helsingborg](https://share.google/01wnhQl2tUWUOeZ1Y)**
 
 
 
@@ -21,8 +21,14 @@ The full program for public audiences is below. Please check out individual film
 
 
 12:30-14:30: International Shorts + Q&A with Diego Monsiváis 
+
+
 15:30-17:15: Helsingborg Shorts + Q&A with Mats Blixt, Lars Hansare, David
+
+
 18:00-20:00: Dead or Dying + Q&A with Malin Von Euler-Hogan
+
+
 18:30-19:00: [Live performance](https://helsingborg.se/event/james-craft-solo-performance-at-cafe-ray-x-gaseback-film-festival-2026/?startDate=2026-08-29_18:30) by James Craft at Cafe Ray
 
 **Day 3: Sunday August 30**
