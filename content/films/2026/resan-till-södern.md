@@ -8,8 +8,10 @@ thumbnail: /public/img/film-stills/resan-till-södern-hgb-kotfilm-1977-whatsapp-
 country: Sweden
 language: Swedish
 director: Håkan Sjölin
+producers:
+  - producer: Hans Alfredson
 screenings:
   - dateTime: 2026-08-29 15:30
     venue: roda-kvarn
 ---
-Synopsis: *tba*
+Synopsis: A young couple is going on a vacation to the south of Europe, but they have to stop in Helsingborg when their car breaks down. And then they stay there.
