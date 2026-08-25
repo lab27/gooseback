@@ -2,7 +2,7 @@
 heading: When
 isAnnounced: true
 ---
-The full program for public audiences is below. Please check out individual film listings on our home page for more details. Tickets on sale now. 
+The full program for public audiences is below. Please check out individual film listings on our home page for more details. Tickets on sale now via [Nortic](https://www.nortic.se/ticket/organizer/4557). 
 
 **All film screenings, *except for Sunday night's screening,* at [Röda Kvarn, Karlsgatan 7, 252 24 Helsingborg](https://share.google/01wnhQl2tUWUOeZ1Y)**
 
