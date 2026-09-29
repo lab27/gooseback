@@ -4,6 +4,10 @@ photos: []
 ---
 A photojournalism competition in Helsingborg, Sweden, dedicated to the art of protest.
 
-
-
 Submissions opening soon.
+
+
+
+Support the project here:
+
+<https://whydonate.com/fundraising/xray-photojournalism-contest>
