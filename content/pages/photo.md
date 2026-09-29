@@ -3,7 +3,7 @@ heading: XRAY Photojournalism Competition 2027
 photos:
   - photo: /public/img/photo-exhibit/xrayblackk.png
 ---
-XRAY Photojournalism Contest a new photography exhibition dedicated to elevating creative, independent photographic journalistic work about protest and resistance. Themes like activism, social justice, climate resistance movements and personal acts of resistance will be our focus for the first edition. 
+XRAY Photojournalism Contest is a new photography exhibition dedicated to elevating creative, independent photographic journalistic work about protest and resistance. Themes like activism, social justice, climate resistance movements and personal acts of resistance will be our focus for the first edition. 
 
 Based out of independent art venue Cafe Ray in Sweden, our call for entries is international. As a creator, you do not need to be a registered member of the press. Our focus is on works by emerging photographers, with professional photojournalists also welcomed to submit. We ask for a link to your works, a completed submission form and the entry fee of €20.27.
 
@@ -13,12 +13,7 @@ Together with the judging committee we will decide the final line up by early De
 
 Your photos should have been taken between January 1, 2025 and November 2026 and address the theme of protest. We welcome all styles of photography, including portraiture and landscapes, that capture the emotion and energy of the art of protest. 
 
-
-
-
 Submissions opening soon.
-
-
 
 Support the project here:
 
