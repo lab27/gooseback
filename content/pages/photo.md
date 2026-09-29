@@ -1,6 +1,7 @@
 ---
 heading: XRAY Photojournalism Competition 2027
-photos: []
+photos:
+  - photo: /public/img/photo-exhibit/xrayblackk.png
 ---
 XRAY Photojournalism Contest a new photography exhibition dedicated to elevating creative, independent photographic journalistic work about protest and resistance. Themes like activism, social justice, climate resistance movements and personal acts of resistance will be our focus for the first edition. 
 
