@@ -12,7 +12,7 @@ collections:
     name: pages
     create: false
     files:
-      - label: "X-Ray 2027"
+      - label: "XRAY 2027"
         name: "photo"
         file: "/content/pages/photo.md"
         fields:

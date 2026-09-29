@@ -15,7 +15,7 @@
       li
         NuxtLink(to="/discussions") Discussions
       li
-        NuxtLink(to="/photo") X-Ray 2027
+        NuxtLink(to="/photo") XRAY 2027
       li
         NuxtLink(to="/when") When
       li
