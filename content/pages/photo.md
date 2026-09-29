@@ -15,6 +15,8 @@ Your photos should have been taken between January 1, 2025 and November 2026 and
 
 Submissions opening soon.
 
+Rules for participation are [here](https://drive.google.com/file/d/10aWdUaJ1QqXxm_4j1v3y_RAwlyyF2ijr/view?usp=sharing).
+
 Support the project here:
 
 <https://whydonate.com/fundraising/xray-photojournalism-contest>
